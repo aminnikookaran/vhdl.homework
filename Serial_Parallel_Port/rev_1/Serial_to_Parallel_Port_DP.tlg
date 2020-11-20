@@ -1,0 +1,6 @@
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_TL.vhd":6:7:6:36|Synthesizing work.serial_to_parallel_port_tl_ent.serial_to_parallel_port_tl_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_CR.vhd":6:7:6:36|Synthesizing work.serial_to_parallel_port_cr_ent.serial_to_parallel_port_cr_arch 
+Post processing for work.serial_to_parallel_port_cr_ent.serial_to_parallel_port_cr_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_DP.vhd":6:7:6:36|Synthesizing work.serial_to_parallel_port_dp_ent.serial_to_parallel_port_dp_arch 
+Post processing for work.serial_to_parallel_port_dp_ent.serial_to_parallel_port_dp_arch
+Post processing for work.serial_to_parallel_port_tl_ent.serial_to_parallel_port_tl_arch

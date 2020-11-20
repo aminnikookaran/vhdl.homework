@@ -1,0 +1,237 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC4VLX15SF363-10 (Xilinx)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Multiplier_Accumulator_TL_Ent   ########
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     57                 100 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_Accumulator_TL_Ent:	57 (21.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      60                 100 %                
+MUXCY     38                 100 %                
+XORCY     39                 100 %                
+DSP48     1                  100 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_Accumulator_TL_Ent:	138 (50.92 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_Accumulator_TL_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_Accumulator_TL_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_Accumulator_TL_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     60                 100 %                
+=================================================
+Total IO PADS in the block Multiplier_Accumulator_TL_Ent:	60 (22.14 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_Accumulator_Control_Ent   ########
+Instance path:   Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_Control_Ent       
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     17                 29.8 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_Control_Ent:	17 (6.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      19                 31.7 %               
+MUXCY     7                  18.4 %               
+XORCY     8                  20.5 %               
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_Control_Ent:	34 (12.55 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_Control_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_Control_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_Control_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_Control_Ent:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_Accumulator_DataPath_Ent   ########
+Instance path:   Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_DataPath_Ent       
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     40                 70.2 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_DataPath_Ent:	40 (14.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      41                 68.3 %               
+MUXCY     31                 81.6 %               
+XORCY     31                 79.5 %               
+DSP48     1                  100 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_DataPath_Ent:	104 (38.38 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_DataPath_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_DataPath_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_DataPath_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_Accumulator_TL_Ent.Multiplier_Accumulator_DataPath_Ent:	0 (0.00 % Utilization)
+
+#### START OF DETAILED DSP REPORT ####
+
+Total DSPs: 1
+
+"c:\program files\modeltech_6.5\examples\tamrin\multiplier_accumulator\multiplier_accumulator_datapath_md.vhd":29:12:29:24|Data_Path.un1_idataa[15:0]
+----------------------------
+AREG			0
+BREG			0
+CREG			0
+MREG			0
+PREG			0
+CARRYINREG		0
+CARRYINSELREG	0
+OPMODEREG		0
+B_INPUT			DIRECT
+SUBTRACTREG		0
+LEGACY_MODE		MULT18X18
+----------------------------
+
+#### END OF DSP48 DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

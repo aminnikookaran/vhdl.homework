@@ -1,0 +1,140 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\BCD_Adder
+T_opt
+Z1 V8M`K9Q>7ZJ0mjTSlgShmF0
+Z2 04 14 15 work full_adder_ent full_adder_arch 1
+Z3 =1-00215dec8b38-4ad8c6d9-223-638
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+Efull_adder_ent
+Z7 w1255689451
+Z8 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z9 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z10 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z11 dC:\Program Files\modeltech_6.5\examples\Tamrin\Ripple_Carry_Adder
+Z12 8C:/Program Files/modeltech_6.5/examples/Tamrin/Ripple_Carry_Adder/Full_Adder_MD.vhd
+Z13 FC:/Program Files/modeltech_6.5/examples/Tamrin/Ripple_Carry_Adder/Full_Adder_MD.vhd
+l0
+L5
+Z14 VQ[]g>imPROa:AULkfoFjS2
+Z15 OE;C;6.5;42
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+Z18 !s100 ^7_KESHQ74_me;MZIoUb=0
+Afull_adder_arch
+R8
+R9
+R10
+DEx70 C:\Program Files\modeltech_6.5\examples\Tamrin\Ripple_Carry_Adder\work 14 full_adder_ent 0 22 Q[]g>imPROa:AULkfoFjS2
+32
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx2 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+l16
+L15
+Z19 Vkd1L;bcf<jh4jT084]@1M1
+R15
+R16
+R17
+Z20 !s100 `:KW;OnTQ287C>2>0eOf>2
+Eripple_carry_adder_10bit_ent
+Z21 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z22 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z23 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z24 w1255690543
+R11
+Z25 8C:/Program Files/modeltech_6.5/examples/Tamrin/Ripple_Carry_Adder/Ripple_Carry_Adder_MD.vhd
+Z26 FC:/Program Files/modeltech_6.5/examples/Tamrin/Ripple_Carry_Adder/Ripple_Carry_Adder_MD.vhd
+l0
+L5
+Z27 V<SjISW8BK]5K<BhD1iFNh2
+R15
+R16
+R17
+Z28 !s100 2lI>QdmNf9Ng]m5JGjHc>3
+Aripple_carry_adder_10bit_arch
+R21
+R22
+R23
+Z29 DEx4 work 28 ripple_carry_adder_10bit_ent 0 22 <SjISW8BK]5K<BhD1iFNh2
+32
+Z30 Mx3 4 ieee 14 std_logic_1164
+Z31 Mx2 4 ieee 18 std_logic_unsigned
+Z32 Mx1 4 ieee 15 std_logic_arith
+l27
+L15
+Z33 V^>SW[Wd_SlMzMo=S5WW<U0
+R15
+R16
+R17
+Z34 !s100 <WjSMDIf2akQ:93BBRAnT0
+Etb_10bit_ripple_carry_adder
+R21
+R22
+R23
+32
+Z35 w1255377888
+R11
+Z36 8C:/Program Files/modeltech_6.5/examples/Tamrin/Ripple_Carry_Adder/Ripple_Carry_Adder_tb.vhd
+Z37 FC:/Program Files/modeltech_6.5/examples/Tamrin/Ripple_Carry_Adder/Ripple_Carry_Adder_tb.vhd
+l0
+L5
+Z38 V2H`f9JT?egYE8NN42566m3
+R15
+R16
+R17
+Z39 !s100 ?YNS^P;@7jzJdfhF^C:1J3
+Etb_ripple_carry_10bit_adder
+R21
+R22
+R23
+32
+Z40 w1255378023
+R11
+R36
+R37
+l0
+L5
+Z41 V]7[L0?hCXmWD5feO=cNdb3
+R15
+R16
+R17
+Z42 !s100 l6SEKSnTf^a?c@9^g2Qo_2
+Etb_ripple_carry_adder_10bit
+R21
+R22
+R23
+32
+Z43 w1255691181
+R11
+R36
+R37
+l0
+L5
+Z44 VUImT`CN]YI8KK>SzcNPMi3
+R15
+R16
+R17
+Z45 !s100 Z^hi@k6c^VL59FH]Qz`_T1
+Aripple_carry_adder_10bit_arch
+R21
+R22
+R23
+Z46 DEx4 work 27 tb_ripple_carry_adder_10bit 0 22 UImT`CN]YI8KK>SzcNPMi3
+32
+R30
+R31
+R32
+l27
+L8
+Z47 V^V:ieKgSWnjjdbm>]`0RL3
+R15
+R16
+R17
+Z48 !s100 >nhck4]I_Y]zR<f@=b?7P0

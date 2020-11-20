@@ -1,0 +1,5 @@
+vhdl work "Rom_16x8bit_MD.vhd"
+vhdl work "Register_4bit_MD.vhd"
+vhdl work "CPU_Simple_8bit_DP.vhd"
+vhdl work "CPU_Simple_8bit_CR.vhd"
+vhdl work "CPU_Simple_8bit_TL.vhd"

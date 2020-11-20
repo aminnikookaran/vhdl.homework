@@ -1,0 +1,415 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Sat Nov 07 14:34:29 2009
+
+$ Start of Compile
+#Sat Nov 07 14:34:29 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":5:7:5:24|Top entity is set to FIFO_1024x8bit_Ent.
+VHDL syntax check successful!
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":5:7:5:24|Synthesizing work.fifo_1024x8bit_ent.fifo_1024x8bit_arch 
+@W: CG296 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":67:4:67:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":69:36:69:39|Referenced variable iren is not in sensitivity list
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":72:19:72:23|Referenced variable count is not in sensitivity list
+@W: CG296 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":75:4:75:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":77:36:77:39|Referenced variable iwen is not in sensitivity list
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":80:19:80:23|Referenced variable count is not in sensitivity list
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\Counter_11bit_MD.vhd":5:7:5:23|Synthesizing work.counter_11bit_ent.counter_11bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\T_Flip_Flop_MD.vhd":5:7:5:21|Synthesizing work.t_flip_flop_ent.t_flip_flop_arch 
+@W: CG296 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\T_Flip_Flop_MD.vhd":17:4:17:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\T_Flip_Flop_MD.vhd":20:35:20:36|Referenced variable it is not in sensitivity list
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\T_Flip_Flop_MD.vhd":20:50:20:52|Referenced variable ien is not in sensitivity list
+Post processing for work.t_flip_flop_ent.t_flip_flop_arch
+Post processing for work.counter_11bit_ent.counter_11bit_arch
+Post processing for work.fifo_1024x8bit_ent.fifo_1024x8bit_arch
+@N: CL134 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":39:9:39:14|Found RAM struct, depth=1024, width=8
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 07 14:34:29 2009
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.4\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.5\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.7\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.1\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.9\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.0\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.2\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.3\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.6\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.10\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.8\.T_Flip_Flop(T_Flip_Flop_Ent)
+@N: MT206 |Autoconstrain Mode is ON
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: MF179 :"c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\fifo_1024x8bit_md.vhd":48:23:48:66|Found 9 bit by 9 bit '==' comparator, 'un2_oafull'
+Dissolving instances of view:work.Counter_11bit_Ent(counter_11bit_arch) before factorization cost=99, pathcnt=2
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port iwclk,  Inserting Clock buffer for port irclk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -0.16ns		 106 /        22
+   2		0h:00m:01s		    -0.15ns		  66 /        22
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Net buffering Report for view:work.FIFO_1024x8bit_Ent(fifo_1024x8bit_arch):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\rev_1\Counter_11bit_MD.srm
+@N: BN225 |Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\rev_1\Counter_11bit_MD.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 95MB peak: 96MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 95MB peak: 96MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 95MB peak: 96MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 95MB peak: 96MB)
+
+Found clock FIFO_1024x8bit_Ent|iwclk with period 1.51ns 
+Found clock FIFO_1024x8bit_Ent|irclk with period 1.50ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Nov 07 14:34:32 2009
+#
+
+
+Top view:               FIFO_1024x8bit_Ent
+Requested Frequency:    663.5 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.034
+
+                             Requested     Estimated     Requested     Estimated               Clock        Clock                
+Starting Clock               Frequency     Frequency     Period        Period        Slack     Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------
+FIFO_1024x8bit_Ent|irclk     666.1 MHz     682.0 MHz     1.501         1.466         0.035     inferred     Autoconstr_clkgroup_1
+FIFO_1024x8bit_Ent|iwclk     663.5 MHz     678.8 MHz     1.507         1.473         0.034     inferred     Autoconstr_clkgroup_0
+=================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------
+Starting                  Ending                    |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------
+FIFO_1024x8bit_Ent|iwclk  FIFO_1024x8bit_Ent|iwclk  |  1.507       0.034  |  No paths    -      |  No paths    -      |  No paths    -    
+FIFO_1024x8bit_Ent|irclk  FIFO_1024x8bit_Ent|irclk  |  1.501       0.035  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: FIFO_1024x8bit_Ent|irclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                     Arrival          
+Instance                                 Reference                    Type     Pin     Net            Time        Slack
+                                         Clock                                                                         
+-----------------------------------------------------------------------------------------------------------------------
+Read_Address.lbl1\.0\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FDE      Q       readadr[0]     0.350       0.035
+Read_Address.lbl1\.8\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[8]     0.350       0.044
+Read_Address.lbl1\.6\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[6]     0.350       0.044
+Read_Address.lbl1\.3\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[3]     0.350       0.044
+Read_Address.lbl1\.2\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[2]     0.350       0.044
+Read_Address.lbl1\.9\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[9]     0.350       0.044
+Read_Address.lbl1\.1\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[1]     0.350       0.044
+Read_Address.lbl1\.7\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[7]     0.350       0.044
+Read_Address.lbl1\.5\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[5]     0.350       0.044
+Read_Address.lbl1\.4\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FD       Q       readadr[4]     0.350       0.044
+=======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                             Required          
+Instance              Reference                    Type       Pin           Net            Time         Slack
+                      Clock                                                                                  
+-------------------------------------------------------------------------------------------------------------
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[3]      readadr[0]     1.075        0.035
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[4]      readadr[1]     1.075        0.044
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[5]      readadr[2]     1.075        0.044
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[6]      readadr[3]     1.075        0.044
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[7]      readadr[4]     1.075        0.044
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[8]      readadr[5]     1.075        0.044
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[9]      readadr[6]     1.075        0.044
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[10]     readadr[7]     1.075        0.044
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[11]     readadr[8]     1.075        0.044
+struct_struct_0_0     FIFO_1024x8bit_Ent|irclk     RAMB16     ADDRA[12]     readadr[9]     1.075        0.044
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1.501
+    - Setup time:                            0.426
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.075
+
+    - Propagation time:                      1.040
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.035
+
+    Number of logic level(s):                0
+    Starting point:                          Read_Address.lbl1\.0\.T_Flip_Flop.data / Q
+    Ending point:                            struct_struct_0_0 / ADDRA[3]
+    The start point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin CLKA
+
+Instance / Net                                      Pin          Pin               Arrival     No. of    
+Name                                     Type       Name         Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+Read_Address.lbl1\.0\.T_Flip_Flop.data   FDE        Q            Out     0.350     0.350       -         
+readadr[0]                               Net        -            -       0.690     -           6         
+struct_struct_0_0                        RAMB16     ADDRA[3]     In      -         1.040       -         
+=========================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 1.466 is 0.776(52.9%) logic and 0.690(47.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+
+====================================
+Detailed Report for Clock: FIFO_1024x8bit_Ent|iwclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                          Starting                                                      Arrival          
+Instance                                  Reference                    Type     Pin     Net             Time        Slack
+                                          Clock                                                                          
+-------------------------------------------------------------------------------------------------------------------------
+Write_Address.lbl1\.0\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FDE      Q       count           0.350       0.034
+Write_Address.lbl1\.8\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[8]     0.350       0.041
+Write_Address.lbl1\.6\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[6]     0.350       0.041
+Write_Address.lbl1\.3\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[3]     0.350       0.041
+Write_Address.lbl1\.2\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[2]     0.350       0.041
+Write_Address.lbl1\.1\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[1]     0.350       0.041
+Write_Address.lbl1\.7\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[7]     0.350       0.041
+Write_Address.lbl1\.5\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[5]     0.350       0.041
+Write_Address.lbl1\.4\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[4]     0.350       0.041
+Write_Address.lbl1\.9\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[9]     0.350       0.050
+=========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                              Required          
+Instance              Reference                    Type       Pin           Net             Time         Slack
+                      Clock                                                                                   
+--------------------------------------------------------------------------------------------------------------
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[3]      count           1.081        0.034
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[4]      writeadr[1]     1.081        0.041
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[5]      writeadr[2]     1.081        0.041
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[6]      writeadr[3]     1.081        0.041
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[7]      writeadr[4]     1.081        0.041
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[8]      writeadr[5]     1.081        0.041
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[9]      writeadr[6]     1.081        0.041
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[10]     writeadr[7]     1.081        0.041
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[11]     writeadr[8]     1.081        0.041
+struct_struct_0_0     FIFO_1024x8bit_Ent|iwclk     RAMB16     ADDRB[12]     writeadr[9]     1.081        0.050
+==============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1.507
+    - Setup time:                            0.426
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.081
+
+    - Propagation time:                      1.047
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.034
+
+    Number of logic level(s):                0
+    Starting point:                          Write_Address.lbl1\.0\.T_Flip_Flop.data / Q
+    Ending point:                            struct_struct_0_0 / ADDRB[3]
+    The start point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin CLKB
+
+Instance / Net                                       Pin          Pin               Arrival     No. of    
+Name                                      Type       Name         Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+Write_Address.lbl1\.0\.T_Flip_Flop.data   FDE        Q            Out     0.350     0.350       -         
+count                                     Net        -            -       0.697     -           7         
+struct_struct_0_0                         RAMB16     ADDRB[3]     In      -         1.047       -         
+==========================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 1.473 is 0.776(52.7%) logic and 0.697(47.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for FIFO_1024x8bit_Ent 
+
+Mapping to part: xc4vlx15sf363-10
+Cell usage:
+FD              20 uses
+FDE             2 uses
+GND             1 use
+MUXCY_L         9 uses
+RAMB16          1 use
+VCC             1 use
+XORCY           9 uses
+LUT1            2 uses
+LUT2            13 uses
+LUT3            23 uses
+LUT4            7 uses
+
+I/O ports: 45
+I/O primitives: 43
+IBUF           11 uses
+OBUF           32 uses
+
+BUFGP          2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   22 (0%)
+
+RAM/ROM usage summary
+Block Rams : 1 of 48 (2%)
+
+
+Global Clock Buffers: 2 of 32 (6%)
+
+Total load per clock:
+   FIFO_1024x8bit_Ent|irclk: 12
+   FIFO_1024x8bit_Ent|iwclk: 12
+
+Mapping Summary:
+Total  LUTs: 45 (0%)
+
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat Nov 07 14:34:32 2009
+
+###########################################################]

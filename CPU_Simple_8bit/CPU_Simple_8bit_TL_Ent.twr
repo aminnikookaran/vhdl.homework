@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+Release 11.1 Trace  (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\11.1\ISE\bin\nt\unwrapped\trce.exe -ise
+C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit.ise
+-intstyle ise -v 3 -s 12 -fastpaths -xml CPU_Simple_8bit_TL_Ent.twx
+CPU_Simple_8bit_TL_Ent.ncd -o CPU_Simple_8bit_TL_Ent.twr
+CPU_Simple_8bit_TL_Ent.pcf
+
+Design file:              CPU_Simple_8bit_TL_Ent.ncd
+Physical constraint file: CPU_Simple_8bit_TL_Ent.pcf
+Device,package,speed:     xc4vlx15,sf363,-12 (PRODUCTION 1.69 2009-03-03, STEPPING level 1)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock iclk
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+irst        |   -0.855(R)|    2.122(R)|iclk_BUFGP        |   0.000|
+            |   -0.711(F)|    2.013(F)|iclk_BUFGP        |   0.000|
+iswch<0>    |   -1.363(R)|    2.679(R)|iclk_BUFGP        |   0.000|
+iswch<1>    |   -1.553(R)|    2.863(R)|iclk_BUFGP        |   0.000|
+iswch<2>    |   -1.480(R)|    2.854(R)|iclk_BUFGP        |   0.000|
+iswch<3>    |   -1.595(R)|    2.870(R)|iclk_BUFGP        |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock iclk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+o7seg<0>    |    7.996(R)|iclk_BUFGP        |   0.000|
+o7seg<1>    |    7.978(R)|iclk_BUFGP        |   0.000|
+o7seg<2>    |    7.996(R)|iclk_BUFGP        |   0.000|
+o7seg<3>    |    7.973(R)|iclk_BUFGP        |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock iclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+iclk           |    3.736|    1.464|    1.915|    2.234|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Dec 24 11:19:51 2009 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 188 MB
+
+
+

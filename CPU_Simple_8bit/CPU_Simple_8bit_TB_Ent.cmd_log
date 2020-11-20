@@ -1,0 +1,4 @@
+xst -ise "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit.ise" -intstyle ise -ifn "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TB_Ent.xst" -ofn "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TB_Ent.syr" 
+ngdbuild -ise "CPU_Simple_8bit.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc4vlx15-sf363-12 CPU_Simple_8bit_TB_Ent.ngc CPU_Simple_8bit_TB_Ent.ngd  
+xst -ise "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit.ise" -intstyle ise -ifn "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TB_Ent.xst" -ofn "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TB_Ent.syr" 
+ngdbuild -ise "CPU_Simple_8bit.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc4vlx15-sf363-12 CPU_Simple_8bit_TB_Ent.ngc CPU_Simple_8bit_TB_Ent.ngd  

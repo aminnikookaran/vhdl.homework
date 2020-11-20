@@ -1,0 +1,31 @@
+Note: This data is for viewing only
+
+ROM work.Rom_16x8bit_MD_Ent(rom_16x8bit_md_arch)-odata_1[1:0]
+address width: 4
+data width: 2
+inputs:
+ 0: iaddr[0]
+ 1: iaddr[1]
+ 2: iaddr[2]
+ 3: iaddr[3]
+outputs:
+ 0: odata_1[0]
+ 1: odata_1[1]
+data:
+0000 -> 00
+0001 -> 01
+0010 -> 10
+0011 -> 01
+0100 -> 11
+0101 -> 11
+0110 -> 11
+0111 -> 11
+1000 -> 11
+1001 -> 11
+1010 -> 11
+1011 -> 11
+1100 -> 11
+1101 -> 11
+1110 -> 11
+1111 -> 11
+default -> XX

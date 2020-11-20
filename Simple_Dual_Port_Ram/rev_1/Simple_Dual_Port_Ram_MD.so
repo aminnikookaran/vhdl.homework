@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>Simple_Dual_Port_Ram_1024x8bit_Ent</design>
+	<target_edif>C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\rev_2\Simple_Dual_Port_Ram_MD.edn</target_edif>
+</SynplifyOutput>

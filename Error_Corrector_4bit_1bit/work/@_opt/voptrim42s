@@ -1,0 +1,169 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator
+T_opt
+Z1 VAe6cPc_?FdV4n7D6i>liF2
+Z2 04 31 32 work tb_error_detector_4bit_1bit_ent tb_error_detector_4bit_1bit_arch 1
+Z3 =1-00215dec8b38-4b163215-23-3f0
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 VlP7iiSoQIHWid`TP6QQF^1
+Z8 04 13 14 work lfsr_4bit_ent lfsr_4bit_arch 1
+Z9 =1-00215dec8b38-4b162f14-1c3-1344
+R4
+Z10 n@_opt1
+R6
+T_opt2
+Z11 VYm8RW@=g68`UTd@^oo3Rl2
+Z12 04 18 19 work encoder_4x7bit_ent encoder_4x7bit_arch 1
+Z13 =1-00215dec8b38-4b162f4a-307-a80
+Z14 o-quiet -auto_acc_if_foreign -work work
+Z15 n@_opt2
+R6
+Edecoder_7x4bit_ent
+Z16 w1259745805
+Z17 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z18 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z19 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z20 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z21 dC:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit
+Z22 8C:/Program Files/modeltech_6.5/examples/Tamrin/Error_Corrector_4bit_1bit/Decoder_7x4bit_MD.vhd
+Z23 FC:/Program Files/modeltech_6.5/examples/Tamrin/Error_Corrector_4bit_1bit/Decoder_7x4bit_MD.vhd
+l0
+L6
+Z24 VXnk]DGPD_Vi67CfHDA;DN2
+Z25 OE;C;6.5;42
+Z26 o-work work -2002 -explicit
+Z27 tExplicit 1
+Z28 !s100 oeI@EokCCN[VQVDTfOJaZ2
+Adecoder_7x4bit_arch
+R17
+R18
+R19
+R20
+Z29 DEx77 C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\work 18 decoder_7x4bit_ent 0 22 Xnk]DGPD_Vi67CfHDA;DN2
+32
+Z30 Mx4 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Z31 Mx3 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Z32 Mx2 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Z33 Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l24
+L15
+Z34 V`YQT;JP2f7MbFTS_kI6=Q1
+R25
+R26
+R27
+Z35 !s100 Go_Cad8n957lb]ajS[dzN3
+Eencoder_4x7bit_ent
+Z36 w1258233510
+Z37 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z38 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z39 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z40 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R21
+Z41 8C:/Program Files/modeltech_6.5/examples/Tamrin/Error_Corrector_4bit_1bit/Encoder_4x7bit_MD.vhd
+Z42 FC:/Program Files/modeltech_6.5/examples/Tamrin/Error_Corrector_4bit_1bit/Encoder_4x7bit_MD.vhd
+l0
+L6
+Z43 VWnRBzDl2d@mKU:R2eLoEN2
+R25
+32
+R26
+R27
+Z44 !s100 V<<OCXKTBU3M:2?0Qfa_f2
+Aencoder_4x7bit_arch
+R17
+R18
+R19
+R20
+Z45 DEx77 C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\work 18 encoder_4x7bit_ent 0 22 WnRBzDl2d@mKU:R2eLoEN2
+32
+R30
+R31
+R32
+R33
+l18
+L14
+Z46 V8nkT5Fe^XUKhZFik;^:AT3
+R25
+R26
+R27
+Z47 !s100 _JDERa0M:?efODiz@1eJ40
+Elfsr_4bit_ent
+Z48 w1259745034
+R37
+R38
+R39
+R40
+R21
+Z49 8C:/Program Files/modeltech_6.5/examples/Tamrin/Error_Corrector_4bit_1bit/LFSR_4bit_MD.vhd
+Z50 FC:/Program Files/modeltech_6.5/examples/Tamrin/Error_Corrector_4bit_1bit/LFSR_4bit_MD.vhd
+l0
+L6
+Z51 VGZ<D_:3KO0LW54KUXdZ6m3
+R25
+32
+R26
+R27
+Z52 !s100 MR3S?W30D3_`ezjE8zDei1
+Alfsr_4bit_arch
+R17
+R18
+R19
+R20
+Z53 DEx77 C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\work 13 lfsr_4bit_ent 0 22 GZ<D_:3KO0LW54KUXdZ6m3
+32
+R30
+R31
+R32
+R33
+l17
+L13
+Z54 Vi;OXDf9Z=[SHg>D39m_lX2
+R25
+R26
+R27
+Z55 !s100 m^MQGaK29BdA4WJ8ORaBQ3
+Etb_error_detector_4bit_1bit_ent
+Z56 w1259744111
+R17
+R18
+R19
+R20
+32
+R21
+Z57 8C:/Program Files/modeltech_6.5/examples/Tamrin/Error_Corrector_4bit_1bit/Error_Dectector_4bit_1bit_tb.vhd
+Z58 FC:/Program Files/modeltech_6.5/examples/Tamrin/Error_Corrector_4bit_1bit/Error_Dectector_4bit_1bit_tb.vhd
+l0
+L6
+Z59 VSB43VSh<R8lTWVZU3Gi1U3
+R25
+R26
+R27
+Z60 !s100 <J:33`GaOkih`=X3Of9jX3
+Atb_error_detector_4bit_1bit_arch
+R53
+R29
+R45
+R17
+R18
+R19
+R20
+Z61 DEx77 C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\work 31 tb_error_detector_4bit_1bit_ent 0 22 SB43VSh<R8lTWVZU3Gi1U3
+32
+R30
+R31
+R32
+R33
+l47
+L9
+Z62 VkO<OR_I]5hGWoXEfD<EVF1
+R25
+R26
+R27
+Z63 !s100 3]>=_9V<ThRlVAbfX@D^f1

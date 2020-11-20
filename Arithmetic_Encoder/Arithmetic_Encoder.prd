@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\Arithmetic_Encoder.prd
+#-- Written on Wed Dec 30 23:12:42 2009
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

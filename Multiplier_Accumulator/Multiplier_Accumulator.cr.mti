@@ -1,0 +1,38 @@
+{C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_TL.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_TL.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity multiplier_accumulator_tl_ent
+-- Compiling architecture multiplier_accumulator_tl_arch of multiplier_accumulator_tl_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_Control_MD.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_Control_MD.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity multiplier_accumulator_control_ent
+-- Compiling architecture multiplier_accumulator_control_arch of multiplier_accumulator_control_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_tb.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Compiling entity tb_multiplier_accumulator_ent
+-- Compiling architecture tb_multiplier_accumulator_arch of tb_multiplier_accumulator_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_DataPath_MD.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_DataPath_MD.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity multiplier_accumulator_datapath_ent
+-- Compiling architecture multiplier_accumulator_datapath_arch of multiplier_accumulator_datapath_ent
+
+} {} {}}

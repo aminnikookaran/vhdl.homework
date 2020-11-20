@@ -1,0 +1,5 @@
+xst -ise "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit.ise" -intstyle ise -ifn "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TL_Ent.xst" -ofn "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TL_Ent.syr" 
+ngdbuild -ise "CPU_Simple_8bit.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc4vlx15-sf363-12 CPU_Simple_8bit_TL_Ent.ngc CPU_Simple_8bit_TL_Ent.ngd  
+map -ise "CPU_Simple_8bit.ise" -intstyle ise -p xc4vlx15-sf363-12 -global_opt off -equivalent_register_removal on -cm area -ir off -pr off -c 100 -o CPU_Simple_8bit_TL_Ent_map.ncd CPU_Simple_8bit_TL_Ent.ngd CPU_Simple_8bit_TL_Ent.pcf 
+par -ise "CPU_Simple_8bit.ise" -w -intstyle ise -ol std -t 1 CPU_Simple_8bit_TL_Ent_map.ncd CPU_Simple_8bit_TL_Ent.ncd CPU_Simple_8bit_TL_Ent.pcf 
+trce -ise "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit.ise" -intstyle ise -v 3 -s 12 -fastpaths -xml CPU_Simple_8bit_TL_Ent.twx CPU_Simple_8bit_TL_Ent.ncd -o CPU_Simple_8bit_TL_Ent.twr CPU_Simple_8bit_TL_Ent.pcf 

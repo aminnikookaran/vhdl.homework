@@ -1,0 +1,117 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit
+T_opt
+Z1 VPmG>A`EWYg^IDjZiCYW<S3
+Z2 04 30 31 work serial_to_parallel_port_cr_ent serial_to_parallel_port_cr_arch 1
+Z3 =1-00215dec8b38-4b1123b9-384-1724
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+Eserial_to_parallel_port_cr_ent
+Z7 w1259414449
+Z8 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z9 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z10 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z11 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z12 dC:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port
+Z13 8C:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Serial_to_Parallel_Port_CR.vhd
+Z14 FC:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Serial_to_Parallel_Port_CR.vhd
+l0
+L6
+Z15 V<<7;>l^@X1cG503JF2cdC0
+Z16 OE;C;6.5;42
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1
+Z19 !s100 d8C8Y=2`[7A<e<OcBcF0J0
+Aserial_to_parallel_port_cr_arch
+R8
+R9
+R10
+R11
+DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\work 30 serial_to_parallel_port_cr_ent 0 22 <<7;>l^@X1cG503JF2cdC0
+32
+Mx4 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx2 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l20
+L16
+Z20 V^;BJJ7GWQV<W6;O:V_0623
+R16
+R17
+R18
+Z21 !s100 QG`LWH>]3`TfT>6N8;1Ke3
+Eserial_to_parallel_port_dp_ent
+Z22 w1259412682
+Z23 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z24 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z26 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R12
+Z27 8C:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Serial_to_Parallel_Port_DP.vhd
+Z28 FC:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Serial_to_Parallel_Port_DP.vhd
+l0
+L6
+Z29 VP]W`CLAH9>aldo;U@BF?z2
+R16
+32
+R17
+R18
+Z30 !s100 NTNPWo4z1Db[i8[1?87[12
+Aserial_to_parallel_port_dp_arch
+R23
+R24
+R25
+R26
+Z31 DEx4 work 30 serial_to_parallel_port_dp_ent 0 22 P]W`CLAH9>aldo;U@BF?z2
+l21
+L17
+Z32 V3:KmC1>Dm`PmG5<Mj16CP0
+R16
+32
+Z33 Mx4 4 ieee 14 std_logic_1164
+Z34 Mx3 4 ieee 18 std_logic_unsigned
+Z35 Mx2 4 ieee 15 std_logic_arith
+Z36 Mx1 4 ieee 11 numeric_std
+R17
+R18
+Z37 !s100 G0@9M>W[_SNl3?EQPnd?`3
+Eserial_to_parallel_port_tl_ent
+Z38 w1259413416
+R23
+R24
+R25
+R26
+R12
+Z39 8C:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Serial_to_Parallel_Port_TL.vhd
+Z40 FC:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Serial_to_Parallel_Port_TL.vhd
+l0
+L6
+Z41 V[MgY=T]=_FEJ1D6]I?IA>0
+R16
+32
+R17
+R18
+Z42 !s100 o2d2?na[83oSmFMNj[k3A2
+Aserial_to_parallel_port_tl_arch
+R23
+R24
+R25
+R26
+Z43 DEx4 work 30 serial_to_parallel_port_tl_ent 0 22 [MgY=T]=_FEJ1D6]I?IA>0
+l42
+L15
+Z44 VK71b1I3Z?`Oi8ZLTS>dDm0
+R16
+32
+R33
+R34
+R35
+R36
+R17
+R18
+Z45 !s100 Z>IhQ6HPzKNl7ZJF`]TO73

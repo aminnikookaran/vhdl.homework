@@ -1,0 +1,6 @@
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_TL.vhd":5:7:5:35|Synthesizing work.multiplier_accumulator_tl_ent.multiplier_accumulator_tl_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_Control_MD.vhd":5:7:5:40|Synthesizing work.multiplier_accumulator_control_ent.multiplier_accumulator_control_arch 
+Post processing for work.multiplier_accumulator_control_ent.multiplier_accumulator_control_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_DataPath_MD.vhd":5:7:5:41|Synthesizing work.multiplier_accumulator_datapath_ent.multiplier_accumulator_datapath_arch 
+Post processing for work.multiplier_accumulator_datapath_ent.multiplier_accumulator_datapath_arch
+Post processing for work.multiplier_accumulator_tl_ent.multiplier_accumulator_tl_arch

@@ -1,0 +1,6 @@
+vhdl work "C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\Rom_16x8bit_MD.vhd"
+vhdl work "C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\Register_4bit_MD.vhd"
+vhdl work "C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_DP.vhd"
+vhdl work "C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_CR.vhd"
+vhdl work "C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_TL.vhd"
+vhdl work "C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_TB.vhd"

@@ -1,0 +1,951 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Sat Nov 14 22:53:23 2009
+
+$ Start of Compile
+#Sat Nov 14 22:53:23 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_TL.vhd":5:7:5:35|Top entity is set to Multiplier_Accumulator_TL_Ent.
+VHDL syntax check successful!
+File C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_Control_MD.vhd changed - recompiling
+File C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_DataPath_MD.vhd changed - recompiling
+File C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_Control_MD.vhd changed - recompiling
+File C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_DataPath_MD.vhd changed - recompiling
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_TL.vhd":5:7:5:35|Synthesizing work.multiplier_accumulator_tl_ent.multiplier_accumulator_tl_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_Control_MD.vhd":5:7:5:40|Synthesizing work.multiplier_accumulator_control_ent.multiplier_accumulator_control_arch 
+Post processing for work.multiplier_accumulator_control_ent.multiplier_accumulator_control_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_DataPath_MD.vhd":5:7:5:41|Synthesizing work.multiplier_accumulator_datapath_ent.multiplier_accumulator_datapath_arch 
+Post processing for work.multiplier_accumulator_datapath_ent.multiplier_accumulator_datapath_arch
+Post processing for work.multiplier_accumulator_tl_ent.multiplier_accumulator_tl_arch
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 14 22:53:23 2009
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+@W: FX474 |User specified initial value found in some of the sequential elements in the design. Applying an initial value to a register may not deliver the best synthesis results. For example, registers with initial values may be preserved and retiming/pipelining may not be performed. To improve synthesis results you may want to remove the register initialization from the RTL code 
+
+Automatic dissolve at startup in view:work.Multiplier_Accumulator_TL_Ent(multiplier_accumulator_tl_arch) of Data_Path(Multiplier_Accumulator_DataPath_Ent)
+@N|Applying Initial value "00000000" on instance: Control.maxval[7:0] 
+@N: MT206 |Autoconstrain Mode is ON
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N:"c:\program files\modeltech_6.5\examples\tamrin\multiplier_accumulator\multiplier_accumulator_control_md.vhd":27:8:27:9|Found counter in view:work.Multiplier_Accumulator_Control_Ent(multiplier_accumulator_control_arch) inst count[7:0]
+Dissolving instances of view:work.Multiplier_Accumulator_Control_Ent(multiplier_accumulator_control_arch) before factorization cost=105, pathcnt=1
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 95MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port iclk,  Inserting Clock buffer for port idataR,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -3.00ns		  61 /        57
+   2		0h:00m:00s		    -3.00ns		  61 /        57
+   3		0h:00m:00s		    -3.00ns		  61 /        57
+   4		0h:00m:00s		    -3.00ns		  61 /        57
+------------------------------------------------------------
+
+Retiming DSPs
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.57ns		  61 /        57
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:00s		    -2.57ns		  61 /        57
+   3		0h:00m:00s		    -2.57ns		  61 /        57
+   4		0h:00m:00s		    -2.57ns		  61 /        57
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.57ns		  61 /        57
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:00s		    -2.57ns		  61 /        57
+   3		0h:00m:00s		    -2.57ns		  61 /        57
+   4		0h:00m:00s		    -2.57ns		  61 /        57
+------------------------------------------------------------
+
+Net buffering Report for view:work.Multiplier_Accumulator_TL_Ent(multiplier_accumulator_tl_arch):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 96MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 96MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\Multiplier_Accumulator_TL.srm
+@N: BN225 |Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\Multiplier_Accumulator_TL.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 97MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 97MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 97MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 97MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 97MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 97MB)
+
+Found clock Multiplier_Accumulator_TL_Ent|iclk with period 7.29ns 
+Found clock Multiplier_Accumulator_TL_Ent|idataR with period 1000.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Nov 14 22:53:26 2009
+#
+
+
+Top view:               Multiplier_Accumulator_TL_Ent
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.998
+
+                                       Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                         Frequency     Frequency     Period        Period        Slack      Type         Group                
+--------------------------------------------------------------------------------------------------------------------------------------------
+Multiplier_Accumulator_TL_Ent|iclk     137.2 MHz     107.7 MHz     7.286         9.284         -1.998     inferred     Autoconstr_clkgroup_0
+============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                              Ending                              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Multiplier_Accumulator_TL_Ent|iclk    Multiplier_Accumulator_TL_Ent|iclk  |  7.286       -1.998  |  No paths    -      |  No paths    -      |  No paths    -    
+Multiplier_Accumulator_TL_Ent|idataR  Multiplier_Accumulator_TL_Ent|iclk  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: Multiplier_Accumulator_TL_Ent|iclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                                             Arrival           
+Instance              Reference                              Type     Pin     Net          Time        Slack 
+                      Clock                                                                                  
+-------------------------------------------------------------------------------------------------------------
+Data_Path.reg8[0]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       reg8[0]      0.350       -1.998
+Data_Path.reg8[1]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       reg8[1]      0.350       -1.953
+Data_Path.reg8[2]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       reg8[2]      0.350       -1.909
+Data_Path.reg8[3]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       reg8[3]      0.350       -1.864
+Data_Path.reg8[4]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       reg8[4]      0.350       -1.820
+Data_Path.reg8[5]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       reg8[5]      0.350       -1.786
+Data_Path.reg8[6]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       reg8[6]      0.350       -1.786
+Data_Path.reg8[7]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       reg8[7]      0.350       -1.786
+Control.count[0]      Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       count[0]     0.350       1.698 
+Control.count[1]      Multiplier_Accumulator_TL_Ent|iclk     FDCE     Q       count[1]     0.350       1.698 
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                                 Required           
+Instance                Reference                              Type     Pin     Net              Time         Slack 
+                        Clock                                                                                       
+--------------------------------------------------------------------------------------------------------------------
+Data_Path.reg32[31]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_31     7.307        -1.998
+Data_Path.reg32[30]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_30     7.307        -1.953
+Data_Path.reg32[29]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_29     7.307        -1.909
+Data_Path.reg32[28]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_28     7.307        -1.864
+Data_Path.reg32[27]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_27     7.307        -1.820
+Data_Path.reg32[26]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_26     7.307        -1.775
+Data_Path.reg32[25]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_25     7.307        -1.731
+Data_Path.reg32[24]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_24     7.307        -1.686
+Data_Path.reg32[23]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_23     7.307        -1.642
+Data_Path.reg32[22]     Multiplier_Accumulator_TL_Ent|iclk     FDCE     D       un1_add_s_22     7.307        -1.597
+====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        7.286
+    - Setup time:                            -0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.307
+
+    - Propagation time:                      9.305
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.998
+
+    Number of logic level(s):                34
+    Starting point:                          Data_Path.reg8[0] / Q
+    Ending point:                            Data_Path.reg32[31] / D
+    The start point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+Data_Path.reg8[0]              FDCE        Q        Out     0.350     0.350       -         
+reg8[0]                        Net         -        -       1.150     -           2         
+Data_Path.un1_idataa[15:0]     DSP48       B[0]     In      -         1.500       -         
+Data_Path.un1_idataa[15:0]     DSP48       P[0]     Out     4.402     5.902       -         
+un1_idataa_P[0]                Net         -        -       1.070     -           1         
+Data_Path.un1_add_axb_0        LUT4        I0       In      -         6.972       -         
+Data_Path.un1_add_axb_0        LUT4        O        Out     0.195     7.167       -         
+un1_add_axb_0                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_0        MUXCY_L     S        In      -         7.167       -         
+Data_Path.un1_add_cry_0        MUXCY_L     LO       Out     0.352     7.518       -         
+un1_add_cry_0                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_1        MUXCY_L     CI       In      -         7.518       -         
+Data_Path.un1_add_cry_1        MUXCY_L     LO       Out     0.044     7.563       -         
+un1_add_cry_1                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_2        MUXCY_L     CI       In      -         7.563       -         
+Data_Path.un1_add_cry_2        MUXCY_L     LO       Out     0.044     7.607       -         
+un1_add_cry_2                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_3        MUXCY_L     CI       In      -         7.607       -         
+Data_Path.un1_add_cry_3        MUXCY_L     LO       Out     0.044     7.652       -         
+un1_add_cry_3                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_4        MUXCY_L     CI       In      -         7.652       -         
+Data_Path.un1_add_cry_4        MUXCY_L     LO       Out     0.044     7.696       -         
+un1_add_cry_4                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_5        MUXCY_L     CI       In      -         7.696       -         
+Data_Path.un1_add_cry_5        MUXCY_L     LO       Out     0.044     7.741       -         
+un1_add_cry_5                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_6        MUXCY_L     CI       In      -         7.741       -         
+Data_Path.un1_add_cry_6        MUXCY_L     LO       Out     0.044     7.785       -         
+un1_add_cry_6                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_7        MUXCY_L     CI       In      -         7.785       -         
+Data_Path.un1_add_cry_7        MUXCY_L     LO       Out     0.044     7.830       -         
+un1_add_cry_7                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_8_0      MUXCY_L     CI       In      -         7.830       -         
+Data_Path.un1_add_cry_8_0      MUXCY_L     LO       Out     0.044     7.874       -         
+un1_add_cry_8                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_9_0      MUXCY_L     CI       In      -         7.874       -         
+Data_Path.un1_add_cry_9_0      MUXCY_L     LO       Out     0.044     7.919       -         
+un1_add_cry_9                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_10_0     MUXCY_L     CI       In      -         7.919       -         
+Data_Path.un1_add_cry_10_0     MUXCY_L     LO       Out     0.044     7.963       -         
+un1_add_cry_10                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_11_0     MUXCY_L     CI       In      -         7.963       -         
+Data_Path.un1_add_cry_11_0     MUXCY_L     LO       Out     0.044     8.008       -         
+un1_add_cry_11                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_12_0     MUXCY_L     CI       In      -         8.008       -         
+Data_Path.un1_add_cry_12_0     MUXCY_L     LO       Out     0.044     8.052       -         
+un1_add_cry_12                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_13_0     MUXCY_L     CI       In      -         8.052       -         
+Data_Path.un1_add_cry_13_0     MUXCY_L     LO       Out     0.044     8.097       -         
+un1_add_cry_13                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_14_0     MUXCY_L     CI       In      -         8.097       -         
+Data_Path.un1_add_cry_14_0     MUXCY_L     LO       Out     0.044     8.141       -         
+un1_add_cry_14                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_15_0     MUXCY_L     CI       In      -         8.141       -         
+Data_Path.un1_add_cry_15_0     MUXCY_L     LO       Out     0.044     8.186       -         
+un1_add_cry_15                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_16       MUXCY_L     CI       In      -         8.186       -         
+Data_Path.un1_add_cry_16       MUXCY_L     LO       Out     0.044     8.230       -         
+un1_add_cry_16                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_17       MUXCY_L     CI       In      -         8.230       -         
+Data_Path.un1_add_cry_17       MUXCY_L     LO       Out     0.044     8.275       -         
+un1_add_cry_17                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_18       MUXCY_L     CI       In      -         8.275       -         
+Data_Path.un1_add_cry_18       MUXCY_L     LO       Out     0.044     8.319       -         
+un1_add_cry_18                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_19       MUXCY_L     CI       In      -         8.319       -         
+Data_Path.un1_add_cry_19       MUXCY_L     LO       Out     0.044     8.364       -         
+un1_add_cry_19                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_20       MUXCY_L     CI       In      -         8.364       -         
+Data_Path.un1_add_cry_20       MUXCY_L     LO       Out     0.044     8.408       -         
+un1_add_cry_20                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_21       MUXCY_L     CI       In      -         8.408       -         
+Data_Path.un1_add_cry_21       MUXCY_L     LO       Out     0.044     8.453       -         
+un1_add_cry_21                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_22       MUXCY_L     CI       In      -         8.453       -         
+Data_Path.un1_add_cry_22       MUXCY_L     LO       Out     0.044     8.497       -         
+un1_add_cry_22                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_23       MUXCY_L     CI       In      -         8.497       -         
+Data_Path.un1_add_cry_23       MUXCY_L     LO       Out     0.044     8.542       -         
+un1_add_cry_23                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_24       MUXCY_L     CI       In      -         8.542       -         
+Data_Path.un1_add_cry_24       MUXCY_L     LO       Out     0.044     8.586       -         
+un1_add_cry_24                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_25       MUXCY_L     CI       In      -         8.586       -         
+Data_Path.un1_add_cry_25       MUXCY_L     LO       Out     0.044     8.631       -         
+un1_add_cry_25                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_26       MUXCY_L     CI       In      -         8.631       -         
+Data_Path.un1_add_cry_26       MUXCY_L     LO       Out     0.044     8.675       -         
+un1_add_cry_26                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_27       MUXCY_L     CI       In      -         8.675       -         
+Data_Path.un1_add_cry_27       MUXCY_L     LO       Out     0.044     8.720       -         
+un1_add_cry_27                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_28       MUXCY_L     CI       In      -         8.720       -         
+Data_Path.un1_add_cry_28       MUXCY_L     LO       Out     0.044     8.764       -         
+un1_add_cry_28                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_29       MUXCY_L     CI       In      -         8.764       -         
+Data_Path.un1_add_cry_29       MUXCY_L     LO       Out     0.044     8.809       -         
+un1_add_cry_29                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_30       MUXCY_L     CI       In      -         8.809       -         
+Data_Path.un1_add_cry_30       MUXCY_L     LO       Out     0.044     8.853       -         
+un1_add_cry_30                 Net         -        -       0.000     -           1         
+Data_Path.un1_add_s_31         XORCY       CI       In      -         8.853       -         
+Data_Path.un1_add_s_31         XORCY       O        Out     0.452     9.305       -         
+un1_add_s_31                   Net         -        -       0.000     -           1         
+Data_Path.reg32[31]            FDCE        D        In      -         9.305       -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 9.284 is 7.064(76.1%) logic and 2.220(23.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        7.286
+    - Setup time:                            -0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.307
+
+    - Propagation time:                      9.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.953
+
+    Number of logic level(s):                33
+    Starting point:                          Data_Path.reg8[1] / Q
+    Ending point:                            Data_Path.reg32[31] / D
+    The start point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+Data_Path.reg8[1]              FDCE        Q        Out     0.350     0.350       -         
+reg8[1]                        Net         -        -       1.150     -           2         
+Data_Path.un1_idataa[15:0]     DSP48       B[1]     In      -         1.500       -         
+Data_Path.un1_idataa[15:0]     DSP48       P[1]     Out     4.402     5.902       -         
+un1_idataa_P[1]                Net         -        -       1.070     -           1         
+Data_Path.un1_add_axb_1        LUT4_L      I1       In      -         6.972       -         
+Data_Path.un1_add_axb_1        LUT4_L      LO       Out     0.195     7.167       -         
+un1_add_axb_1                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_1        MUXCY_L     S        In      -         7.167       -         
+Data_Path.un1_add_cry_1        MUXCY_L     LO       Out     0.352     7.518       -         
+un1_add_cry_1                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_2        MUXCY_L     CI       In      -         7.518       -         
+Data_Path.un1_add_cry_2        MUXCY_L     LO       Out     0.044     7.563       -         
+un1_add_cry_2                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_3        MUXCY_L     CI       In      -         7.563       -         
+Data_Path.un1_add_cry_3        MUXCY_L     LO       Out     0.044     7.607       -         
+un1_add_cry_3                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_4        MUXCY_L     CI       In      -         7.607       -         
+Data_Path.un1_add_cry_4        MUXCY_L     LO       Out     0.044     7.652       -         
+un1_add_cry_4                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_5        MUXCY_L     CI       In      -         7.652       -         
+Data_Path.un1_add_cry_5        MUXCY_L     LO       Out     0.044     7.696       -         
+un1_add_cry_5                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_6        MUXCY_L     CI       In      -         7.696       -         
+Data_Path.un1_add_cry_6        MUXCY_L     LO       Out     0.044     7.741       -         
+un1_add_cry_6                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_7        MUXCY_L     CI       In      -         7.741       -         
+Data_Path.un1_add_cry_7        MUXCY_L     LO       Out     0.044     7.785       -         
+un1_add_cry_7                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_8_0      MUXCY_L     CI       In      -         7.785       -         
+Data_Path.un1_add_cry_8_0      MUXCY_L     LO       Out     0.044     7.830       -         
+un1_add_cry_8                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_9_0      MUXCY_L     CI       In      -         7.830       -         
+Data_Path.un1_add_cry_9_0      MUXCY_L     LO       Out     0.044     7.874       -         
+un1_add_cry_9                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_10_0     MUXCY_L     CI       In      -         7.874       -         
+Data_Path.un1_add_cry_10_0     MUXCY_L     LO       Out     0.044     7.919       -         
+un1_add_cry_10                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_11_0     MUXCY_L     CI       In      -         7.919       -         
+Data_Path.un1_add_cry_11_0     MUXCY_L     LO       Out     0.044     7.963       -         
+un1_add_cry_11                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_12_0     MUXCY_L     CI       In      -         7.963       -         
+Data_Path.un1_add_cry_12_0     MUXCY_L     LO       Out     0.044     8.008       -         
+un1_add_cry_12                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_13_0     MUXCY_L     CI       In      -         8.008       -         
+Data_Path.un1_add_cry_13_0     MUXCY_L     LO       Out     0.044     8.052       -         
+un1_add_cry_13                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_14_0     MUXCY_L     CI       In      -         8.052       -         
+Data_Path.un1_add_cry_14_0     MUXCY_L     LO       Out     0.044     8.097       -         
+un1_add_cry_14                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_15_0     MUXCY_L     CI       In      -         8.097       -         
+Data_Path.un1_add_cry_15_0     MUXCY_L     LO       Out     0.044     8.141       -         
+un1_add_cry_15                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_16       MUXCY_L     CI       In      -         8.141       -         
+Data_Path.un1_add_cry_16       MUXCY_L     LO       Out     0.044     8.186       -         
+un1_add_cry_16                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_17       MUXCY_L     CI       In      -         8.186       -         
+Data_Path.un1_add_cry_17       MUXCY_L     LO       Out     0.044     8.230       -         
+un1_add_cry_17                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_18       MUXCY_L     CI       In      -         8.230       -         
+Data_Path.un1_add_cry_18       MUXCY_L     LO       Out     0.044     8.275       -         
+un1_add_cry_18                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_19       MUXCY_L     CI       In      -         8.275       -         
+Data_Path.un1_add_cry_19       MUXCY_L     LO       Out     0.044     8.319       -         
+un1_add_cry_19                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_20       MUXCY_L     CI       In      -         8.319       -         
+Data_Path.un1_add_cry_20       MUXCY_L     LO       Out     0.044     8.364       -         
+un1_add_cry_20                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_21       MUXCY_L     CI       In      -         8.364       -         
+Data_Path.un1_add_cry_21       MUXCY_L     LO       Out     0.044     8.408       -         
+un1_add_cry_21                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_22       MUXCY_L     CI       In      -         8.408       -         
+Data_Path.un1_add_cry_22       MUXCY_L     LO       Out     0.044     8.453       -         
+un1_add_cry_22                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_23       MUXCY_L     CI       In      -         8.453       -         
+Data_Path.un1_add_cry_23       MUXCY_L     LO       Out     0.044     8.497       -         
+un1_add_cry_23                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_24       MUXCY_L     CI       In      -         8.497       -         
+Data_Path.un1_add_cry_24       MUXCY_L     LO       Out     0.044     8.542       -         
+un1_add_cry_24                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_25       MUXCY_L     CI       In      -         8.542       -         
+Data_Path.un1_add_cry_25       MUXCY_L     LO       Out     0.044     8.586       -         
+un1_add_cry_25                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_26       MUXCY_L     CI       In      -         8.586       -         
+Data_Path.un1_add_cry_26       MUXCY_L     LO       Out     0.044     8.631       -         
+un1_add_cry_26                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_27       MUXCY_L     CI       In      -         8.631       -         
+Data_Path.un1_add_cry_27       MUXCY_L     LO       Out     0.044     8.675       -         
+un1_add_cry_27                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_28       MUXCY_L     CI       In      -         8.675       -         
+Data_Path.un1_add_cry_28       MUXCY_L     LO       Out     0.044     8.720       -         
+un1_add_cry_28                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_29       MUXCY_L     CI       In      -         8.720       -         
+Data_Path.un1_add_cry_29       MUXCY_L     LO       Out     0.044     8.764       -         
+un1_add_cry_29                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_30       MUXCY_L     CI       In      -         8.764       -         
+Data_Path.un1_add_cry_30       MUXCY_L     LO       Out     0.044     8.809       -         
+un1_add_cry_30                 Net         -        -       0.000     -           1         
+Data_Path.un1_add_s_31         XORCY       CI       In      -         8.809       -         
+Data_Path.un1_add_s_31         XORCY       O        Out     0.452     9.261       -         
+un1_add_s_31                   Net         -        -       0.000     -           1         
+Data_Path.reg32[31]            FDCE        D        In      -         9.261       -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 9.240 is 7.019(76.0%) logic and 2.220(24.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        7.286
+    - Setup time:                            -0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.307
+
+    - Propagation time:                      9.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.953
+
+    Number of logic level(s):                33
+    Starting point:                          Data_Path.reg8[0] / Q
+    Ending point:                            Data_Path.reg32[31] / D
+    The start point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+Data_Path.reg8[0]              FDCE        Q        Out     0.350     0.350       -         
+reg8[0]                        Net         -        -       1.150     -           2         
+Data_Path.un1_idataa[15:0]     DSP48       B[0]     In      -         1.500       -         
+Data_Path.un1_idataa[15:0]     DSP48       P[1]     Out     4.402     5.902       -         
+un1_idataa_P[1]                Net         -        -       1.070     -           1         
+Data_Path.un1_add_axb_1        LUT4_L      I1       In      -         6.972       -         
+Data_Path.un1_add_axb_1        LUT4_L      LO       Out     0.195     7.167       -         
+un1_add_axb_1                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_1        MUXCY_L     S        In      -         7.167       -         
+Data_Path.un1_add_cry_1        MUXCY_L     LO       Out     0.352     7.518       -         
+un1_add_cry_1                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_2        MUXCY_L     CI       In      -         7.518       -         
+Data_Path.un1_add_cry_2        MUXCY_L     LO       Out     0.044     7.563       -         
+un1_add_cry_2                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_3        MUXCY_L     CI       In      -         7.563       -         
+Data_Path.un1_add_cry_3        MUXCY_L     LO       Out     0.044     7.607       -         
+un1_add_cry_3                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_4        MUXCY_L     CI       In      -         7.607       -         
+Data_Path.un1_add_cry_4        MUXCY_L     LO       Out     0.044     7.652       -         
+un1_add_cry_4                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_5        MUXCY_L     CI       In      -         7.652       -         
+Data_Path.un1_add_cry_5        MUXCY_L     LO       Out     0.044     7.696       -         
+un1_add_cry_5                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_6        MUXCY_L     CI       In      -         7.696       -         
+Data_Path.un1_add_cry_6        MUXCY_L     LO       Out     0.044     7.741       -         
+un1_add_cry_6                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_7        MUXCY_L     CI       In      -         7.741       -         
+Data_Path.un1_add_cry_7        MUXCY_L     LO       Out     0.044     7.785       -         
+un1_add_cry_7                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_8_0      MUXCY_L     CI       In      -         7.785       -         
+Data_Path.un1_add_cry_8_0      MUXCY_L     LO       Out     0.044     7.830       -         
+un1_add_cry_8                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_9_0      MUXCY_L     CI       In      -         7.830       -         
+Data_Path.un1_add_cry_9_0      MUXCY_L     LO       Out     0.044     7.874       -         
+un1_add_cry_9                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_10_0     MUXCY_L     CI       In      -         7.874       -         
+Data_Path.un1_add_cry_10_0     MUXCY_L     LO       Out     0.044     7.919       -         
+un1_add_cry_10                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_11_0     MUXCY_L     CI       In      -         7.919       -         
+Data_Path.un1_add_cry_11_0     MUXCY_L     LO       Out     0.044     7.963       -         
+un1_add_cry_11                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_12_0     MUXCY_L     CI       In      -         7.963       -         
+Data_Path.un1_add_cry_12_0     MUXCY_L     LO       Out     0.044     8.008       -         
+un1_add_cry_12                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_13_0     MUXCY_L     CI       In      -         8.008       -         
+Data_Path.un1_add_cry_13_0     MUXCY_L     LO       Out     0.044     8.052       -         
+un1_add_cry_13                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_14_0     MUXCY_L     CI       In      -         8.052       -         
+Data_Path.un1_add_cry_14_0     MUXCY_L     LO       Out     0.044     8.097       -         
+un1_add_cry_14                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_15_0     MUXCY_L     CI       In      -         8.097       -         
+Data_Path.un1_add_cry_15_0     MUXCY_L     LO       Out     0.044     8.141       -         
+un1_add_cry_15                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_16       MUXCY_L     CI       In      -         8.141       -         
+Data_Path.un1_add_cry_16       MUXCY_L     LO       Out     0.044     8.186       -         
+un1_add_cry_16                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_17       MUXCY_L     CI       In      -         8.186       -         
+Data_Path.un1_add_cry_17       MUXCY_L     LO       Out     0.044     8.230       -         
+un1_add_cry_17                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_18       MUXCY_L     CI       In      -         8.230       -         
+Data_Path.un1_add_cry_18       MUXCY_L     LO       Out     0.044     8.275       -         
+un1_add_cry_18                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_19       MUXCY_L     CI       In      -         8.275       -         
+Data_Path.un1_add_cry_19       MUXCY_L     LO       Out     0.044     8.319       -         
+un1_add_cry_19                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_20       MUXCY_L     CI       In      -         8.319       -         
+Data_Path.un1_add_cry_20       MUXCY_L     LO       Out     0.044     8.364       -         
+un1_add_cry_20                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_21       MUXCY_L     CI       In      -         8.364       -         
+Data_Path.un1_add_cry_21       MUXCY_L     LO       Out     0.044     8.408       -         
+un1_add_cry_21                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_22       MUXCY_L     CI       In      -         8.408       -         
+Data_Path.un1_add_cry_22       MUXCY_L     LO       Out     0.044     8.453       -         
+un1_add_cry_22                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_23       MUXCY_L     CI       In      -         8.453       -         
+Data_Path.un1_add_cry_23       MUXCY_L     LO       Out     0.044     8.497       -         
+un1_add_cry_23                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_24       MUXCY_L     CI       In      -         8.497       -         
+Data_Path.un1_add_cry_24       MUXCY_L     LO       Out     0.044     8.542       -         
+un1_add_cry_24                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_25       MUXCY_L     CI       In      -         8.542       -         
+Data_Path.un1_add_cry_25       MUXCY_L     LO       Out     0.044     8.586       -         
+un1_add_cry_25                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_26       MUXCY_L     CI       In      -         8.586       -         
+Data_Path.un1_add_cry_26       MUXCY_L     LO       Out     0.044     8.631       -         
+un1_add_cry_26                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_27       MUXCY_L     CI       In      -         8.631       -         
+Data_Path.un1_add_cry_27       MUXCY_L     LO       Out     0.044     8.675       -         
+un1_add_cry_27                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_28       MUXCY_L     CI       In      -         8.675       -         
+Data_Path.un1_add_cry_28       MUXCY_L     LO       Out     0.044     8.720       -         
+un1_add_cry_28                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_29       MUXCY_L     CI       In      -         8.720       -         
+Data_Path.un1_add_cry_29       MUXCY_L     LO       Out     0.044     8.764       -         
+un1_add_cry_29                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_30       MUXCY_L     CI       In      -         8.764       -         
+Data_Path.un1_add_cry_30       MUXCY_L     LO       Out     0.044     8.809       -         
+un1_add_cry_30                 Net         -        -       0.000     -           1         
+Data_Path.un1_add_s_31         XORCY       CI       In      -         8.809       -         
+Data_Path.un1_add_s_31         XORCY       O        Out     0.452     9.261       -         
+un1_add_s_31                   Net         -        -       0.000     -           1         
+Data_Path.reg32[31]            FDCE        D        In      -         9.261       -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 9.240 is 7.019(76.0%) logic and 2.220(24.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        7.286
+    - Setup time:                            -0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.307
+
+    - Propagation time:                      9.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.953
+
+    Number of logic level(s):                33
+    Starting point:                          Data_Path.reg8[0] / Q
+    Ending point:                            Data_Path.reg32[30] / D
+    The start point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+Data_Path.reg8[0]              FDCE        Q        Out     0.350     0.350       -         
+reg8[0]                        Net         -        -       1.150     -           2         
+Data_Path.un1_idataa[15:0]     DSP48       B[0]     In      -         1.500       -         
+Data_Path.un1_idataa[15:0]     DSP48       P[0]     Out     4.402     5.902       -         
+un1_idataa_P[0]                Net         -        -       1.070     -           1         
+Data_Path.un1_add_axb_0        LUT4        I0       In      -         6.972       -         
+Data_Path.un1_add_axb_0        LUT4        O        Out     0.195     7.167       -         
+un1_add_axb_0                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_0        MUXCY_L     S        In      -         7.167       -         
+Data_Path.un1_add_cry_0        MUXCY_L     LO       Out     0.352     7.518       -         
+un1_add_cry_0                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_1        MUXCY_L     CI       In      -         7.518       -         
+Data_Path.un1_add_cry_1        MUXCY_L     LO       Out     0.044     7.563       -         
+un1_add_cry_1                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_2        MUXCY_L     CI       In      -         7.563       -         
+Data_Path.un1_add_cry_2        MUXCY_L     LO       Out     0.044     7.607       -         
+un1_add_cry_2                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_3        MUXCY_L     CI       In      -         7.607       -         
+Data_Path.un1_add_cry_3        MUXCY_L     LO       Out     0.044     7.652       -         
+un1_add_cry_3                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_4        MUXCY_L     CI       In      -         7.652       -         
+Data_Path.un1_add_cry_4        MUXCY_L     LO       Out     0.044     7.696       -         
+un1_add_cry_4                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_5        MUXCY_L     CI       In      -         7.696       -         
+Data_Path.un1_add_cry_5        MUXCY_L     LO       Out     0.044     7.741       -         
+un1_add_cry_5                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_6        MUXCY_L     CI       In      -         7.741       -         
+Data_Path.un1_add_cry_6        MUXCY_L     LO       Out     0.044     7.785       -         
+un1_add_cry_6                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_7        MUXCY_L     CI       In      -         7.785       -         
+Data_Path.un1_add_cry_7        MUXCY_L     LO       Out     0.044     7.830       -         
+un1_add_cry_7                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_8_0      MUXCY_L     CI       In      -         7.830       -         
+Data_Path.un1_add_cry_8_0      MUXCY_L     LO       Out     0.044     7.874       -         
+un1_add_cry_8                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_9_0      MUXCY_L     CI       In      -         7.874       -         
+Data_Path.un1_add_cry_9_0      MUXCY_L     LO       Out     0.044     7.919       -         
+un1_add_cry_9                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_10_0     MUXCY_L     CI       In      -         7.919       -         
+Data_Path.un1_add_cry_10_0     MUXCY_L     LO       Out     0.044     7.963       -         
+un1_add_cry_10                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_11_0     MUXCY_L     CI       In      -         7.963       -         
+Data_Path.un1_add_cry_11_0     MUXCY_L     LO       Out     0.044     8.008       -         
+un1_add_cry_11                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_12_0     MUXCY_L     CI       In      -         8.008       -         
+Data_Path.un1_add_cry_12_0     MUXCY_L     LO       Out     0.044     8.052       -         
+un1_add_cry_12                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_13_0     MUXCY_L     CI       In      -         8.052       -         
+Data_Path.un1_add_cry_13_0     MUXCY_L     LO       Out     0.044     8.097       -         
+un1_add_cry_13                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_14_0     MUXCY_L     CI       In      -         8.097       -         
+Data_Path.un1_add_cry_14_0     MUXCY_L     LO       Out     0.044     8.141       -         
+un1_add_cry_14                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_15_0     MUXCY_L     CI       In      -         8.141       -         
+Data_Path.un1_add_cry_15_0     MUXCY_L     LO       Out     0.044     8.186       -         
+un1_add_cry_15                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_16       MUXCY_L     CI       In      -         8.186       -         
+Data_Path.un1_add_cry_16       MUXCY_L     LO       Out     0.044     8.230       -         
+un1_add_cry_16                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_17       MUXCY_L     CI       In      -         8.230       -         
+Data_Path.un1_add_cry_17       MUXCY_L     LO       Out     0.044     8.275       -         
+un1_add_cry_17                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_18       MUXCY_L     CI       In      -         8.275       -         
+Data_Path.un1_add_cry_18       MUXCY_L     LO       Out     0.044     8.319       -         
+un1_add_cry_18                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_19       MUXCY_L     CI       In      -         8.319       -         
+Data_Path.un1_add_cry_19       MUXCY_L     LO       Out     0.044     8.364       -         
+un1_add_cry_19                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_20       MUXCY_L     CI       In      -         8.364       -         
+Data_Path.un1_add_cry_20       MUXCY_L     LO       Out     0.044     8.408       -         
+un1_add_cry_20                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_21       MUXCY_L     CI       In      -         8.408       -         
+Data_Path.un1_add_cry_21       MUXCY_L     LO       Out     0.044     8.453       -         
+un1_add_cry_21                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_22       MUXCY_L     CI       In      -         8.453       -         
+Data_Path.un1_add_cry_22       MUXCY_L     LO       Out     0.044     8.497       -         
+un1_add_cry_22                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_23       MUXCY_L     CI       In      -         8.497       -         
+Data_Path.un1_add_cry_23       MUXCY_L     LO       Out     0.044     8.542       -         
+un1_add_cry_23                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_24       MUXCY_L     CI       In      -         8.542       -         
+Data_Path.un1_add_cry_24       MUXCY_L     LO       Out     0.044     8.586       -         
+un1_add_cry_24                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_25       MUXCY_L     CI       In      -         8.586       -         
+Data_Path.un1_add_cry_25       MUXCY_L     LO       Out     0.044     8.631       -         
+un1_add_cry_25                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_26       MUXCY_L     CI       In      -         8.631       -         
+Data_Path.un1_add_cry_26       MUXCY_L     LO       Out     0.044     8.675       -         
+un1_add_cry_26                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_27       MUXCY_L     CI       In      -         8.675       -         
+Data_Path.un1_add_cry_27       MUXCY_L     LO       Out     0.044     8.720       -         
+un1_add_cry_27                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_28       MUXCY_L     CI       In      -         8.720       -         
+Data_Path.un1_add_cry_28       MUXCY_L     LO       Out     0.044     8.764       -         
+un1_add_cry_28                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_29       MUXCY_L     CI       In      -         8.764       -         
+Data_Path.un1_add_cry_29       MUXCY_L     LO       Out     0.044     8.809       -         
+un1_add_cry_29                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_s_30         XORCY       CI       In      -         8.809       -         
+Data_Path.un1_add_s_30         XORCY       O        Out     0.452     9.261       -         
+un1_add_s_30                   Net         -        -       0.000     -           1         
+Data_Path.reg32[30]            FDCE        D        In      -         9.261       -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 9.240 is 7.019(76.0%) logic and 2.220(24.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        7.286
+    - Setup time:                            -0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.307
+
+    - Propagation time:                      9.216
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.909
+
+    Number of logic level(s):                32
+    Starting point:                          Data_Path.reg8[2] / Q
+    Ending point:                            Data_Path.reg32[31] / D
+    The start point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Multiplier_Accumulator_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                           Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+Data_Path.reg8[2]              FDCE        Q        Out     0.350     0.350       -         
+reg8[2]                        Net         -        -       1.150     -           2         
+Data_Path.un1_idataa[15:0]     DSP48       B[2]     In      -         1.500       -         
+Data_Path.un1_idataa[15:0]     DSP48       P[2]     Out     4.402     5.902       -         
+un1_idataa_P[2]                Net         -        -       1.070     -           1         
+Data_Path.un1_add_axb_2        LUT4_L      I0       In      -         6.972       -         
+Data_Path.un1_add_axb_2        LUT4_L      LO       Out     0.195     7.167       -         
+un1_add_axb_2                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_2        MUXCY_L     S        In      -         7.167       -         
+Data_Path.un1_add_cry_2        MUXCY_L     LO       Out     0.352     7.518       -         
+un1_add_cry_2                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_3        MUXCY_L     CI       In      -         7.518       -         
+Data_Path.un1_add_cry_3        MUXCY_L     LO       Out     0.044     7.563       -         
+un1_add_cry_3                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_4        MUXCY_L     CI       In      -         7.563       -         
+Data_Path.un1_add_cry_4        MUXCY_L     LO       Out     0.044     7.607       -         
+un1_add_cry_4                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_5        MUXCY_L     CI       In      -         7.607       -         
+Data_Path.un1_add_cry_5        MUXCY_L     LO       Out     0.044     7.652       -         
+un1_add_cry_5                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_6        MUXCY_L     CI       In      -         7.652       -         
+Data_Path.un1_add_cry_6        MUXCY_L     LO       Out     0.044     7.696       -         
+un1_add_cry_6                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_7        MUXCY_L     CI       In      -         7.696       -         
+Data_Path.un1_add_cry_7        MUXCY_L     LO       Out     0.044     7.741       -         
+un1_add_cry_7                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_8_0      MUXCY_L     CI       In      -         7.741       -         
+Data_Path.un1_add_cry_8_0      MUXCY_L     LO       Out     0.044     7.785       -         
+un1_add_cry_8                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_9_0      MUXCY_L     CI       In      -         7.785       -         
+Data_Path.un1_add_cry_9_0      MUXCY_L     LO       Out     0.044     7.830       -         
+un1_add_cry_9                  Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_10_0     MUXCY_L     CI       In      -         7.830       -         
+Data_Path.un1_add_cry_10_0     MUXCY_L     LO       Out     0.044     7.874       -         
+un1_add_cry_10                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_11_0     MUXCY_L     CI       In      -         7.874       -         
+Data_Path.un1_add_cry_11_0     MUXCY_L     LO       Out     0.044     7.919       -         
+un1_add_cry_11                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_12_0     MUXCY_L     CI       In      -         7.919       -         
+Data_Path.un1_add_cry_12_0     MUXCY_L     LO       Out     0.044     7.963       -         
+un1_add_cry_12                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_13_0     MUXCY_L     CI       In      -         7.963       -         
+Data_Path.un1_add_cry_13_0     MUXCY_L     LO       Out     0.044     8.008       -         
+un1_add_cry_13                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_14_0     MUXCY_L     CI       In      -         8.008       -         
+Data_Path.un1_add_cry_14_0     MUXCY_L     LO       Out     0.044     8.052       -         
+un1_add_cry_14                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_15_0     MUXCY_L     CI       In      -         8.052       -         
+Data_Path.un1_add_cry_15_0     MUXCY_L     LO       Out     0.044     8.097       -         
+un1_add_cry_15                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_16       MUXCY_L     CI       In      -         8.097       -         
+Data_Path.un1_add_cry_16       MUXCY_L     LO       Out     0.044     8.141       -         
+un1_add_cry_16                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_17       MUXCY_L     CI       In      -         8.141       -         
+Data_Path.un1_add_cry_17       MUXCY_L     LO       Out     0.044     8.186       -         
+un1_add_cry_17                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_18       MUXCY_L     CI       In      -         8.186       -         
+Data_Path.un1_add_cry_18       MUXCY_L     LO       Out     0.044     8.230       -         
+un1_add_cry_18                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_19       MUXCY_L     CI       In      -         8.230       -         
+Data_Path.un1_add_cry_19       MUXCY_L     LO       Out     0.044     8.275       -         
+un1_add_cry_19                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_20       MUXCY_L     CI       In      -         8.275       -         
+Data_Path.un1_add_cry_20       MUXCY_L     LO       Out     0.044     8.319       -         
+un1_add_cry_20                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_21       MUXCY_L     CI       In      -         8.319       -         
+Data_Path.un1_add_cry_21       MUXCY_L     LO       Out     0.044     8.364       -         
+un1_add_cry_21                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_22       MUXCY_L     CI       In      -         8.364       -         
+Data_Path.un1_add_cry_22       MUXCY_L     LO       Out     0.044     8.408       -         
+un1_add_cry_22                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_23       MUXCY_L     CI       In      -         8.408       -         
+Data_Path.un1_add_cry_23       MUXCY_L     LO       Out     0.044     8.453       -         
+un1_add_cry_23                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_24       MUXCY_L     CI       In      -         8.453       -         
+Data_Path.un1_add_cry_24       MUXCY_L     LO       Out     0.044     8.497       -         
+un1_add_cry_24                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_25       MUXCY_L     CI       In      -         8.497       -         
+Data_Path.un1_add_cry_25       MUXCY_L     LO       Out     0.044     8.542       -         
+un1_add_cry_25                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_26       MUXCY_L     CI       In      -         8.542       -         
+Data_Path.un1_add_cry_26       MUXCY_L     LO       Out     0.044     8.586       -         
+un1_add_cry_26                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_27       MUXCY_L     CI       In      -         8.586       -         
+Data_Path.un1_add_cry_27       MUXCY_L     LO       Out     0.044     8.631       -         
+un1_add_cry_27                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_28       MUXCY_L     CI       In      -         8.631       -         
+Data_Path.un1_add_cry_28       MUXCY_L     LO       Out     0.044     8.675       -         
+un1_add_cry_28                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_29       MUXCY_L     CI       In      -         8.675       -         
+Data_Path.un1_add_cry_29       MUXCY_L     LO       Out     0.044     8.720       -         
+un1_add_cry_29                 Net         -        -       0.000     -           2         
+Data_Path.un1_add_cry_30       MUXCY_L     CI       In      -         8.720       -         
+Data_Path.un1_add_cry_30       MUXCY_L     LO       Out     0.044     8.764       -         
+un1_add_cry_30                 Net         -        -       0.000     -           1         
+Data_Path.un1_add_s_31         XORCY       CI       In      -         8.764       -         
+Data_Path.un1_add_s_31         XORCY       O        Out     0.452     9.216       -         
+un1_add_s_31                   Net         -        -       0.000     -           1         
+Data_Path.reg32[31]            FDCE        D        In      -         9.216       -         
+============================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 9.195 is 6.975(75.9%) logic and 2.220(24.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for Multiplier_Accumulator_TL_Ent 
+
+Mapping to part: xc4vlx15sf363-10
+Cell usage:
+DSP48           1 use
+FD              8 uses
+FDCE            49 uses
+GND             3 uses
+MULT_AND        8 uses
+MUXCY_L         38 uses
+VCC             3 uses
+XORCY           39 uses
+LUT1            24 uses
+LUT2            5 uses
+LUT3            16 uses
+LUT4            15 uses
+
+I/O ports: 60
+I/O primitives: 59
+IBUF           25 uses
+IBUFG          1 use
+OBUF           33 uses
+
+BUFG           1 use
+
+BUFGP          1 use
+
+I/O Register bits:                  8
+Register bits not including I/Os:   49 (0%)
+
+DSP48s: 1 of 32 (3%)
+
+Global Clock Buffers: 2 of 32 (6%)
+
+Total load per clock:
+   Multiplier_Accumulator_TL_Ent|iclk: 49
+   Multiplier_Accumulator_TL_Ent|idataR: 1
+
+Mapping Summary:
+Total  LUTs: 60 (0%)
+
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat Nov 14 22:53:26 2009
+
+###########################################################]

@@ -1,0 +1,950 @@
+<html><body><samp><pre>
+<!@TC:1257592593>
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Sat Nov 07 14:46:33 2009
+
+<a name=compilerReport119>$ Start of Compile</a>
+#Sat Nov 07 14:46:33 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N:<a href="@N:CD720:@XP_HELP">CD720</a> : <a href="C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd:123:18:123:22:@N:CD720:@XP_MSG">std.vhd(123)</a><!@TM:1257592593> | Setting time resolution to ns
+@N: : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd:5:7:5:25:@N::@XP_MSG">FIFO_1024x8bit_MD.vhd(5)</a><!@TM:1257592593> | Top entity is set to FIFO_1024x8bit_Ent.
+VHDL syntax check successful!
+File C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd changed - recompiling
+File C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd changed - recompiling
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd:5:7:5:25:@N:CD630:@XP_MSG">FIFO_1024x8bit_MD.vhd(5)</a><!@TM:1257592593> | Synthesizing work.fifo_1024x8bit_ent.fifo_1024x8bit_arch 
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\Counter_11bit_MD.vhd:5:7:5:24:@N:CD630:@XP_MSG">Counter_11bit_MD.vhd(5)</a><!@TM:1257592593> | Synthesizing work.counter_11bit_ent.counter_11bit_arch 
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\T_Flip_Flop_MD.vhd:5:7:5:22:@N:CD630:@XP_MSG">T_Flip_Flop_MD.vhd(5)</a><!@TM:1257592593> | Synthesizing work.t_flip_flop_ent.t_flip_flop_arch 
+Post processing for work.t_flip_flop_ent.t_flip_flop_arch
+Post processing for work.counter_11bit_ent.counter_11bit_arch
+Post processing for work.fifo_1024x8bit_ent.fifo_1024x8bit_arch
+@N:<a href="@N:CL134:@XP_HELP">CL134</a> : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd:39:9:39:15:@N:CL134:@XP_MSG">FIFO_1024x8bit_MD.vhd(39)</a><!@TM:1257592593> | Found RAM struct, depth=1024, width=8
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 07 14:46:33 2009
+
+###########################################################]
+<a name=mapperReport120>Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55</a>
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N:<a href="@N:MF249:@XP_HELP">MF249</a> : <!@TM:1257592596> | Running in 32-bit mode. 
+@N:<a href="@N:MF257:@XP_HELP">MF257</a> : <!@TM:1257592596> | Gated clock conversion enabled  
+Reading Xilinx I/O pad type table from file [C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt] 
+Reading Xilinx Rocket I/O parameter type table from file [C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt] 
+
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.4\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.5\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.7\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.1\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.9\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.0\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.2\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.3\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.6\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.10\.T_Flip_Flop(T_Flip_Flop_Ent)
+Automatic dissolve at startup in view:work.Counter_11bit_Ent(counter_11bit_arch) of lbl1\.8\.T_Flip_Flop(T_Flip_Flop_Ent)
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1257592596> | Autoconstrain Mode is ON 
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N:<a href="@N:MF179:@XP_HELP">MF179</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\fifo_1024x8bit_md.vhd:48:23:48:67:@N:MF179:@XP_MSG">fifo_1024x8bit_md.vhd(48)</a><!@TM:1257592596> | Found 9 bit by 9 bit '==' comparator, 'un2_oafull'
+Dissolving instances of view:work.Counter_11bit_Ent(counter_11bit_arch) before factorization cost=99, pathcnt=2
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port iwclk,  Inserting Clock buffer for port irclk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -1.22ns		  86 /        42
+   2		0h:00m:01s		    -1.21ns		  66 /        42
+   3		0h:00m:01s		    -1.21ns		  66 /        42
+------------------------------------------------------------
+
+Timing driven replication report
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Write_Address.lbl1\.0\.T_Flip_Flop.data" with 7 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Read_Address.lbl1\.0\.T_Flip_Flop.data" with 7 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Write_Address.lbl1\.1\.T_Flip_Flop.data" with 6 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Write_Address.lbl1\.2\.T_Flip_Flop.data" with 6 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Read_Address.lbl1\.1\.T_Flip_Flop.data" with 5 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Write_Address.lbl1\.3\.T_Flip_Flop.data" with 6 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Read_Address.lbl1\.2\.T_Flip_Flop.data" with 5 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Write_Address.lbl1\.4\.T_Flip_Flop.data" with 6 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Read_Address.lbl1\.3\.T_Flip_Flop.data" with 5 loads has been replicated 1 time(s) to improve timing 
+Added 9 Registers via timing driven replication
+Added 9 LUTs via timing driven replication
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\fifo_1024x8bit\t_flip_flop_md.vhd:20:8:20:10:@N:FX271:@XP_MSG">t_flip_flop_md.vhd(20)</a><!@TM:1257592596> | Instance "Write_Address.lbl1\.5\.T_Flip_Flop.data" with 6 loads has been replicated 1 time(s) to improve timing 
+Added 1 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -0.99ns		  76 /        52
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:01s		    -0.99ns		  76 /        52
+   3		0h:00m:01s		    -0.99ns		  76 /        52
+   4		0h:00m:01s		    -0.99ns		  76 /        52
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -0.99ns		  76 /        52
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:01s		    -0.99ns		  76 /        52
+   3		0h:00m:01s		    -0.99ns		  76 /        52
+   4		0h:00m:01s		    -0.99ns		  76 /        52
+------------------------------------------------------------
+
+Net buffering Report for view:work.FIFO_1024x8bit_Ent(fifo_1024x8bit_arch):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1257592596> | The option to pack flops in the IOB has not been specified  
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\rev_1\Counter_11bit_MD.srm
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1257592596> | Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\rev_1\Counter_11bit_MD.map. 
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file [C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt] 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+@N:<a href="@N:MF276:@XP_HELP">MF276</a> : <!@TM:1257592596> | Gated clock conversion enabled, but no gated clocks found in design  
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+@N:<a href="@N:MF333:@XP_HELP">MF333</a> : <!@TM:1257592596> | Generated clock conversion enabled, but no generated clocks found in design  
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Found clock FIFO_1024x8bit_Ent|iwclk with period 2.89ns 
+Found clock FIFO_1024x8bit_Ent|irclk with period 2.76ns 
+
+
+<a name=timingReport121>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Sat Nov 07 14:46:36 2009
+#
+
+
+Top view:               FIFO_1024x8bit_Ent
+Requested Frequency:    345.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1257592596> | This timing report estimates place and route data. Please look at the place and route timing report for final timing.. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1257592596> | Clock constraints cover only FF-to-FF paths associated with the clock.. 
+
+
+
+<a name=performanceSummary122>Performance Summary </a>
+*******************
+
+
+Worst slack in design: -0.510
+
+                             Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock               Frequency     Frequency     Period        Period        Slack      Type         Group                
+----------------------------------------------------------------------------------------------------------------------------------
+FIFO_1024x8bit_Ent|irclk     362.5 MHz     308.2 MHz     2.758         3.245         -0.487     inferred     Autoconstr_clkgroup_1
+FIFO_1024x8bit_Ent|iwclk     345.9 MHz     294.0 MHz     2.891         3.401         -0.510     inferred     Autoconstr_clkgroup_0
+==================================================================================================================================
+
+
+
+
+
+<a name=clockRelationships123>Clock Relationships</a>
+*******************
+
+Clocks                                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------
+Starting                  Ending                    |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------
+FIFO_1024x8bit_Ent|iwclk  FIFO_1024x8bit_Ent|iwclk  |  2.891       -0.510  |  No paths    -      |  No paths    -      |  No paths    -    
+FIFO_1024x8bit_Ent|iwclk  FIFO_1024x8bit_Ent|irclk  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+FIFO_1024x8bit_Ent|irclk  FIFO_1024x8bit_Ent|iwclk  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+FIFO_1024x8bit_Ent|irclk  FIFO_1024x8bit_Ent|irclk  |  2.758       -0.487  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo124>Interface Information </a>
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+<a name=clockReport125>Detailed Report for Clock: FIFO_1024x8bit_Ent|irclk</a>
+====================================
+
+
+
+<a name=startingSlack126>Starting Points with Worst Slack</a>
+********************************
+
+                                              Starting                                                     Arrival           
+Instance                                      Reference                    Type     Pin     Net            Time        Slack 
+                                              Clock                                                                          
+-----------------------------------------------------------------------------------------------------------------------------
+Read_Address.lbl1\.0\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|irclk     FDE      Q       data_fast      0.350       -0.487
+Read_Address.lbl1\.1\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|irclk     FDE      Q       data_fast      0.350       -0.442
+Read_Address.lbl1\.2\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|irclk     FDE      Q       data_fast      0.350       -0.398
+Read_Address.lbl1\.3\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|irclk     FDE      Q       data_fast      0.350       -0.353
+Read_Address.lbl1\.4\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|irclk     FDE      Q       readadr[4]     0.350       -0.340
+Read_Address.lbl1\.5\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|irclk     FDE      Q       readadr[5]     0.350       -0.295
+Read_Address.lbl1\.6\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|irclk     FDE      Q       readadr[6]     0.350       -0.251
+Read_Address.lbl1\.7\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|irclk     FDE      Q       readadr[7]     0.350       -0.206
+Read_Address.lbl1\.8\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|irclk     FDE      Q       readadr[8]     0.350       -0.162
+Read_Address.lbl1\.9\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|irclk     FDE      Q       readadr[9]     0.350       0.285 
+=============================================================================================================================
+
+
+<a name=endingSlack127>Ending Points with Worst Slack</a>
+******************************
+
+                                         Starting                                                   Required           
+Instance                                 Reference                    Type     Pin     Net          Time         Slack 
+                                         Clock                                                                         
+-----------------------------------------------------------------------------------------------------------------------
+orcount[9]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[9]     2.477        -0.487
+orcount[8]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[8]     2.477        -0.442
+orcount[7]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[7]     2.477        -0.398
+orcount[6]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[6]     2.477        -0.353
+orcount[5]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[5]     2.477        -0.309
+orcount[4]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[4]     2.477        -0.264
+orcount[3]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[3]     2.477        -0.220
+orcount[2]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[2]     2.477        -0.175
+orcount[1]                               FIFO_1024x8bit_Ent|irclk     FD       D       count[1]     2.477        -0.131
+Read_Address.lbl1\.1\.T_Flip_Flop.data   FIFO_1024x8bit_Ent|irclk     FDE      CE      un2_it_6     2.205        0.361 
+=======================================================================================================================
+
+
+
+<a name=worstPaths128>Worst Path Information</a>
+<a href="C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\rev_1\Counter_11bit_MD.srr:fp:19300:23224:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        2.758
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.477
+
+    - Propagation time:                      2.964
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.487
+
+    Number of logic level(s):                11
+    Starting point:                          Read_Address.lbl1\.0\.T_Flip_Flop.data_fast / Q
+    Ending point:                            orcount[9] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+Read_Address.lbl1\.0\.T_Flip_Flop.data_fast   FDE         Q        Out     0.350     0.350       -         
+data_fast                                     Net         -        -       0.650     -           2         
+count_axb_0                                   LUT2        I0       In      -         1.000       -         
+count_axb_0                                   LUT2        O        Out     0.195     1.195       -         
+count_axb_0                                   Net         -        -       0.000     -           3         
+count_cry_0                                   MUXCY_L     S        In      -         1.195       -         
+count_cry_0                                   MUXCY_L     LO       Out     0.352     1.547       -         
+count_cry_0                                   Net         -        -       0.000     -           2         
+count_cry_1                                   MUXCY_L     CI       In      -         1.547       -         
+count_cry_1                                   MUXCY_L     LO       Out     0.044     1.591       -         
+count_cry_1                                   Net         -        -       0.000     -           2         
+count_cry_2                                   MUXCY_L     CI       In      -         1.591       -         
+count_cry_2                                   MUXCY_L     LO       Out     0.044     1.636       -         
+count_cry_2                                   Net         -        -       0.000     -           2         
+count_cry_3                                   MUXCY_L     CI       In      -         1.636       -         
+count_cry_3                                   MUXCY_L     LO       Out     0.044     1.680       -         
+count_cry_3                                   Net         -        -       0.000     -           2         
+count_cry_4                                   MUXCY_L     CI       In      -         1.680       -         
+count_cry_4                                   MUXCY_L     LO       Out     0.044     1.725       -         
+count_cry_4                                   Net         -        -       0.000     -           2         
+count_cry_5                                   MUXCY_L     CI       In      -         1.725       -         
+count_cry_5                                   MUXCY_L     LO       Out     0.044     1.769       -         
+count_cry_5                                   Net         -        -       0.000     -           2         
+count_cry_6                                   MUXCY_L     CI       In      -         1.769       -         
+count_cry_6                                   MUXCY_L     LO       Out     0.044     1.814       -         
+count_cry_6                                   Net         -        -       0.000     -           2         
+count_cry_7                                   MUXCY_L     CI       In      -         1.814       -         
+count_cry_7                                   MUXCY_L     LO       Out     0.044     1.858       -         
+count_cry_7                                   Net         -        -       0.000     -           2         
+count_cry_8                                   MUXCY_L     CI       In      -         1.858       -         
+count_cry_8                                   MUXCY_L     LO       Out     0.044     1.903       -         
+count_cry_8                                   Net         -        -       0.000     -           1         
+count_s_9                                     XORCY       CI       In      -         1.903       -         
+count_s_9                                     XORCY       O        Out     0.452     2.354       -         
+count[9]                                      Net         -        -       0.610     -           2         
+orcount[9]                                    FD          D        In      -         2.964       -         
+===========================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.245 is 1.985(61.2%) logic and 1.260(38.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        2.758
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.477
+
+    - Propagation time:                      2.920
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.442
+
+    Number of logic level(s):                10
+    Starting point:                          Read_Address.lbl1\.1\.T_Flip_Flop.data_fast / Q
+    Ending point:                            orcount[9] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+Read_Address.lbl1\.1\.T_Flip_Flop.data_fast   FDE         Q        Out     0.350     0.350       -         
+data_fast                                     Net         -        -       0.650     -           2         
+count_axb_1                                   LUT2        I0       In      -         1.000       -         
+count_axb_1                                   LUT2        O        Out     0.195     1.195       -         
+count_axb_1                                   Net         -        -       0.000     -           2         
+count_cry_1                                   MUXCY_L     S        In      -         1.195       -         
+count_cry_1                                   MUXCY_L     LO       Out     0.352     1.547       -         
+count_cry_1                                   Net         -        -       0.000     -           2         
+count_cry_2                                   MUXCY_L     CI       In      -         1.547       -         
+count_cry_2                                   MUXCY_L     LO       Out     0.044     1.591       -         
+count_cry_2                                   Net         -        -       0.000     -           2         
+count_cry_3                                   MUXCY_L     CI       In      -         1.591       -         
+count_cry_3                                   MUXCY_L     LO       Out     0.044     1.636       -         
+count_cry_3                                   Net         -        -       0.000     -           2         
+count_cry_4                                   MUXCY_L     CI       In      -         1.636       -         
+count_cry_4                                   MUXCY_L     LO       Out     0.044     1.680       -         
+count_cry_4                                   Net         -        -       0.000     -           2         
+count_cry_5                                   MUXCY_L     CI       In      -         1.680       -         
+count_cry_5                                   MUXCY_L     LO       Out     0.044     1.725       -         
+count_cry_5                                   Net         -        -       0.000     -           2         
+count_cry_6                                   MUXCY_L     CI       In      -         1.725       -         
+count_cry_6                                   MUXCY_L     LO       Out     0.044     1.769       -         
+count_cry_6                                   Net         -        -       0.000     -           2         
+count_cry_7                                   MUXCY_L     CI       In      -         1.769       -         
+count_cry_7                                   MUXCY_L     LO       Out     0.044     1.814       -         
+count_cry_7                                   Net         -        -       0.000     -           2         
+count_cry_8                                   MUXCY_L     CI       In      -         1.814       -         
+count_cry_8                                   MUXCY_L     LO       Out     0.044     1.858       -         
+count_cry_8                                   Net         -        -       0.000     -           1         
+count_s_9                                     XORCY       CI       In      -         1.858       -         
+count_s_9                                     XORCY       O        Out     0.452     2.310       -         
+count[9]                                      Net         -        -       0.610     -           2         
+orcount[9]                                    FD          D        In      -         2.920       -         
+===========================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.201 is 1.941(60.6%) logic and 1.260(39.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        2.758
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.477
+
+    - Propagation time:                      2.920
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.442
+
+    Number of logic level(s):                10
+    Starting point:                          Read_Address.lbl1\.0\.T_Flip_Flop.data_fast / Q
+    Ending point:                            orcount[8] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+Read_Address.lbl1\.0\.T_Flip_Flop.data_fast   FDE         Q        Out     0.350     0.350       -         
+data_fast                                     Net         -        -       0.650     -           2         
+count_axb_0                                   LUT2        I0       In      -         1.000       -         
+count_axb_0                                   LUT2        O        Out     0.195     1.195       -         
+count_axb_0                                   Net         -        -       0.000     -           3         
+count_cry_0                                   MUXCY_L     S        In      -         1.195       -         
+count_cry_0                                   MUXCY_L     LO       Out     0.352     1.547       -         
+count_cry_0                                   Net         -        -       0.000     -           2         
+count_cry_1                                   MUXCY_L     CI       In      -         1.547       -         
+count_cry_1                                   MUXCY_L     LO       Out     0.044     1.591       -         
+count_cry_1                                   Net         -        -       0.000     -           2         
+count_cry_2                                   MUXCY_L     CI       In      -         1.591       -         
+count_cry_2                                   MUXCY_L     LO       Out     0.044     1.636       -         
+count_cry_2                                   Net         -        -       0.000     -           2         
+count_cry_3                                   MUXCY_L     CI       In      -         1.636       -         
+count_cry_3                                   MUXCY_L     LO       Out     0.044     1.680       -         
+count_cry_3                                   Net         -        -       0.000     -           2         
+count_cry_4                                   MUXCY_L     CI       In      -         1.680       -         
+count_cry_4                                   MUXCY_L     LO       Out     0.044     1.725       -         
+count_cry_4                                   Net         -        -       0.000     -           2         
+count_cry_5                                   MUXCY_L     CI       In      -         1.725       -         
+count_cry_5                                   MUXCY_L     LO       Out     0.044     1.769       -         
+count_cry_5                                   Net         -        -       0.000     -           2         
+count_cry_6                                   MUXCY_L     CI       In      -         1.769       -         
+count_cry_6                                   MUXCY_L     LO       Out     0.044     1.814       -         
+count_cry_6                                   Net         -        -       0.000     -           2         
+count_cry_7                                   MUXCY_L     CI       In      -         1.814       -         
+count_cry_7                                   MUXCY_L     LO       Out     0.044     1.858       -         
+count_cry_7                                   Net         -        -       0.000     -           2         
+count_s_8                                     XORCY       CI       In      -         1.858       -         
+count_s_8                                     XORCY       O        Out     0.452     2.310       -         
+count[8]                                      Net         -        -       0.610     -           2         
+orcount[8]                                    FD          D        In      -         2.920       -         
+===========================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.201 is 1.941(60.6%) logic and 1.260(39.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        2.758
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.477
+
+    - Propagation time:                      2.875
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.398
+
+    Number of logic level(s):                9
+    Starting point:                          Read_Address.lbl1\.2\.T_Flip_Flop.data_fast / Q
+    Ending point:                            orcount[9] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+Read_Address.lbl1\.2\.T_Flip_Flop.data_fast   FDE         Q        Out     0.350     0.350       -         
+data_fast                                     Net         -        -       0.650     -           2         
+count_axb_2                                   LUT2        I0       In      -         1.000       -         
+count_axb_2                                   LUT2        O        Out     0.195     1.195       -         
+count_axb_2                                   Net         -        -       0.000     -           2         
+count_cry_2                                   MUXCY_L     S        In      -         1.195       -         
+count_cry_2                                   MUXCY_L     LO       Out     0.352     1.547       -         
+count_cry_2                                   Net         -        -       0.000     -           2         
+count_cry_3                                   MUXCY_L     CI       In      -         1.547       -         
+count_cry_3                                   MUXCY_L     LO       Out     0.044     1.591       -         
+count_cry_3                                   Net         -        -       0.000     -           2         
+count_cry_4                                   MUXCY_L     CI       In      -         1.591       -         
+count_cry_4                                   MUXCY_L     LO       Out     0.044     1.636       -         
+count_cry_4                                   Net         -        -       0.000     -           2         
+count_cry_5                                   MUXCY_L     CI       In      -         1.636       -         
+count_cry_5                                   MUXCY_L     LO       Out     0.044     1.680       -         
+count_cry_5                                   Net         -        -       0.000     -           2         
+count_cry_6                                   MUXCY_L     CI       In      -         1.680       -         
+count_cry_6                                   MUXCY_L     LO       Out     0.044     1.725       -         
+count_cry_6                                   Net         -        -       0.000     -           2         
+count_cry_7                                   MUXCY_L     CI       In      -         1.725       -         
+count_cry_7                                   MUXCY_L     LO       Out     0.044     1.769       -         
+count_cry_7                                   Net         -        -       0.000     -           2         
+count_cry_8                                   MUXCY_L     CI       In      -         1.769       -         
+count_cry_8                                   MUXCY_L     LO       Out     0.044     1.814       -         
+count_cry_8                                   Net         -        -       0.000     -           1         
+count_s_9                                     XORCY       CI       In      -         1.814       -         
+count_s_9                                     XORCY       O        Out     0.452     2.265       -         
+count[9]                                      Net         -        -       0.610     -           2         
+orcount[9]                                    FD          D        In      -         2.875       -         
+===========================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.156 is 1.896(60.1%) logic and 1.260(39.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        2.758
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.477
+
+    - Propagation time:                      2.875
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.398
+
+    Number of logic level(s):                9
+    Starting point:                          Read_Address.lbl1\.0\.T_Flip_Flop.data_fast / Q
+    Ending point:                            orcount[7] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|irclk [rising] on pin C
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+Read_Address.lbl1\.0\.T_Flip_Flop.data_fast   FDE         Q        Out     0.350     0.350       -         
+data_fast                                     Net         -        -       0.650     -           2         
+count_axb_0                                   LUT2        I0       In      -         1.000       -         
+count_axb_0                                   LUT2        O        Out     0.195     1.195       -         
+count_axb_0                                   Net         -        -       0.000     -           3         
+count_cry_0                                   MUXCY_L     S        In      -         1.195       -         
+count_cry_0                                   MUXCY_L     LO       Out     0.352     1.547       -         
+count_cry_0                                   Net         -        -       0.000     -           2         
+count_cry_1                                   MUXCY_L     CI       In      -         1.547       -         
+count_cry_1                                   MUXCY_L     LO       Out     0.044     1.591       -         
+count_cry_1                                   Net         -        -       0.000     -           2         
+count_cry_2                                   MUXCY_L     CI       In      -         1.591       -         
+count_cry_2                                   MUXCY_L     LO       Out     0.044     1.636       -         
+count_cry_2                                   Net         -        -       0.000     -           2         
+count_cry_3                                   MUXCY_L     CI       In      -         1.636       -         
+count_cry_3                                   MUXCY_L     LO       Out     0.044     1.680       -         
+count_cry_3                                   Net         -        -       0.000     -           2         
+count_cry_4                                   MUXCY_L     CI       In      -         1.680       -         
+count_cry_4                                   MUXCY_L     LO       Out     0.044     1.725       -         
+count_cry_4                                   Net         -        -       0.000     -           2         
+count_cry_5                                   MUXCY_L     CI       In      -         1.725       -         
+count_cry_5                                   MUXCY_L     LO       Out     0.044     1.769       -         
+count_cry_5                                   Net         -        -       0.000     -           2         
+count_cry_6                                   MUXCY_L     CI       In      -         1.769       -         
+count_cry_6                                   MUXCY_L     LO       Out     0.044     1.814       -         
+count_cry_6                                   Net         -        -       0.000     -           2         
+count_s_7                                     XORCY       CI       In      -         1.814       -         
+count_s_7                                     XORCY       O        Out     0.452     2.265       -         
+count[7]                                      Net         -        -       0.610     -           2         
+orcount[7]                                    FD          D        In      -         2.875       -         
+===========================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.156 is 1.896(60.1%) logic and 1.260(39.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+
+====================================
+<a name=clockReport129>Detailed Report for Clock: FIFO_1024x8bit_Ent|iwclk</a>
+====================================
+
+
+
+<a name=startingSlack130>Starting Points with Worst Slack</a>
+********************************
+
+                                               Starting                                                      Arrival           
+Instance                                       Reference                    Type     Pin     Net             Time        Slack 
+                                               Clock                                                                           
+-------------------------------------------------------------------------------------------------------------------------------
+Write_Address.lbl1\.0\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|iwclk     FDE      Q       data_fast       0.350       -0.510
+Write_Address.lbl1\.1\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|iwclk     FD       Q       data_fast       0.350       -0.466
+Write_Address.lbl1\.2\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|iwclk     FD       Q       data_fast       0.350       -0.421
+Write_Address.lbl1\.3\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|iwclk     FD       Q       data_fast       0.350       -0.377
+Write_Address.lbl1\.4\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|iwclk     FD       Q       data_fast       0.350       -0.332
+Write_Address.lbl1\.5\.T_Flip_Flop.data_fast   FIFO_1024x8bit_Ent|iwclk     FD       Q       data_fast       0.350       -0.288
+Write_Address.lbl1\.6\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[6]     0.350       -0.278
+Write_Address.lbl1\.7\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[7]     0.350       -0.233
+Write_Address.lbl1\.8\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[8]     0.350       -0.189
+Write_Address.lbl1\.9\.T_Flip_Flop.data        FIFO_1024x8bit_Ent|iwclk     FD       Q       writeadr[9]     0.350       0.409 
+===============================================================================================================================
+
+
+<a name=endingSlack131>Ending Points with Worst Slack</a>
+******************************
+
+               Starting                                                        Required           
+Instance       Reference                    Type     Pin     Net               Time         Slack 
+               Clock                                                                              
+--------------------------------------------------------------------------------------------------
+owcount[9]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[9]          2.610        -0.510
+owcount[8]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[8]          2.610        -0.466
+owcount[7]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[7]          2.610        -0.421
+owcount[6]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[6]          2.610        -0.377
+owcount[5]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[5]          2.610        -0.332
+owcount[4]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[4]          2.610        -0.288
+owcount[3]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[3]          2.610        -0.243
+owcount[2]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[2]          2.610        -0.199
+owcount[1]     FIFO_1024x8bit_Ent|iwclk     FD       D       count[1]          2.610        -0.154
+owcount[0]     FIFO_1024x8bit_Ent|iwclk     FD       D       count_axb_0_i     2.610        0.758 
+==================================================================================================
+
+
+
+<a name=worstPaths132>Worst Path Information</a>
+<a href="C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\rev_1\Counter_11bit_MD.srr:fp:48728:52358:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        2.891
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.610
+
+    - Propagation time:                      3.120
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.510
+
+    Number of logic level(s):                10
+    Starting point:                          Write_Address.lbl1\.0\.T_Flip_Flop.data_fast / Q
+    Ending point:                            owcount[9] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                           Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Write_Address.lbl1\.0\.T_Flip_Flop.data_fast   FDE         Q        Out     0.350     0.350       -         
+data_fast                                      Net         -        -       0.662     -           3         
+count_cry_0                                    MUXCY_L     DI       In      -         1.012       -         
+count_cry_0                                    MUXCY_L     LO       Out     0.690     1.702       -         
+count_cry_0                                    Net         -        -       0.000     -           2         
+count_cry_1                                    MUXCY_L     CI       In      -         1.702       -         
+count_cry_1                                    MUXCY_L     LO       Out     0.044     1.747       -         
+count_cry_1                                    Net         -        -       0.000     -           2         
+count_cry_2                                    MUXCY_L     CI       In      -         1.747       -         
+count_cry_2                                    MUXCY_L     LO       Out     0.044     1.791       -         
+count_cry_2                                    Net         -        -       0.000     -           2         
+count_cry_3                                    MUXCY_L     CI       In      -         1.791       -         
+count_cry_3                                    MUXCY_L     LO       Out     0.044     1.836       -         
+count_cry_3                                    Net         -        -       0.000     -           2         
+count_cry_4                                    MUXCY_L     CI       In      -         1.836       -         
+count_cry_4                                    MUXCY_L     LO       Out     0.044     1.880       -         
+count_cry_4                                    Net         -        -       0.000     -           2         
+count_cry_5                                    MUXCY_L     CI       In      -         1.880       -         
+count_cry_5                                    MUXCY_L     LO       Out     0.044     1.925       -         
+count_cry_5                                    Net         -        -       0.000     -           2         
+count_cry_6                                    MUXCY_L     CI       In      -         1.925       -         
+count_cry_6                                    MUXCY_L     LO       Out     0.044     1.969       -         
+count_cry_6                                    Net         -        -       0.000     -           2         
+count_cry_7                                    MUXCY_L     CI       In      -         1.969       -         
+count_cry_7                                    MUXCY_L     LO       Out     0.044     2.014       -         
+count_cry_7                                    Net         -        -       0.000     -           2         
+count_cry_8                                    MUXCY_L     CI       In      -         2.014       -         
+count_cry_8                                    MUXCY_L     LO       Out     0.044     2.058       -         
+count_cry_8                                    Net         -        -       0.000     -           1         
+count_s_9                                      XORCY       CI       In      -         2.058       -         
+count_s_9                                      XORCY       O        Out     0.452     2.510       -         
+count[9]                                       Net         -        -       0.610     -           2         
+owcount[9]                                     FD          D        In      -         3.120       -         
+============================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.401 is 2.129(62.6%) logic and 1.272(37.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        2.891
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.610
+
+    - Propagation time:                      3.075
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.466
+
+    Number of logic level(s):                9
+    Starting point:                          Write_Address.lbl1\.1\.T_Flip_Flop.data_fast / Q
+    Ending point:                            owcount[9] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                           Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Write_Address.lbl1\.1\.T_Flip_Flop.data_fast   FD          Q        Out     0.350     0.350       -         
+data_fast                                      Net         -        -       0.662     -           3         
+count_cry_1                                    MUXCY_L     DI       In      -         1.012       -         
+count_cry_1                                    MUXCY_L     LO       Out     0.690     1.702       -         
+count_cry_1                                    Net         -        -       0.000     -           2         
+count_cry_2                                    MUXCY_L     CI       In      -         1.702       -         
+count_cry_2                                    MUXCY_L     LO       Out     0.044     1.747       -         
+count_cry_2                                    Net         -        -       0.000     -           2         
+count_cry_3                                    MUXCY_L     CI       In      -         1.747       -         
+count_cry_3                                    MUXCY_L     LO       Out     0.044     1.791       -         
+count_cry_3                                    Net         -        -       0.000     -           2         
+count_cry_4                                    MUXCY_L     CI       In      -         1.791       -         
+count_cry_4                                    MUXCY_L     LO       Out     0.044     1.836       -         
+count_cry_4                                    Net         -        -       0.000     -           2         
+count_cry_5                                    MUXCY_L     CI       In      -         1.836       -         
+count_cry_5                                    MUXCY_L     LO       Out     0.044     1.880       -         
+count_cry_5                                    Net         -        -       0.000     -           2         
+count_cry_6                                    MUXCY_L     CI       In      -         1.880       -         
+count_cry_6                                    MUXCY_L     LO       Out     0.044     1.925       -         
+count_cry_6                                    Net         -        -       0.000     -           2         
+count_cry_7                                    MUXCY_L     CI       In      -         1.925       -         
+count_cry_7                                    MUXCY_L     LO       Out     0.044     1.969       -         
+count_cry_7                                    Net         -        -       0.000     -           2         
+count_cry_8                                    MUXCY_L     CI       In      -         1.969       -         
+count_cry_8                                    MUXCY_L     LO       Out     0.044     2.014       -         
+count_cry_8                                    Net         -        -       0.000     -           1         
+count_s_9                                      XORCY       CI       In      -         2.014       -         
+count_s_9                                      XORCY       O        Out     0.452     2.466       -         
+count[9]                                       Net         -        -       0.610     -           2         
+owcount[9]                                     FD          D        In      -         3.075       -         
+============================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.356 is 2.084(62.1%) logic and 1.272(37.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        2.891
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.610
+
+    - Propagation time:                      3.075
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.466
+
+    Number of logic level(s):                9
+    Starting point:                          Write_Address.lbl1\.0\.T_Flip_Flop.data_fast / Q
+    Ending point:                            owcount[8] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                           Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Write_Address.lbl1\.0\.T_Flip_Flop.data_fast   FDE         Q        Out     0.350     0.350       -         
+data_fast                                      Net         -        -       0.662     -           3         
+count_cry_0                                    MUXCY_L     DI       In      -         1.012       -         
+count_cry_0                                    MUXCY_L     LO       Out     0.690     1.702       -         
+count_cry_0                                    Net         -        -       0.000     -           2         
+count_cry_1                                    MUXCY_L     CI       In      -         1.702       -         
+count_cry_1                                    MUXCY_L     LO       Out     0.044     1.747       -         
+count_cry_1                                    Net         -        -       0.000     -           2         
+count_cry_2                                    MUXCY_L     CI       In      -         1.747       -         
+count_cry_2                                    MUXCY_L     LO       Out     0.044     1.791       -         
+count_cry_2                                    Net         -        -       0.000     -           2         
+count_cry_3                                    MUXCY_L     CI       In      -         1.791       -         
+count_cry_3                                    MUXCY_L     LO       Out     0.044     1.836       -         
+count_cry_3                                    Net         -        -       0.000     -           2         
+count_cry_4                                    MUXCY_L     CI       In      -         1.836       -         
+count_cry_4                                    MUXCY_L     LO       Out     0.044     1.880       -         
+count_cry_4                                    Net         -        -       0.000     -           2         
+count_cry_5                                    MUXCY_L     CI       In      -         1.880       -         
+count_cry_5                                    MUXCY_L     LO       Out     0.044     1.925       -         
+count_cry_5                                    Net         -        -       0.000     -           2         
+count_cry_6                                    MUXCY_L     CI       In      -         1.925       -         
+count_cry_6                                    MUXCY_L     LO       Out     0.044     1.969       -         
+count_cry_6                                    Net         -        -       0.000     -           2         
+count_cry_7                                    MUXCY_L     CI       In      -         1.969       -         
+count_cry_7                                    MUXCY_L     LO       Out     0.044     2.014       -         
+count_cry_7                                    Net         -        -       0.000     -           2         
+count_s_8                                      XORCY       CI       In      -         2.014       -         
+count_s_8                                      XORCY       O        Out     0.452     2.466       -         
+count[8]                                       Net         -        -       0.610     -           2         
+owcount[8]                                     FD          D        In      -         3.075       -         
+============================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.356 is 2.084(62.1%) logic and 1.272(37.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        2.891
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.610
+
+    - Propagation time:                      3.031
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.421
+
+    Number of logic level(s):                8
+    Starting point:                          Write_Address.lbl1\.2\.T_Flip_Flop.data_fast / Q
+    Ending point:                            owcount[9] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                           Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Write_Address.lbl1\.2\.T_Flip_Flop.data_fast   FD          Q        Out     0.350     0.350       -         
+data_fast                                      Net         -        -       0.662     -           3         
+count_cry_2                                    MUXCY_L     DI       In      -         1.012       -         
+count_cry_2                                    MUXCY_L     LO       Out     0.690     1.702       -         
+count_cry_2                                    Net         -        -       0.000     -           2         
+count_cry_3                                    MUXCY_L     CI       In      -         1.702       -         
+count_cry_3                                    MUXCY_L     LO       Out     0.044     1.747       -         
+count_cry_3                                    Net         -        -       0.000     -           2         
+count_cry_4                                    MUXCY_L     CI       In      -         1.747       -         
+count_cry_4                                    MUXCY_L     LO       Out     0.044     1.791       -         
+count_cry_4                                    Net         -        -       0.000     -           2         
+count_cry_5                                    MUXCY_L     CI       In      -         1.791       -         
+count_cry_5                                    MUXCY_L     LO       Out     0.044     1.836       -         
+count_cry_5                                    Net         -        -       0.000     -           2         
+count_cry_6                                    MUXCY_L     CI       In      -         1.836       -         
+count_cry_6                                    MUXCY_L     LO       Out     0.044     1.880       -         
+count_cry_6                                    Net         -        -       0.000     -           2         
+count_cry_7                                    MUXCY_L     CI       In      -         1.880       -         
+count_cry_7                                    MUXCY_L     LO       Out     0.044     1.925       -         
+count_cry_7                                    Net         -        -       0.000     -           2         
+count_cry_8                                    MUXCY_L     CI       In      -         1.925       -         
+count_cry_8                                    MUXCY_L     LO       Out     0.044     1.969       -         
+count_cry_8                                    Net         -        -       0.000     -           1         
+count_s_9                                      XORCY       CI       In      -         1.969       -         
+count_s_9                                      XORCY       O        Out     0.452     2.421       -         
+count[9]                                       Net         -        -       0.610     -           2         
+owcount[9]                                     FD          D        In      -         3.031       -         
+============================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.312 is 2.040(61.6%) logic and 1.272(38.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        2.891
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.610
+
+    - Propagation time:                      3.031
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.421
+
+    Number of logic level(s):                8
+    Starting point:                          Write_Address.lbl1\.0\.T_Flip_Flop.data_fast / Q
+    Ending point:                            owcount[7] / D
+    The start point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+    The end   point is clocked by            FIFO_1024x8bit_Ent|iwclk [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                           Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Write_Address.lbl1\.0\.T_Flip_Flop.data_fast   FDE         Q        Out     0.350     0.350       -         
+data_fast                                      Net         -        -       0.662     -           3         
+count_cry_0                                    MUXCY_L     DI       In      -         1.012       -         
+count_cry_0                                    MUXCY_L     LO       Out     0.690     1.702       -         
+count_cry_0                                    Net         -        -       0.000     -           2         
+count_cry_1                                    MUXCY_L     CI       In      -         1.702       -         
+count_cry_1                                    MUXCY_L     LO       Out     0.044     1.747       -         
+count_cry_1                                    Net         -        -       0.000     -           2         
+count_cry_2                                    MUXCY_L     CI       In      -         1.747       -         
+count_cry_2                                    MUXCY_L     LO       Out     0.044     1.791       -         
+count_cry_2                                    Net         -        -       0.000     -           2         
+count_cry_3                                    MUXCY_L     CI       In      -         1.791       -         
+count_cry_3                                    MUXCY_L     LO       Out     0.044     1.836       -         
+count_cry_3                                    Net         -        -       0.000     -           2         
+count_cry_4                                    MUXCY_L     CI       In      -         1.836       -         
+count_cry_4                                    MUXCY_L     LO       Out     0.044     1.880       -         
+count_cry_4                                    Net         -        -       0.000     -           2         
+count_cry_5                                    MUXCY_L     CI       In      -         1.880       -         
+count_cry_5                                    MUXCY_L     LO       Out     0.044     1.925       -         
+count_cry_5                                    Net         -        -       0.000     -           2         
+count_cry_6                                    MUXCY_L     CI       In      -         1.925       -         
+count_cry_6                                    MUXCY_L     LO       Out     0.044     1.969       -         
+count_cry_6                                    Net         -        -       0.000     -           2         
+count_s_7                                      XORCY       CI       In      -         1.969       -         
+count_s_7                                      XORCY       O        Out     0.452     2.421       -         
+count[7]                                       Net         -        -       0.610     -           2         
+owcount[7]                                     FD          D        In      -         3.031       -         
+============================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.312 is 2.040(61.6%) logic and 1.272(38.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+<a name=resourceUsage133>Resource Usage Report for FIFO_1024x8bit_Ent </a>
+
+Mapping to part: xc4vlx15sf363-10
+Cell usage:
+FD              35 uses
+FDE             17 uses
+GND             1 use
+MUXCY_L         9 uses
+RAMB16          1 use
+VCC             1 use
+XORCY           9 uses
+LUT1            26 uses
+LUT2            14 uses
+LUT3            14 uses
+LUT4            21 uses
+
+I/O ports: 45
+I/O primitives: 43
+IBUF           11 uses
+OBUF           32 uses
+
+BUFGP          2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   52 (0%)
+
+RAM/ROM usage summary
+Block Rams : 1 of 48 (2%)
+
+
+Global Clock Buffers: 2 of 32 (6%)
+
+Total load per clock:
+   FIFO_1024x8bit_Ent|iwclk: 28
+   FIFO_1024x8bit_Ent|irclk: 26
+
+Mapping Summary:
+Total  LUTs: 75 (0%)
+
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sat Nov 07 14:46:36 2009
+
+###########################################################]

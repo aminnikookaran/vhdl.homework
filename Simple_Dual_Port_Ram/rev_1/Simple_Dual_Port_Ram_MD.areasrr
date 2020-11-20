@@ -1,0 +1,22 @@
+----------------------------------------------------------------------
+Report for cell Simple_Dual_Port_Ram_1024x8bit_Ent.simple_dual_port_ram_1024x8bit_arch
+                                          Cell usage:
+                               cell       count     area    count*area
+                                BFR         1       1.0        1.0
+                                DFF        28       1.0       28.0
+                               GL33         2       0.0        0.0
+                                GND         1       0.0        0.0
+                               IB33        30       0.0        0.0
+                              MUX2H        64       1.0       64.0
+                              NAND3         1       1.0        1.0
+                               NOR2         4       1.0        4.0
+                             OB33PH         8       0.0        0.0
+                                OR2         3       1.0        3.0
+                                OR3         2       1.0        2.0
+                             OR3FFT         2       1.0        2.0
+                             OR3FTT         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                         RAM256x9SA         4       0.0        0.0
+                               XOR2         8       1.0        8.0
+                            
+                         TOTAL            160                114.0

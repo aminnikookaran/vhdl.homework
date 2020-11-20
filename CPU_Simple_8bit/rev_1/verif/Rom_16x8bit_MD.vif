@@ -1,0 +1,63 @@
+#
+# Synplicity Verification Interface File
+# Generated using Synplify-pro
+#
+# Copyright (c) 1996-2008 Synplicity, Inc.
+# All rights reserved
+#
+
+# Set logfile options
+vif_set_result_file  CPU_Simple_8bit_CR_Ent.vlf
+
+# Set technology for TCL script
+vif_set_technology -architecture FPGA -vendor Xilinx
+
+# RTL and technology files
+vif_add_file -original -vhdl -lib work C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_CR.vhd
+vif_set_top_module -original -top CPU_Simple_8bit_CR_Ent
+ 
+vif_add_library -translated $XILINX/verilog/verification/unisims
+vif_add_library -translated $XILINX/verilog/verification/simprims
+vif_add_file -translated -verilog CPU_Simple_8bit_CR_Ent.vm
+vif_set_top_module -translated -top CPU_Simple_8bit_CR_Ent 
+# Read FSM encoding
+vif_set_fsm -fsm fsm_0
+vif_set_fsmreg -original -fsm fsm_0 state[1:0]
+vif_set_fsmreg -translated -fsm  fsm_0 state[1:0]
+vif_set_state_map -fsm fsm_0 -original "00" -translated "00"
+vif_set_state_map -fsm fsm_0 -original "01" -translated "01"
+vif_set_state_map -fsm fsm_0 -original "10" -translated "10"
+vif_set_state_map -fsm fsm_0 -original "11" -translated "11"
+
+# Memory map points
+
+# SRL map points
+
+# Compiler constant registers
+
+# Compiler constant latches
+
+# Compiler RTL sequential redundancies
+
+# RTL sequential redundancies
+
+# Technology sequential redundancies
+vif_set_equiv -translated state_Z[1] state_fast_Z[1]
+vif_set_equiv -translated state_Z[0] state_fast_Z[0]
+vif_set_equiv -translated state_Z[0] state_0_rep1_Z
+
+# Inversion map points
+
+# Port mappping and directions
+
+# Black box mapping
+
+
+# Other sequential cells, including multidimensional arrays
+vif_set_map_point -register -original osele[1] -translated osele_1_Z[1]
+vif_set_map_point -register -original osele[0] -translated osele_1_Z[0]
+
+# Constant Registers
+
+# Retimed Registers
+

@@ -1,0 +1,74 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\Arithmetic_Encoder.prj
+#-- Written on Wed Dec 30 23:12:42 2009
+
+
+#add_file options
+add_file -vhdl -lib work "./Arithmetic_Encoder_CR.vhd"
+add_file -vhdl -lib work "./ROM_256x16bit_MD.vhd"
+add_file -vhdl -lib work "./Arithmetic_Encoder_TL.vhd"
+add_file -vhdl -lib work "./Register_8bit_MD.vhd"
+add_file -vhdl -lib work "./ROM_256x8bit_MD.vhd"
+add_file -vhdl -lib work "./Arithmetic_Encoder_DP.vhd"
+
+
+#implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+#device options
+set_option -technology VIRTEX4
+set_option -part XC4VLX15
+set_option -package SF363
+set_option -speed_grade -10
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -default_enum_encoding default
+set_option -resource_sharing 1
+set_option -use_fsm_explorer 0
+set_option -top_module "Arithmetic_Encoder_TL_Ent"
+
+#map options
+set_option -frequency auto
+set_option -vendor_xcompatible_mode 0
+set_option -vendor_xcompatible_mode 0
+set_option -run_prop_extract 1
+set_option -fanout_limit 10000
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -update_models_cp 0
+set_option -verification_mode 0
+set_option -retiming 0
+set_option -no_sequential_opt 0
+set_option -fixgatedclocks 3
+set_option -fixgeneratedclocks 3
+
+
+#sequential_optimizations options
+set_option -symbolic_fsm_compiler 1
+
+#simulation options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+#VIF options
+set_option -write_vif 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./rev_1/Arithmetic_Encoder.edf"
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -synthesis_onoff_pragma 0
+set_option -project_relative_includes 1
+
+#par_1 attributes
+set_option -job par_1 -add par
+set_option -job par_1 -option run_backannotation 0
+impl -active "rev_1"

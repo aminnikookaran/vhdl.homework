@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit
+T_opt
+Z1 VG=zzOJ@E]0VYB8dAFTB:00
+Z2 04 16 21 work tb_ram_1024x8bit tb_ram_1024x8bit_arch 1
+Z3 =1-00214fb9216b-4aec335c-16c-a48
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 VgL@=l<cUMiV]Qe3ibGRYX2
+R2
+Z8 =1-00214fb9216b-4af3f988-26-124c
+Z9 o-quiet -auto_acc_if_foreign -work work +acc
+Z10 n@_opt1
+R6
+Eram_1024x8bit_ent
+Z11 w1257503090
+Z12 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z13 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z14 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z15 dC:\Program Files\modeltech_6.5\examples\Tamrin\Ram_1024x8bit
+Z16 8C:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_MD.vhd
+Z17 FC:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_MD.vhd
+l0
+L5
+Z18 VRLfbEG>lR0OXBB4EkVhoA0
+Z19 OE;C;6.5;42
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1
+Z22 !s100 GMH=2zMe?a8fOL<X1GRh60
+Aram_1024x8bit_arch
+R12
+R13
+R14
+Z23 DEx65 C:\Program Files\modeltech_6.5\examples\Tamrin\Ram_1024x8bit\work 17 ram_1024x8bit_ent 0 22 RLfbEG>lR0OXBB4EkVhoA0
+32
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx2 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+l20
+L17
+Z24 VDHe`;Kzm3gBbZ;XBMzbL]0
+R19
+R20
+R21
+Z25 !s100 <4_C78OYKe@Q_4b4MQb@40
+Etb_ram_1024x8bit
+Z26 w1257503089
+Z27 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R12
+R13
+R14
+32
+R15
+Z28 8C:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_tb.vhd
+Z29 FC:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_tb.vhd
+l0
+L6
+Z30 V39N=i9j5A3E6FNln6E7<83
+R19
+R20
+R21
+Z31 !s100 KCF5Icf[e8aG3VU]e>gGj0
+Atb_ram_1024x8bit_arch
+R23
+R27
+R12
+R13
+R14
+DEx65 C:\Program Files\modeltech_6.5\examples\Tamrin\Ram_1024x8bit\work 16 tb_ram_1024x8bit 0 22 39N=i9j5A3E6FNln6E7<83
+32
+Mx4 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx2 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l31
+L9
+Z32 V`?767G4LNACzn?bb^nHj91
+R19
+R20
+R21
+Z33 !s100 F>Y`C[ZWRooC41F5EC0lR2

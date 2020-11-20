@@ -1,0 +1,212 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Mon Nov 09 14:43:19 2009
+
+$ Start of Compile
+#Mon Nov 09 14:43:19 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_16bit_MD.vhd":5:7:5:26|Top entity is set to Multiplier_16bit_Ent.
+VHDL syntax check successful!
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_16bit_MD.vhd":5:7:5:26|Synthesizing work.multiplier_16bit_ent.multiplier_16bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_8bit.vhd":5:7:5:37|Synthesizing work.carry_look_ahead_adder_8bit_ent.carry_look_ahead_adder_8bit_arch 
+@W: CD639 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_8bit.vhd":21:9:21:11|Bit <7> of signal pg1 is undriven 
+Post processing for work.carry_look_ahead_adder_8bit_ent.carry_look_ahead_adder_8bit_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_8bit_MD.vhd":5:7:5:25|Synthesizing work.multiplier_8bit_ent.multiplier_8bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":5:7:5:37|Synthesizing work.carry_look_ahead_adder_4bit_ent.carry_look_ahead_adder_4bit_arch 
+@W: CD639 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":18:9:18:9|Bit <4> of signal c is undriven 
+@W: CD639 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":18:9:18:9|Bit <5> of signal c is undriven 
+@W: CD639 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":18:9:18:9|Bit <6> of signal c is undriven 
+@W: CD639 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":18:9:18:9|Bit <7> of signal c is undriven 
+@W: CD639 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":18:9:18:9|Bit <8> of signal c is undriven 
+@W: CD639 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":18:9:18:9|Bit <9> of signal c is undriven 
+@W: CD639 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":21:9:21:11|Bit <3> of signal pg1 is undriven 
+Post processing for work.carry_look_ahead_adder_4bit_ent.carry_look_ahead_adder_4bit_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_4bit_MD.vhd":5:7:5:25|Synthesizing work.multiplier_4bit_ent.multiplier_4bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Full_Adder_MD.vhd":5:7:5:20|Synthesizing work.full_adder_ent.full_adder_arch 
+Post processing for work.full_adder_ent.full_adder_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Half_Adder_MD.vhd":5:7:5:20|Synthesizing work.half_adder_ent.half_adder_arch 
+Post processing for work.half_adder_ent.half_adder_arch
+Post processing for work.multiplier_4bit_ent.multiplier_4bit_arch
+Post processing for work.multiplier_8bit_ent.multiplier_8bit_arch
+Post processing for work.multiplier_16bit_ent.multiplier_16bit_arch
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 09 14:43:20 2009
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Full_Adder11(Full_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Full_Adder10(Full_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Full_Adder9(Full_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Half_Adder8(Half_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Full_Adder7(Full_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Full_Adder6(Full_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Half_Adder5(Half_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Full_Adder4(Full_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Full_Adder3(Full_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Half_Adder2(Half_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Full_Adder1(Full_Adder_Ent)
+Automatic dissolve during optimization of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) of Half_Adder0(Half_Adder_Ent)
+@N: MT206 |Autoconstrain Mode is ON
+@N|Only System clock will be Autoconstrained
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 96MB)
+
+Dissolving instances of view:work.Multiplier_4bit_Ent(multiplier_4bit_arch) before factorization cost=152, pathcnt=16
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit0_Carry_Look_Ahead_Adder_4bit0(carry_look_ahead_adder_4bit_arch) before factorization cost=43, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit1_Carry_Look_Ahead_Adder_4bit1(carry_look_ahead_adder_4bit_arch) before factorization cost=43, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent(carry_look_ahead_adder_4bit_arch) before factorization cost=62, pathcnt=8
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit4_Carry_Look_Ahead_Adder_4bit4(carry_look_ahead_adder_4bit_arch) before factorization cost=38, pathcnt=1
+Dissolving instances of view:work.Multiplier_8bit_Ent_Multiplier_8bit0(multiplier_8bit_arch) before factorization cost=856, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit0_Carry_Look_Ahead_Adder_4bit0_1(carry_look_ahead_adder_4bit_arch) before factorization cost=43, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit1_Carry_Look_Ahead_Adder_4bit1_1(carry_look_ahead_adder_4bit_arch) before factorization cost=43, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit4_Carry_Look_Ahead_Adder_4bit4_1(carry_look_ahead_adder_4bit_arch) before factorization cost=38, pathcnt=1
+Dissolving instances of view:work.Multiplier_8bit_Ent_Multiplier_8bit1(multiplier_8bit_arch) before factorization cost=856, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit0_Carry_Look_Ahead_Adder_4bit0_2(carry_look_ahead_adder_4bit_arch) before factorization cost=43, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit1_Carry_Look_Ahead_Adder_4bit1_2(carry_look_ahead_adder_4bit_arch) before factorization cost=43, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit4_Carry_Look_Ahead_Adder_4bit4_2(carry_look_ahead_adder_4bit_arch) before factorization cost=38, pathcnt=1
+Dissolving instances of view:work.Multiplier_8bit_Ent_Multiplier_8bit2(multiplier_8bit_arch) before factorization cost=856, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit0_Carry_Look_Ahead_Adder_4bit0_3(carry_look_ahead_adder_4bit_arch) before factorization cost=43, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit1_Carry_Look_Ahead_Adder_4bit1_3(carry_look_ahead_adder_4bit_arch) before factorization cost=43, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_4bit_Ent_Carry_Look_Ahead_Adder_4bit4_Carry_Look_Ahead_Adder_4bit4_3(carry_look_ahead_adder_4bit_arch) before factorization cost=38, pathcnt=1
+Dissolving instances of view:work.Multiplier_8bit_Ent_Multiplier_8bit3(multiplier_8bit_arch) before factorization cost=856, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_8bit_Ent_Carry_Look_Ahead_Adder_8bit0(carry_look_ahead_adder_8bit_arch) before factorization cost=143, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_8bit_Ent_Carry_Look_Ahead_Adder_8bit1(carry_look_ahead_adder_8bit_arch) before factorization cost=143, pathcnt=1
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_8bit_Ent(carry_look_ahead_adder_8bit_arch) before factorization cost=176, pathcnt=2
+Dissolving instances of view:work.Carry_Look_Ahead_Adder_8bit_Ent_Carry_Look_Ahead_Adder_8bit4(carry_look_ahead_adder_8bit_arch) before factorization cost=74, pathcnt=1
+Finished factoring (Time elapsed 0h:00m:05s; Memory used current: 123MB peak: 124MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:05s; Memory used current: 119MB peak: 124MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:06s; Memory used current: 120MB peak: 124MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:06s; Memory used current: 120MB peak: 124MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:06s; Memory used current: 120MB peak: 124MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:07s; Memory used current: 120MB peak: 124MB)
+
+Finished preparing to map (Time elapsed 0h:00m:07s; Memory used current: 120MB peak: 124MB)
+
+Finished technology mapping (Time elapsed 0h:00m:10s; Memory used current: 142MB peak: 144MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Net buffering Report for view:work.Multiplier_16bit_Ent(multiplier_16bit_arch):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:10s; Memory used current: 142MB peak: 144MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:10s; Memory used current: 143MB peak: 144MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\rev_1\Multiplier_8bit_MD.srm
+@N: BN225 |Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\rev_1\Multiplier_8bit_MD.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:10s; Memory used current: 142MB peak: 144MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:11s; Memory used current: 142MB peak: 144MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:11s; Memory used current: 141MB peak: 144MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:11s; Memory used current: 141MB peak: 144MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:11s; Memory used current: 141MB peak: 144MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:11s; Memory used current: 141MB peak: 144MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Nov 09 14:43:35 2009
+#
+
+
+Top view:               Multiplier_16bit_Ent
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for Multiplier_16bit_Ent 
+
+Mapping to part: xc4vlx15sf363-10
+LUT2            236 uses
+LUT3            243 uses
+LUT4            445 uses
+I/O ports: 64
+I/O primitives: 64
+IBUF           32 uses
+OBUF           32 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+Total load per clock:
+
+Mapping Summary:
+Total  LUTs: 924 (7%)
+
+Mapper successful!
+Process took 0h:00m:12s realtime, 0h:00m:11s cputime
+# Mon Nov 09 14:43:35 2009
+
+###########################################################]

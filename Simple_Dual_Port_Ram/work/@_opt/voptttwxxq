@@ -1,0 +1,80 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Ram_1024x8bit
+T_opt
+Z1 VL=jmal6Fz_FdbeB0Tgo2?1
+Z2 04 33 38 work tb_simple_dual_port_ram_1024x8bit tb_simple_dual_port_ram_1024x8bit_arch 1
+Z3 =1-00215dec8b38-4af7347a-106-cc0
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+Esimple_dual_port_ram_1024x8bit_ent
+Z7 w1257590925
+Z8 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z9 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z10 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z11 dC:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram
+Z12 8C:/Program Files/modeltech_6.5/examples/Tamrin/Simple_Dual_Port_Ram/Simple_Dual_Port_Ram_MD.vhd
+Z13 FC:/Program Files/modeltech_6.5/examples/Tamrin/Simple_Dual_Port_Ram/Simple_Dual_Port_Ram_MD.vhd
+l0
+L5
+Z14 VD7D[zn@=NNMAWMkDXL:X^0
+Z15 OE;C;6.5;42
+32
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+Z18 !s100 2D7iPDXeY:@QE[T09j^FB1
+Asimple_dual_port_ram_1024x8bit_arch
+Z19 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z20 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z21 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z22 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\work 34 simple_dual_port_ram_1024x8bit_ent 0 22 D7D[zn@=NNMAWMkDXL:X^0
+32
+Z23 Mx3 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Z24 Mx2 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Z25 Mx1 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+l22
+L19
+Z26 Vh:4SYXTDXXSjRAj50E5E<2
+R15
+R16
+R17
+Z27 !s100 eg5QR3b1?HD<P=ijAFL4=0
+Etb_simple_dual_port_ram_1024x8bit
+Z28 w1257714802
+Z29 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R19
+R20
+R21
+32
+R11
+Z30 8C:/Program Files/modeltech_6.5/examples/Tamrin/Simple_Dual_Port_Ram/Simple_Dual_Port_Ram_tb.vhd
+Z31 FC:/Program Files/modeltech_6.5/examples/Tamrin/Simple_Dual_Port_Ram/Simple_Dual_Port_Ram_tb.vhd
+l0
+L6
+Z32 VM^hnAlIaU:UGQEV`S[z3T2
+R15
+R16
+R17
+Z33 !s100 ^gaEl?`DI0SIjI4bbY5kP0
+Atb_simple_dual_port_ram_1024x8bit_arch
+R22
+R29
+R19
+R20
+R21
+Z34 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\work 33 tb_simple_dual_port_ram_1024x8bit 0 22 M^hnAlIaU:UGQEV`S[z3T2
+32
+Z35 Mx4 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Z36 Mx3 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Z37 Mx2 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Z38 Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l35
+L9
+Z39 V4DJJK=h7P59TaFYV]2znd2
+R15
+R16
+R17
+Z40 !s100 XU7Ff<>h_gfQ;h<I?[ke50

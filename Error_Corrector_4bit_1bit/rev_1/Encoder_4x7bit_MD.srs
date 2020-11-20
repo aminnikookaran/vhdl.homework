@@ -1,0 +1,66 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version 1.0, Build 007R from Synplicity, Inc.
+# Copyright 1994-2008 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Wed Dec 02 12:34:21 2009
+#
+#
+#OPTIONS:"|-primux|-dspmac|-fixsmult|-sdff_counter|-infer_seqShift|-nram|-divnmod|-autosm|-autosm|-fid2|-sharing|on|-encrypt|-ui|-lite|-pro|-ram|-ignore_undefined_lib|-ll|2000|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\bin\\c_vhdl.exe":1223059590
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\location.map":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\std.vhd":1223059796
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Error_Corrector_4bit_1bit\\Decoder_7x4bit_MD.vhd":1259413869
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Error_Corrector_4bit_1bit\\Encoder_4x7bit_MD.vhd":1258233510
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Error_Corrector_4bit_1bit\\LFSR_4bit_MD.vhd":1259744659
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Error_Corrector_4bit_1bit\\Decoder_7x4bit_MD.vhd":1259413869
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\std1164.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\unsigned.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\arith.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\numeric.vhd":1223059796
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Error_Corrector_4bit_1bit\\Encoder_4x7bit_MD.vhd":1258233510
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Error_Corrector_4bit_1bit\\LFSR_4bit_MD.vhd":1259744659
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\Decoder_7x4bit_MD.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\unsigned.vhd"; # file 3
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\arith.vhd"; # file 4
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\numeric.vhd"; # file 5
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\Encoder_4x7bit_MD.vhd"; # file 6
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\LFSR_4bit_MD.vhd"; # file 7
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@n(::n(::R4gI	FsR1pw)L_cH 0_MD0RV_#sc0LH_ONsEN;
+PHR3#8PED;R4
+RNP3_H#PDE8R
+4;N3PR#_$MVblNRF"Is\	R"\B:\FusolsN\HRwD\C#\8lFCCD0OnE_3\6\ClGNb#DC\N\alMsH\s\ s_FsBsFsCFO0sL_cH40_L\H0\O7CFs8C_c(GL_H0vP73E"8\
+sIF	"R\B\:\uosFs\NlRDwHC\#\lCF8DO0CE3_n6C\\GbNlD\C#\laNs\HM\s sFBs_FCssOs0F_HcL0L_4H\0\ FMO8_CscLG(Hv0_7E3P8
+\"I	FsRB\":u\\ssFoNRl\wCHD#l\\FD8C0ECO_6n3\G\CNDlbC\#\asNlH\M\ FsssF_BsOsC0_Fsc0LH_H4L0p\\w_1)c0LH_3v7P\E8";
+"
+@HR@U(::Uc::H(RORD	H	OD;H
+NR03sDs_FHNoMl"CRH	OD"
+;
+
+@FR@g(::gc::FUR8NN0rjd:9rRLd9:j;H
+NR03sDs_FHNoMl"CRF08NN
+";b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCb;
+R(@@::.U4.g:U4:dRsGFP_RL69rdR6L_rRd9L9rjR4Lr9b;
+R(@@::.4U4:.:8gRVLVRrjd:9rRLd9:jR6L_r,d9L:rd4H9RO;D	
+RNH3Ds0_HFsolMNCLR""C;
+;
+
+
+

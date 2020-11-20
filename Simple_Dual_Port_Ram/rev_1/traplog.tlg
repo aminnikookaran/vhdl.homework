@@ -1,0 +1,46 @@
+@N: CD630 :".\gentmp0a04640":4:7:4:9|Synthesizing work.top.gen 
+@N: CD630 :"syng0a04640":16:7:16:13|Synthesizing work.ram_r_w.block_ram 
+@W: CD280 :"syng0a04640":449:10:449:19|Unbound component RAM256x9SA mapped to black box
+@W: CD326 :"syng0a04640":653:4:653:20|Port dos of entity work.ram256x9sa is unconnected
+@W: CD326 :"syng0a04640":653:4:653:20|Port rpe of entity work.ram256x9sa is unconnected
+@W: CD326 :"syng0a04640":653:4:653:20|Port wpe of entity work.ram256x9sa is unconnected
+@W: CG296 :"syng0a04640":706:11:706:17|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"syng0a04640":708:42:708:46|Referenced variable raddr is not in sensitivity list
+@W: CG290 :"syng0a04640":711:13:711:20|Referenced variable dout_tmp is not in sensitivity list
+@W: CD638 :"syng0a04640":607:7:607:16|Signal dout_tmp21 is undriven 
+@W: CD638 :"syng0a04640":608:18:608:27|Signal raddr_reg1 is undriven 
+@W: CD638 :"syng0a04640":609:7:609:13|Signal we_tmp1 is undriven 
+@W: CD638 :"syng0a04640":610:7:610:16|Signal dout_tmp12 is undriven 
+@W: CD638 :"syng0a04640":610:18:610:27|Signal dout_tmp22 is undriven 
+@W: CD638 :"syng0a04640":611:7:611:16|Signal waddr_reg2 is undriven 
+@W: CD638 :"syng0a04640":611:18:611:27|Signal raddr_reg2 is undriven 
+@W: CD638 :"syng0a04640":612:7:612:13|Signal we_tmp2 is undriven 
+@W: CD638 :"syng0a04640":612:25:612:33|Signal dout_flag is undriven 
+@W: CD638 :"syng0a04640":613:16:613:23|Signal din_reg2 is undriven 
+@W: CD638 :"syng0a04640":614:7:614:16|Signal tmp_data_b is undriven 
+@W: CD638 :"syng0a04640":614:19:614:31|Signal tmp_address_b is undriven 
+@W: CD638 :"syng0a04640":614:34:614:45|Signal tmp_byte_ena is undriven 
+@W: CD638 :"syng0a04640":640:8:640:15|Signal dout_sig is undriven 
+@N: CD630 :"syng0a04640":449:10:449:19|Synthesizing work.ram256x9sa.syn_black_box 
+Post processing for work.ram256x9sa.syn_black_box
+Post processing for work.ram_r_w.block_ram
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 0 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 1 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 2 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 3 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 4 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 5 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 6 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 7 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 8 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 9 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 10 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 11 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 12 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 13 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 14 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 15 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 16 of signal DOUT_SIG is floating
+@W: CL243 :"syng0a04640":640:8:640:15|Bit 17 of signal DOUT_SIG is floating
+Post processing for work.top.gen
+@W: CL159 :"syng0a04640":36:8:36:11|Input OCLK is unused

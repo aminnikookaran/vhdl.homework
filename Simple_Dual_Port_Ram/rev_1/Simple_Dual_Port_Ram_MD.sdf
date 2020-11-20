@@ -1,0 +1,52 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "Simple_Dual_Port_Ram_1024x8bit_Ent")
+(DATE "123")
+(VENDOR "A500K")
+(PROGRAM "Synplify")
+(VERSION "9.6, Build 056R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "Simple_Dual_Port_Ram_1024x8bit_Ent")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT odataB_ret_3/CLK  odataB_ret_3/Q  odataB_0\[0\]/A  odataB_0\[0\]/Y  odataB_ret_3/D  	(1.6:1.6:1.6) )
+
+    (PATHCONSTRAINT odataB\[1\]/CLK  odataB\[1\]/Q  odataB_26/A  odataB_26/Y  odataB\[1\]/D  	(1.6:1.6:1.6) )
+
+    (PATHCONSTRAINT odataB\[2\]/CLK  odataB\[2\]/Q  odataB_25/A  odataB_25/Y  odataB\[2\]/D  	(1.6:1.6:1.6) )
+
+    (PATHCONSTRAINT odataB\[3\]/CLK  odataB\[3\]/Q  odataB_24/A  odataB_24/Y  odataB\[3\]/D  	(1.6:1.6:1.6) )
+
+    (PATHCONSTRAINT odataB\[4\]/CLK  odataB\[4\]/Q  odataB_23/A  odataB_23/Y  odataB\[4\]/D  	(1.6:1.6:1.6) )
+
+    (PATHCONSTRAINT odataB\[5\]/CLK  odataB\[5\]/Q  odataB_22/A  odataB_22/Y  odataB\[5\]/D  	(1.6:1.6:1.6) )
+
+    (PATHCONSTRAINT odataB\[6\]/CLK  odataB\[6\]/Q  odataB_21/A  odataB_21/Y  odataB\[6\]/D  	(1.6:1.6:1.6) )
+
+    (PATHCONSTRAINT odataB\[7\]/CLK  odataB\[7\]/Q  odataB_20/A  odataB_20/Y  odataB\[7\]/D  	(1.6:1.6:1.6) )
+
+    (PATHCONSTRAINT odataB_ret_3/CLK  odataB_ret_3/Q  odataB_pad\[0\]/A  odataB_pad\[0\]/PAD  	(1.9:1.9:1.9) )
+
+    (PATHCONSTRAINT odataB\[1\]/CLK  odataB\[1\]/Q  odataB_pad\[1\]/A  odataB_pad\[1\]/PAD  	(1.9:1.9:1.9) )
+
+    (PATHCONSTRAINT odataB\[2\]/CLK  odataB\[2\]/Q  odataB_pad\[2\]/A  odataB_pad\[2\]/PAD  	(1.9:1.9:1.9) )
+
+    (PATHCONSTRAINT odataB\[3\]/CLK  odataB\[3\]/Q  odataB_pad\[3\]/A  odataB_pad\[3\]/PAD  	(1.9:1.9:1.9) )
+
+    (PATHCONSTRAINT odataB\[4\]/CLK  odataB\[4\]/Q  odataB_pad\[4\]/A  odataB_pad\[4\]/PAD  	(1.9:1.9:1.9) )
+
+    (PATHCONSTRAINT odataB\[5\]/CLK  odataB\[5\]/Q  odataB_pad\[5\]/A  odataB_pad\[5\]/PAD  	(1.9:1.9:1.9) )
+
+    (PATHCONSTRAINT odataB\[6\]/CLK  odataB\[6\]/Q  odataB_pad\[6\]/A  odataB_pad\[6\]/PAD  	(1.9:1.9:1.9) )
+
+    (PATHCONSTRAINT odataB\[7\]/CLK  odataB\[7\]/Q  odataB_pad\[7\]/A  odataB_pad\[7\]/PAD  	(1.9:1.9:1.9) )
+
+  )
+)
+)

@@ -1,0 +1,662 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_2
+
+#Sat Nov 07 14:11:43 2009
+
+$ Start of Compile
+#Sat Nov 07 14:11:43 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":5:7:5:40|Top entity is set to Simple_Dual_Port_Ram_1024x8bit_Ent.
+VHDL syntax check successful!
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":5:7:5:40|Synthesizing work.simple_dual_port_ram_1024x8bit_ent.simple_dual_port_ram_1024x8bit_arch 
+@W: CG296 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":25:4:25:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":27:36:27:38|Referenced variable iwa is not in sensitivity list
+@W: CG296 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":33:4:33:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":35:36:35:38|Referenced variable irb is not in sensitivity list
+Post processing for work.simple_dual_port_ram_1024x8bit_ent.simple_dual_port_ram_1024x8bit_arch
+@N: CL134 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":21:9:21:11|Found RAM ram, depth=1024, width=8
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 07 14:11:43 2009
+
+###########################################################]
+Synplicity Proasic Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:53:56
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+@N: MT206 |Autoconstrain Mode is ON
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 83MB)
+
+@N: BN116 :"c:\program files\modeltech_6.5\examples\tamrin\simple_dual_port_ram\simple_dual_port_ram_md.vhd":35:8:35:9|Removing sequential instance odataB[0] of view:PrimLib.dff(prim) because there are no references to its outputs 
+
+ Ram Decomposition Statistics for ram[7:0]
+
+ RAM 256x8 : 0
+Finished factoring (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes
+--------------------------------------------
+iadrB_pad[8] / Y               16           
+============================================
+
+Promoting Net iclkA_c on GL33  iclkA_pad
+Promoting Net iclkB_c on GL33  iclkB_pad
+Buffering iadrB_c[8], fanout 16 segments 2
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+@N: MF322 |Retiming summary: 0 registers retimed to 1 
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 1
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		odataB_ret_3
+
+
+		#####   END RETIMING REPORT  #####
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+
+Added 1 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\rev_2\Simple_Dual_Port_Ram_MD.srm
+@N: BN225 |Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\rev_2\Simple_Dual_Port_Ram_MD.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Writing EDIF Netlist and constraint files
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 84MB)
+
+Found clock Simple_Dual_Port_Ram_1024x8bit_Ent|iclkA with period 1000.00ns 
+Found clock Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB with period 1.89ns 
+@W: MT246 :"c:\program files\modeltech_6.5\examples\tamrin\simple_dual_port_ram\simple_dual_port_ram_md.vhd":21:9:21:11|Blackbox RAM256x9SA is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Nov 07 14:11:46 2009
+#
+
+
+Top view:               Simple_Dual_Port_Ram_1024x8bit_Ent
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.965
+
+                                             Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                               Frequency     Frequency     Period        Period        Slack      Type         Group                
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     529.5 MHz     259.5 MHz     1.889         3.854         -1.965     inferred     Autoconstr_clkgroup_1
+==================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                  Ending                                    |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Simple_Dual_Port_Ram_1024x8bit_Ent|iclkA  Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB  |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB  Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB  |  1.889       -1.965  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                                      Arrival           
+Instance         Reference                                    Type     Pin     Net             Time        Slack 
+                 Clock                                                                                           
+-----------------------------------------------------------------------------------------------------------------
+odataB[1]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      Q       odataB_c[1]     0.200       -0.333
+odataB[2]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      Q       odataB_c[2]     0.200       -0.333
+odataB[3]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      Q       odataB_c[3]     0.200       -0.333
+odataB[4]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      Q       odataB_c[4]     0.200       -0.333
+odataB[5]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      Q       odataB_c[5]     0.200       -0.333
+odataB[6]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      Q       odataB_c[6]     0.200       -0.333
+odataB[7]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      Q       odataB_c[7]     0.200       -0.333
+odataB_ret_3     Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      Q       odataB_c[0]     0.200       -0.333
+=================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                                                           Required           
+Instance         Reference                                    Type     Pin     Net                  Time         Slack 
+                 Clock                                                                                                 
+-----------------------------------------------------------------------------------------------------------------------
+odataB[1]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      D       odataB_26            1.641        -0.333
+odataB[2]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      D       odataB_25            1.641        -0.333
+odataB[3]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      D       odataB_24            1.641        -0.333
+odataB[4]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      D       odataB_23            1.641        -0.333
+odataB[5]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      D       odataB_22            1.641        -0.333
+odataB[6]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      D       odataB_21            1.641        -0.333
+odataB[7]        Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      D       odataB_20            1.641        -0.333
+odataB_ret_3     Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB     DFF      D       odataB_c_reti[0]     1.641        -0.333
+=======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      1.974
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.333
+
+    Number of logic level(s):                1
+    Starting point:                          odataB[1] / Q
+    Ending point:                            odataB[1] / D
+    The start point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+odataB[1]          DFF       Q        Out     0.200     0.200       -         
+odataB_c[1]        Net       -        -       1.060     -           2         
+odataB_26          MUX2H     A        In      -         1.260       -         
+odataB_26          MUX2H     Y        Out     0.084     1.344       -         
+odataB_26          Net       -        -       0.630     -           1         
+odataB[1]          DFF       D        In      -         1.974       -         
+==============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.222 is 0.532(23.9%) logic and 1.690(76.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      1.974
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.333
+
+    Number of logic level(s):                1
+    Starting point:                          odataB[2] / Q
+    Ending point:                            odataB[2] / D
+    The start point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+odataB[2]          DFF       Q        Out     0.200     0.200       -         
+odataB_c[2]        Net       -        -       1.060     -           2         
+odataB_25          MUX2H     A        In      -         1.260       -         
+odataB_25          MUX2H     Y        Out     0.084     1.344       -         
+odataB_25          Net       -        -       0.630     -           1         
+odataB[2]          DFF       D        In      -         1.974       -         
+==============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.222 is 0.532(23.9%) logic and 1.690(76.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      1.974
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.333
+
+    Number of logic level(s):                1
+    Starting point:                          odataB[3] / Q
+    Ending point:                            odataB[3] / D
+    The start point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+odataB[3]          DFF       Q        Out     0.200     0.200       -         
+odataB_c[3]        Net       -        -       1.060     -           2         
+odataB_24          MUX2H     A        In      -         1.260       -         
+odataB_24          MUX2H     Y        Out     0.084     1.344       -         
+odataB_24          Net       -        -       0.630     -           1         
+odataB[3]          DFF       D        In      -         1.974       -         
+==============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.222 is 0.532(23.9%) logic and 1.690(76.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      1.974
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.333
+
+    Number of logic level(s):                1
+    Starting point:                          odataB[4] / Q
+    Ending point:                            odataB[4] / D
+    The start point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+odataB[4]          DFF       Q        Out     0.200     0.200       -         
+odataB_c[4]        Net       -        -       1.060     -           2         
+odataB_23          MUX2H     A        In      -         1.260       -         
+odataB_23          MUX2H     Y        Out     0.084     1.344       -         
+odataB_23          Net       -        -       0.630     -           1         
+odataB[4]          DFF       D        In      -         1.974       -         
+==============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.222 is 0.532(23.9%) logic and 1.690(76.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      1.974
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.333
+
+    Number of logic level(s):                1
+    Starting point:                          odataB[5] / Q
+    Ending point:                            odataB[5] / D
+    The start point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+odataB[5]          DFF       Q        Out     0.200     0.200       -         
+odataB_c[5]        Net       -        -       1.060     -           2         
+odataB_22          MUX2H     A        In      -         1.260       -         
+odataB_22          MUX2H     Y        Out     0.084     1.344       -         
+odataB_22          Net       -        -       0.630     -           1         
+odataB[5]          DFF       D        In      -         1.974       -         
+==============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.222 is 0.532(23.9%) logic and 1.690(76.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                        Arrival           
+Instance           Reference     Type           Pin     Net                        Time        Slack 
+                   Clock                                                                             
+-----------------------------------------------------------------------------------------------------
+ram_tile_2.I_1     System        RAM256x9SA     DO0     ram_tile_2.DOUT_TMP[0]     0.000       -1.965
+ram_tile_2.I_1     System        RAM256x9SA     DO1     ram_tile_2.DOUT_TMP[1]     0.000       -1.965
+ram_tile_2.I_1     System        RAM256x9SA     DO2     ram_tile_2.DOUT_TMP[2]     0.000       -1.965
+ram_tile_2.I_1     System        RAM256x9SA     DO3     ram_tile_2.DOUT_TMP[3]     0.000       -1.965
+ram_tile_2.I_1     System        RAM256x9SA     DO4     ram_tile_2.DOUT_TMP[4]     0.000       -1.965
+ram_tile_2.I_1     System        RAM256x9SA     DO5     ram_tile_2.DOUT_TMP[5]     0.000       -1.965
+ram_tile_2.I_1     System        RAM256x9SA     DO6     ram_tile_2.DOUT_TMP[6]     0.000       -1.965
+ram_tile_2.I_1     System        RAM256x9SA     DO7     ram_tile_2.DOUT_TMP[7]     0.000       -1.965
+ram_tile_0.I_1     System        RAM256x9SA     DO0     ram_tile_0.DOUT_TMP[0]     0.000       -1.957
+ram_tile_0.I_1     System        RAM256x9SA     DO1     ram_tile_0.DOUT_TMP[1]     0.000       -1.957
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                            Required           
+Instance         Reference     Type     Pin     Net                  Time         Slack 
+                 Clock                                                                  
+----------------------------------------------------------------------------------------
+odataB[1]        System        DFF      D       odataB_26            1.641        -1.965
+odataB[2]        System        DFF      D       odataB_25            1.641        -1.965
+odataB[3]        System        DFF      D       odataB_24            1.641        -1.965
+odataB[4]        System        DFF      D       odataB_23            1.641        -1.965
+odataB[5]        System        DFF      D       odataB_22            1.641        -1.965
+odataB[6]        System        DFF      D       odataB_21            1.641        -1.965
+odataB[7]        System        DFF      D       odataB_20            1.641        -1.965
+odataB_ret_3     System        DFF      D       odataB_c_reti[0]     1.641        -1.965
+========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      3.606
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.965
+
+    Number of logic level(s):                4
+    Starting point:                          ram_tile_2.I_1 / DO0
+    Ending point:                            odataB_ret_3 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                       Type           Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+ram_tile_2.I_1             RAM256x9SA     DO0      Out     0.000     0.000       -         
+ram_tile_2.DOUT_TMP[0]     Net            -        -       0.630     -           1         
+ram_tile_2.I_1_RNIKSDJ     MUX2H          A        In      -         0.630       -         
+ram_tile_2.I_1_RNIKSDJ     MUX2H          Y        Out     0.108     0.738       -         
+ram_tile_2[0]              Net            -        -       0.630     -           1         
+odataB_0_RNO_1[0]          MUX2H          B        In      -         1.368       -         
+odataB_0_RNO_1[0]          MUX2H          Y        Out     0.116     1.484       -         
+mux_0[0]                   Net            -        -       0.630     -           1         
+odataB_0_RNO[0]            MUX2H          B        In      -         2.114       -         
+odataB_0_RNO[0]            MUX2H          Y        Out     0.116     2.230       -         
+ram[0]                     Net            -        -       0.630     -           1         
+odataB_0[0]                MUX2H          B        In      -         2.860       -         
+odataB_0[0]                MUX2H          Y        Out     0.116     2.976       -         
+odataB_c_reti[0]           Net            -        -       0.630     -           1         
+odataB_ret_3               DFF            D        In      -         3.606       -         
+===========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.854 is 0.704(18.3%) logic and 3.150(81.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      3.606
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.965
+
+    Number of logic level(s):                4
+    Starting point:                          ram_tile_2.I_1 / DO1
+    Ending point:                            odataB[1] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                       Type           Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+ram_tile_2.I_1             RAM256x9SA     DO1      Out     0.000     0.000       -         
+ram_tile_2.DOUT_TMP[1]     Net            -        -       0.630     -           1         
+ram_tile_2.I_1_RNIL0EJ     MUX2H          A        In      -         0.630       -         
+ram_tile_2.I_1_RNIL0EJ     MUX2H          Y        Out     0.108     0.738       -         
+ram_tile_2[1]              Net            -        -       0.630     -           1         
+odataB_26_RNO_1            MUX2H          B        In      -         1.368       -         
+odataB_26_RNO_1            MUX2H          Y        Out     0.116     1.484       -         
+mux_0[1]                   Net            -        -       0.630     -           1         
+odataB_26_RNO              MUX2H          B        In      -         2.114       -         
+odataB_26_RNO              MUX2H          Y        Out     0.116     2.230       -         
+ram[1]                     Net            -        -       0.630     -           1         
+odataB_26                  MUX2H          B        In      -         2.860       -         
+odataB_26                  MUX2H          Y        Out     0.116     2.976       -         
+odataB_26                  Net            -        -       0.630     -           1         
+odataB[1]                  DFF            D        In      -         3.606       -         
+===========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.854 is 0.704(18.3%) logic and 3.150(81.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      3.606
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.965
+
+    Number of logic level(s):                4
+    Starting point:                          ram_tile_2.I_1 / DO2
+    Ending point:                            odataB[2] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                       Type           Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+ram_tile_2.I_1             RAM256x9SA     DO2      Out     0.000     0.000       -         
+ram_tile_2.DOUT_TMP[2]     Net            -        -       0.630     -           1         
+ram_tile_2.I_1_RNIM4EJ     MUX2H          A        In      -         0.630       -         
+ram_tile_2.I_1_RNIM4EJ     MUX2H          Y        Out     0.108     0.738       -         
+ram_tile_2[2]              Net            -        -       0.630     -           1         
+odataB_25_RNO_1            MUX2H          B        In      -         1.368       -         
+odataB_25_RNO_1            MUX2H          Y        Out     0.116     1.484       -         
+mux_0[2]                   Net            -        -       0.630     -           1         
+odataB_25_RNO              MUX2H          B        In      -         2.114       -         
+odataB_25_RNO              MUX2H          Y        Out     0.116     2.230       -         
+ram[2]                     Net            -        -       0.630     -           1         
+odataB_25                  MUX2H          B        In      -         2.860       -         
+odataB_25                  MUX2H          Y        Out     0.116     2.976       -         
+odataB_25                  Net            -        -       0.630     -           1         
+odataB[2]                  DFF            D        In      -         3.606       -         
+===========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.854 is 0.704(18.3%) logic and 3.150(81.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      3.606
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.965
+
+    Number of logic level(s):                4
+    Starting point:                          ram_tile_2.I_1 / DO3
+    Ending point:                            odataB[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                       Type           Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+ram_tile_2.I_1             RAM256x9SA     DO3      Out     0.000     0.000       -         
+ram_tile_2.DOUT_TMP[3]     Net            -        -       0.630     -           1         
+ram_tile_2.I_1_RNIN8EJ     MUX2H          A        In      -         0.630       -         
+ram_tile_2.I_1_RNIN8EJ     MUX2H          Y        Out     0.108     0.738       -         
+ram_tile_2[3]              Net            -        -       0.630     -           1         
+odataB_24_RNO_1            MUX2H          B        In      -         1.368       -         
+odataB_24_RNO_1            MUX2H          Y        Out     0.116     1.484       -         
+mux_0[3]                   Net            -        -       0.630     -           1         
+odataB_24_RNO              MUX2H          B        In      -         2.114       -         
+odataB_24_RNO              MUX2H          Y        Out     0.116     2.230       -         
+ram[3]                     Net            -        -       0.630     -           1         
+odataB_24                  MUX2H          B        In      -         2.860       -         
+odataB_24                  MUX2H          Y        Out     0.116     2.976       -         
+odataB_24                  Net            -        -       0.630     -           1         
+odataB[3]                  DFF            D        In      -         3.606       -         
+===========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.854 is 0.704(18.3%) logic and 3.150(81.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        1.889
+    - Setup time:                            0.248
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.641
+
+    - Propagation time:                      3.606
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.965
+
+    Number of logic level(s):                4
+    Starting point:                          ram_tile_2.I_1 / DO4
+    Ending point:                            odataB[4] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Simple_Dual_Port_Ram_1024x8bit_Ent|iclkB [rising] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                       Type           Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+ram_tile_2.I_1             RAM256x9SA     DO4      Out     0.000     0.000       -         
+ram_tile_2.DOUT_TMP[4]     Net            -        -       0.630     -           1         
+ram_tile_2.I_1_RNIOCEJ     MUX2H          A        In      -         0.630       -         
+ram_tile_2.I_1_RNIOCEJ     MUX2H          Y        Out     0.108     0.738       -         
+ram_tile_2[4]              Net            -        -       0.630     -           1         
+odataB_23_RNO_1            MUX2H          B        In      -         1.368       -         
+odataB_23_RNO_1            MUX2H          Y        Out     0.116     1.484       -         
+mux_0[4]                   Net            -        -       0.630     -           1         
+odataB_23_RNO              MUX2H          B        In      -         2.114       -         
+odataB_23_RNO              MUX2H          Y        Out     0.116     2.230       -         
+ram[4]                     Net            -        -       0.630     -           1         
+odataB_23                  MUX2H          B        In      -         2.860       -         
+odataB_23                  MUX2H          Y        Out     0.116     2.976       -         
+odataB_23                  Net            -        -       0.630     -           1         
+odataB[4]                  DFF            D        In      -         3.606       -         
+===========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.854 is 0.704(18.3%) logic and 3.150(81.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Report for cell Simple_Dual_Port_Ram_1024x8bit_Ent.simple_dual_port_ram_1024x8bit_arch
+  Core Cell usage:
+              cell count     area count*area
+               BFR     1      1.0        1.0
+               GND     1      0.0        0.0
+             MUX2H    64      1.0       64.0
+             NAND3     1      1.0        1.0
+              NOR2     4      1.0        4.0
+               OR2     3      1.0        3.0
+               OR3     2      1.0        2.0
+            OR3FFT     2      1.0        2.0
+            OR3FTT     1      1.0        1.0
+               PWR     1      0.0        0.0
+        RAM256x9SA     4      0.0        0.0
+              XOR2     8      1.0        8.0
+
+
+               DFF    28      1.0       28.0
+                   -----          ----------
+             TOTAL   120               114.0
+
+
+  IO Cell usage:
+              cell count
+              GL33     2
+              IB33    30
+            OB33PH     8
+                   -----
+             TOTAL    40
+
+
+Core Cells         : 114 of 5376 (2%)
+IO Cells           : 40 of 204 (20%)
+
+  RAM/ROM Usage Summary
+Block Rams : 4 of 6 (66%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 07 14:11:46 2009
+
+###########################################################]

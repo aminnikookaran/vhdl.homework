@@ -1,0 +1,12 @@
+{C:/Program Files/modeltech_6.5/examples/Tamrin/Reading_from_file/Reading_from_file_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Reading_from_file/Reading_from_file_TB.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package numeric_std
+-- Compiling entity arithmetic_encoder_tb_ent
+-- Compiling architecture arithmetic_encoder_tb_arch of arithmetic_encoder_tb_ent
+
+} {} {}}

@@ -1,0 +1,359 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples
+T_opt
+Z1 VcLaM44OE=@h2zo^_E;ES20
+Z2 04 19 24 work tb_multiplier_32bit tb_multiplier_32bit_arch 1
+Z3 =1-00214fb9216b-4ae2e53a-3bb-a74
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 VCzi5P1jc=H@iPn0zP]0EZ1
+R2
+Z8 =1-00214fb9216b-4ae2f27d-a5-294
+Z9 o-quiet -auto_acc_if_foreign -work work
+Z10 n@_opt1
+R6
+T_opt2
+Z11 Va9hJL>?SbEE2Bn6I31ITc0
+Z12 04 14 15 work full_adder_ent full_adder_arch 1
+Z13 =1-00214fb9216b-4ae2e710-ca-1694
+R4
+Z14 n@_opt2
+R6
+Ecarry_look_ahead_adder_16bit_ent
+Z15 w1255936297
+Z16 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z18 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z19 dC:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit
+Z20 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Carry_Look_Ahead_Adder_16bit.vhd
+Z21 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Carry_Look_Ahead_Adder_16bit.vhd
+l0
+L5
+Z22 VcY5706TS@aP1L2U5f9TcI3
+Z23 OE;C;6.5;42
+32
+Z24 o-work work -2002 -explicit
+Z25 tExplicit 1
+Z26 !s100 VR;HonA2zRoj1iea`YGL`1
+Acarry_look_ahead_adder_16bit_arch
+R16
+R17
+R18
+Z27 DEx4 work 32 carry_look_ahead_adder_16bit_ent 0 22 cY5706TS@aP1L2U5f9TcI3
+l28
+L15
+Z28 VLNfVZ?8cb14=NP;o79WhS1
+R23
+32
+Z29 Mx3 4 ieee 14 std_logic_1164
+Z30 Mx2 4 ieee 18 std_logic_unsigned
+Z31 Mx1 4 ieee 15 std_logic_arith
+R24
+R25
+Z32 !s100 HC87Ye;=mY>gO53:0?mEG1
+Ecarry_look_ahead_adder_4bit_ent
+Z33 w1255893370
+Z34 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z35 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z36 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R19
+Z37 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Carry_Look_Ahead_Adder_4bit.vhd
+Z38 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Carry_Look_Ahead_Adder_4bit.vhd
+l0
+L5
+Z39 V1<k;9Z`^<^JRkHbU^9D[`3
+R23
+R24
+R25
+Z40 !s100 GKm<aIo>iB9iPFcdz[a1<1
+Acarry_look_ahead_adder_4bit_arch
+R34
+R35
+R36
+Z41 DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 31 carry_look_ahead_adder_4bit_ent 0 22 1<k;9Z`^<^JRkHbU^9D[`3
+32
+Z42 Mx3 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Z43 Mx2 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Z44 Mx1 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+l23
+L15
+Z45 V^10K=TAiG`?lK]CJQ;bFS3
+R23
+R24
+R25
+Z46 !s100 j=ecaQkG8D8BhW8oG_93U2
+Ecarry_look_ahead_adder_8bit_ent
+Z47 w1256385018
+R34
+R35
+R36
+32
+R19
+Z48 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Carry_Look_Ahead_Adder_8bit.vhd
+Z49 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Carry_Look_Ahead_Adder_8bit.vhd
+l0
+L5
+Z50 V0D6@c]V6]YI=j3dcS<OUZ3
+R23
+R24
+R25
+Z51 !s100 _JS?ji9J4<UV8]Ya3Rkm>0
+Acarry_look_ahead_adder_8bit_arch
+R34
+R35
+R36
+Z52 DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 31 carry_look_ahead_adder_8bit_ent 0 22 0D6@c]V6]YI=j3dcS<OUZ3
+32
+R42
+R43
+R44
+l23
+L15
+Z53 V@S9L:7_[8;H47S03QYDJz2
+R23
+R24
+R25
+Z54 !s100 JC<J7d`n62F1J58O7C^1V0
+Efull_adder_ent
+Z55 w1255762613
+R16
+R17
+R18
+R19
+Z56 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Full_Adder_MD.vhd
+Z57 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Full_Adder_MD.vhd
+l0
+L5
+Z58 VVk82VbjnE728Q>i]UdT5U0
+R23
+32
+R24
+R25
+Z59 !s100 F3fJRljAZ8l;RQKGBHHI83
+Afull_adder_arch
+R16
+R17
+R18
+Z60 DEx4 work 14 full_adder_ent 0 22 Vk82VbjnE728Q>i]UdT5U0
+l16
+L15
+Z61 V480cScGKL;L0VZWWLA?:j1
+R23
+32
+R29
+R30
+R31
+R24
+R25
+Z62 !s100 8YzgmAmW3hU`[NXoacnnz3
+Ehalf_adder_ent
+Z63 w1256384571
+R16
+R17
+R18
+R19
+Z64 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Half_Adder_MD.vhd
+Z65 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Half_Adder_MD.vhd
+l0
+L5
+Z66 VHnK23IeXWT?aLC=1MPL5h3
+R23
+32
+R24
+R25
+Z67 !s100 ]?OCT0_N>djS[33HLX;<h0
+Ahalf_adder_arch
+R16
+R17
+R18
+Z68 DEx4 work 14 half_adder_ent 0 22 HnK23IeXWT?aLC=1MPL5h3
+l15
+L14
+Z69 V1dm00DKL[mhWAga;7JA^<2
+R23
+32
+R29
+R30
+R31
+R24
+R25
+Z70 !s100 >ldWBgYIB4PQ_lShSXzm61
+Emultiplier_16bit_ent
+Z71 w1255936844
+R34
+R35
+R36
+32
+R19
+Z72 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_16bit_MD.vhd
+Z73 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_16bit_MD.vhd
+l0
+L5
+Z74 VY7]DbYKSRYzB7S6zI4BHe2
+R23
+R24
+R25
+Z75 !s100 ha3M;H_XZXTi:j_`7l?Q02
+Amultiplier_16bit_arch
+R52
+Z76 DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 19 multiplier_8bit_ent 0 22 83>D6iYGZ7J;K8e[JBb:92
+R34
+R35
+R36
+Z77 DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 20 multiplier_16bit_ent 0 22 Y7]DbYKSRYzB7S6zI4BHe2
+32
+R42
+R43
+R44
+l40
+L13
+Z78 V:]V@j78bSOV5]A`@<n?k<2
+R23
+R24
+R25
+Z79 !s100 X?C=R2:2X2>SR9@3m<R>X1
+Emultiplier_32bit_ent
+Z80 w1255936936
+R34
+R35
+R36
+32
+R19
+Z81 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_32bit_MD.vhd
+Z82 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_32bit_MD.vhd
+l0
+L5
+Z83 VkGjAFCW7f;B_mmEERi<6n2
+R23
+R24
+R25
+Z84 !s100 lg>Wm5WQzYlnLZd^glIIO3
+Amultiplier_32bit_arch
+R52
+DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 32 carry_look_ahead_adder_16bit_ent 0 22 cY5706TS@aP1L2U5f9TcI3
+R77
+R34
+R35
+R36
+Z85 DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 20 multiplier_32bit_ent 0 22 kGjAFCW7f;B_mmEERi<6n2
+32
+R42
+R43
+R44
+l40
+L13
+Z86 V?R8L74TlnmHlDL;WCD=EU3
+R23
+R24
+R25
+Z87 !s100 B]2X9SiYe^ia<O7Vja_lY0
+Emultiplier_4bit_ent
+Z88 w1255892686
+R34
+R35
+R36
+32
+R19
+Z89 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_4bit_MD.vhd
+Z90 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_4bit_MD.vhd
+l0
+L5
+Z91 VM@eQ`XYXGT=f;FhP[Vo_12
+R23
+R24
+R25
+Z92 !s100 ]fAI3?lL02a[baDzcQEYC0
+Amultiplier_4bit_arch
+DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 14 full_adder_ent 0 22 Vk82VbjnE728Q>i]UdT5U0
+DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 14 half_adder_ent 0 22 HnK23IeXWT?aLC=1MPL5h3
+R34
+R35
+R36
+Z93 DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 19 multiplier_4bit_ent 0 22 M@eQ`XYXGT=f;FhP[Vo_12
+32
+R42
+R43
+R44
+l40
+L13
+Z94 VSFDcOA<N=dEKi`z1]GFWz3
+R23
+R24
+R25
+Z95 !s100 z3F7@9jGWIz]P]RcD@>FO0
+Emultiplier_8bit_ent
+Z96 w1256384657
+R34
+R35
+R36
+32
+R19
+Z97 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_8bit_MD.vhd
+Z98 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_8bit_MD.vhd
+l0
+L5
+Z99 V83>D6iYGZ7J;K8e[JBb:92
+R23
+R24
+R25
+Z100 !s100 :h<OG[:hleT5ch_h=42CT2
+Amultiplier_8bit_arch
+R41
+R93
+R34
+R35
+R36
+R76
+32
+R42
+R43
+R44
+l40
+L13
+Z101 ViJ1[YV21LU?]bJ?XVgZgH0
+R23
+R24
+R25
+Z102 !s100 ]G]8^zO4n@Yc7zNlHSR8k0
+Etb_multiplier_32bit
+Z103 w1256387177
+Z104 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R34
+R35
+R36
+32
+R19
+Z105 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_32bit_tb.vhd
+Z106 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_32bit/Multiplier_32bit_tb.vhd
+l0
+L6
+Z107 VYIl7`H894I@O><UZ[e8id1
+R23
+R24
+R25
+Z108 !s100 MYK?Eh^1oF8CgmGW]ER;B1
+Atb_multiplier_32bit_arch
+R85
+R104
+R34
+R35
+R36
+DEx68 C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\work 19 tb_multiplier_32bit 0 22 YIl7`H894I@O><UZ[e8id1
+32
+Mx4 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx2 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l24
+L9
+Z109 VW1N0c[ZLVnHUIFI7>M[Yh0
+R23
+R24
+R25
+Z110 !s100 >C;cGOFz`C90]P6ZDGZ3A1

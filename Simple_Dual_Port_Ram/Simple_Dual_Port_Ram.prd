@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram.prd
+#-- Written on Sun Nov 08 23:56:58 2009
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

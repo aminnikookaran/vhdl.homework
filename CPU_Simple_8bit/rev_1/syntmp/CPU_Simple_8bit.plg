@@ -1,0 +1,12 @@
+@P:  Worst Slack : -0.853
+@P:  CPU_Simple_8bit_TL_Ent|iclk - Estimated Frequency : 174.0 MHz
+@P:  CPU_Simple_8bit_TL_Ent|iclk - Requested Frequency : 247.4 MHz
+@P:  CPU_Simple_8bit_TL_Ent|iclk - Estimated Period : 5.747
+@P:  CPU_Simple_8bit_TL_Ent|iclk - Requested Period : 4.042
+@P:  CPU_Simple_8bit_TL_Ent|iclk - Slack : -0.853
+@P: CPU_Simple_8bit_TL_Ent Part : xc4vlx15sf363-10
+@P: CPU_Simple_8bit_TL_Ent I/O primitives : 9
+@P: CPU_Simple_8bit_TL_Ent I/O Register bits : 0
+@P: CPU_Simple_8bit_TL_Ent Register bits (Non I/O) : 59 (0%)
+@P: CPU_Simple_8bit_TL_Ent Total Luts : 89 (0%)
+@P:  CPU Time : 0h:00m:01s

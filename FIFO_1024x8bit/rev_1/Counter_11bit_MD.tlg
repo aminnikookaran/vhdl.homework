@@ -1,0 +1,7 @@
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":5:7:5:24|Synthesizing work.fifo_1024x8bit_ent.fifo_1024x8bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\Counter_11bit_MD.vhd":5:7:5:23|Synthesizing work.counter_11bit_ent.counter_11bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\T_Flip_Flop_MD.vhd":5:7:5:21|Synthesizing work.t_flip_flop_ent.t_flip_flop_arch 
+Post processing for work.t_flip_flop_ent.t_flip_flop_arch
+Post processing for work.counter_11bit_ent.counter_11bit_arch
+Post processing for work.fifo_1024x8bit_ent.fifo_1024x8bit_arch
+@N: CL134 :"C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\FIFO_1024x8bit_MD.vhd":39:9:39:14|Found RAM struct, depth=1024, width=8

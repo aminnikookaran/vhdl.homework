@@ -1,0 +1,30 @@
+G:/ports/ser_to_par.vhd {0 {vcom -work work -2002 -explicit -vopt G:/ports/ser_to_par.vhd
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Compiling entity s_to_p
+-- Compiling architecture sp of s_to_p
+** Error: G:/ports/ser_to_par.vhd(15): Nonresolved signal 'nex' has multiple sources.
+  Drivers:
+    G:/ports/ser_to_par.vhd(19):Process line__19
+       Driven at:
+          G:/ports/ser_to_par.vhd(22)
+    G:/ports/ser_to_par.vhd(36):Process line__36
+       Driven at:
+          G:/ports/ser_to_par.vhd(43)
+** Error: G:/ports/ser_to_par.vhd(48): VHDL Compiler exiting
+
+} {10.0 11.0 18.0 19.0} {}} G:/ports/pa_to_ser.vhd {1 {vcom -work work -2002 -explicit -vopt G:/ports/pa_to_ser.vhd
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Compiling entity p_to_s
+-- Compiling architecture ps of p_to_s
+
+} {} {}}

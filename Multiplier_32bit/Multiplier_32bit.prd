@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_32bit.prd
+#-- Written on Mon Nov 09 14:45:51 2009
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

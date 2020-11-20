@@ -1,0 +1,194 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version 1.0, Build 007R from Synplicity, Inc.
+# Copyright 1994-2008 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Sat Nov 14 22:53:23 2009
+#
+#
+#OPTIONS:"|-primux|-dspmac|-fixsmult|-sdff_counter|-infer_seqShift|-nram|-divnmod|-autosm|-autosm|-fid2|-sharing|on|-encrypt|-ui|-lite|-pro|-ram|-ignore_undefined_lib|-ll|2000|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\bin\\c_vhdl.exe":1223059590
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\location.map":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\std.vhd":1223059796
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Multiplier_Accumulator\\Multiplier_Accumulator_Control_MD.vhd":1258224541
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Multiplier_Accumulator\\Multiplier_Accumulator_DataPath_MD.vhd":1258226328
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Multiplier_Accumulator\\Multiplier_Accumulator_TL.vhd":1258224491
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Multiplier_Accumulator\\Multiplier_Accumulator_Control_MD.vhd":1258224541
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\std1164.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\unsigned.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\arith.vhd":1223059796
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Multiplier_Accumulator\\Multiplier_Accumulator_DataPath_MD.vhd":1258226328
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Multiplier_Accumulator\\Multiplier_Accumulator_TL.vhd":1258224491
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_Control_MD.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\unsigned.vhd"; # file 3
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\arith.vhd"; # file 4
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_DataPath_MD.vhd"; # file 5
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator_TL.vhd"; # file 6
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@66::6(::Rc4I	FsRDvk0DHbH_CsqkOOlNkD0_Fs7NN0uEN0_0 MRDlk0DHbH_CsNkOOlNkD0_Fs8NN0bEN0_ONsEN;
+PHR3#8PED;R4
+RNP3_H#PDE8R
+4;N3PRFosHhCNlRk"vDb0HDsHC_OqOkDlkNs0F_07NN0uNEM_ 0
+";
+@HR@(6::(c::H(RORD	H	OD;H
+NR03sDs_FHNoMl"CRH	OD"
+;
+
+@HR@U6::Uc::H(RsR#0H0s#;H
+NR03sDs_FHNoMl"CRH0s#"
+;
+
+@HR@g6::gc::HnROHCRO
+C;N3HRs_0DFosHMCNlRO"HC
+";
+@HR@46:j::c4nj:ROHlrj4:9lRHO:r4j
+9;N3HRs_0DFosHMCNlRl"HO
+";
+@HR@46:4::c4g4:RNH80rNq(9:jRNH80rNq(9:j;H
+NR03sDs_FHNoMl"CRH08NN;q"
+@HR@46:.::c4g.:RNH80rNA(9:jRNH80rNA(9:j;H
+NR03sDs_FHNoMl"CRH08NN;A"
+@FR@46:d::c4Ud:RNF80dNr49:jRosCdd.r49:j;H
+NR03sDs_FHNoMl"CRF08NN
+";b@R@6::Uc::U(MRHPMRk4s_H#k0RMH4_sR#0H0s#;R
+b@:@64cj:::4jnMRHPMRk4l_HO9rjR4kM_OHlrRj9HrlOj
+9;b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCb;
+R6@@::dcUc:d:8gRVCVsRosCU:r(js9RCroU(9:jRNH80rNA(9:jRDHO	MRk4s_H#H0RO
+C;N3HRs_0DFosHMCNlRC"so;U"
+RNH3M#$_HHM0DPNRj"jjjjjj;j"
+@bR@.6:U4:d::.UdNcRMR8Pk_M4H_lO4MRk4l_HOR_4k_M4HrlOjH9Rl4Or9b;
+R6@@::.Ud.4:Uc:dRPFsR4kM_OHl_k.RMH4_l.O_ROHlrRj9k_M4H_lO4b;
+R6@@::.Ud.4:Uc:dRPHMR4kM_OHl_kdRMH4_ldO_R4kM_OHl_
+.;b@R@6g:.::4...g:ckRlDk0RMH4_8NN0N6r4:Rj9k_M4H08NN4Nr69:jRNH80rNq(9:jRosCU:r(j
+9;b@R@6U:.::d4.dU:clRbklGRkHD0brD$4j6:9kRlDb0HD4$r69:jRDVN#VC,NCD#,DVN#VC,NCD#,DVN#VC,NCD#,DVN#VC,NCD#,NH80rNq(9:j,OHlr
+j9RRRRV#NDCN,VD,#CV#NDCN,VD,#CV#NDCN,VD,#CV#NDCN,VD,#CsUCorj(:9M,k4l_HO
+_4RRRRk_M4H08NN4Nr69:j,4kM_OHl_
+d;b@R@6j:d::44d.j:n8RN8MRk48_N84rd:Rj9k_M4Nr88dj4:9CRsord.dj4:9kRlDb0HD4$r69:j;R
+b@:@6dUc:::dcgVR8VRsCsdCo.4rd:Rj9sdCo.4rd:Rj9k_M4Nr88dj4:9ORHDk	RMH4_sR#0H;OC
+RNH3Ds0_HFsolMNCsR"C.od"N;
+H#R3$HM_MPH0N"DRjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"y;
+---------------------------------@-
+ 
+
+
+
+ftell;
+@E@MR@64::6(::RcjI	FsRDvk0DHbH_CsqkOOlNkD0_FsB0FMs_FD RM0l0kDHHbDCNs_OlOkk0DNFOs_FsM0FND_s;OE
+RNP3PH#ER8D4N;
+PHR3#E_P84DR;P
+NRs3FHNohl"CRv0kDHHbDCqs_OlOkk0DNFBs_FsM0F D_M;0"
+@HR@(4::(c::H(RORD	H	OD;H
+NR03sDs_FHNoMl"CRH	OD"
+;
+
+@HR@U4::Uc::HnROHCRO
+C;N3HRs_0DFosHMCNlRO"HC
+";
+@HR@g4::gc::HgR8NN0)8RHN)0N;H
+NR03sDs_FHNoMl"CRH08NN;)"
+@HR@44:j::c44j:jlRHNNGPD:r(jH9RlPNGN(Dr:;j9
+RNH3Ds0_HFsolMNCHR"lPNGN;D"
+@FR@44:4::c4g4:RNF80RNe8NN0PHND8N;
+HsR30FD_sMHoNRlC"NF80"Ne;
+
+
+
+@FR@44:.::c4n.:ROFlrj4:9MRk.O_HCM,k4l_FON;
+HsR30FD_sMHoNRlC"OFl"
+;
+
+@FR@44:d::c4nd:RCFORCFO;H
+NR03sDs_FHNoMl"CRF"OC;R
+b@:@4g::cgR:gHRMPk_M4H08NNksRMH4_8NN0s8RHN)0N;R
+b@:@4.U(:::.(gMRHPMRk4O_FCMRk4O_FCNR80NNPD;H8
+@bR@.4:(::U.g(:RPHMR4kM_kOFM(0r:Rj9k_M4OMFk0:r(jO9RF0kMrj(:9b;
+Rj@@:44::.4:Rk0sCsR0k0CRs;kC
+@bR@4j::44::V.RNCD#RDVN#VCRNCD#;R
+b@:@4cUd:::cdgVR8VNRlGDPNrj(:9NRlGDPNrj(:9lRHNNGPD:r(jH9R8NN0)N;
+HsR30FD_sMHoNRlC"GlNP"ND;H
+NR$3#MM_HHN0PDjR"jjjjj"jj;R
+b@:@4c4g:4g:c:Rd.NPM8RCFORCFORCHOR4kM_CFO;R
+b@:@4d4.:n.:d:R.gCkJRMH._OkCRMH._OOCRF0kMrj(:9NRlGDPNrj(:9b;
+R4@@::6j.6c:jn:dR8NMPMRk4l_FOMRk4l_FOMRk4F_OkrM0jk9RMO4_F0kMrR49k_M4OMFk09r.
+RRRR4kM_kOFMd0r9MRk4F_OkrM0ck9RMO4_F0kMrR69k_M4OMFk09rnR4kM_kOFM(0r9b;
+R4@@::d.4dn:.g:.RPHMRdkM_CHORdkM_CHOR.kM_CHO;R
+b@:@4d4.:n.:d:R.gNPM8R08NNDPNHj8__l#JkRGN8NN0PHND8__j#kJlGHNROkCRMH._O
+C;b@R@4.:d::4nd..:gMRN88PRNP0NN8DH_#4_JGlkNNR80NNPD_H84J_#lNkGRCHORdkM_CHO;R
+b@:@4.U(:::.(gVR8VRsC8NN0PHND8NR80NNPDRH80CskRDHO	MRk48_HNs0NR08NNDPNHj8__l#Jk;GN
+RNH3Ds0_HFsolMNC8R"NP0NN8DH"N;
+H#R3$HM_MPH0N"DRj
+";b@R@44:d::4jd44:48RN8FROk_M0c:r(jO9RF0kM_(cr:Rj9OMFk0:r(j89RNP0NN8DH_#4_JGlkNb;
+R4@@::.(U(:.:8gRVRVsOMFk0:r(jO9RF0kMrj(:9FROk_M0c:r(jH9RORD	k_M4H08NN
+s;N3HRs_0DFosHMCNlRF"Ok"M0;H
+NR$3#MM_HHN0PDjR"jjjjj"jj;-
+y--------------------------------- 
+@
+ftell;
+@E@MR@6n::6(::Rd6I	FsRDvk0DHbH_CsqkOOlNkD0_Fsa p_Ml0RkHD0bCDHsO_NOkklDFN0sD_0_ONsEN;
+PHR3#8PED;R4
+RNP3_H#PDE8R
+4;N3PR#_$MVblNRF"Is\	R"\B:\FusolsN\HRwD\C#\8lFCCD0OnE_3\6\ClGNb#DC\N\alMsH\k\vDb0HDsHC_OqOkDlkNs0F\k\vDb0HDsHC_OqOkDlkNs0F_MBF0DsF_3v7P\E8"F
+Is\	R"\B:\FusolsN\HRwD\C#\8lFCCD0OnE_3\6\ClGNb#DC\N\alMsH\k\vDb0HDsHC_OqOkDlkNs0F\k\vDb0HDsHC_OqOkDlkNs0F_07NN0uNE7_v38PE\I"
+FRs	\:"B\s\uFNoslw\RH#DC\F\l80CDC_OEn\36\NCGlCbD#a\\NHlsMv\\kHD0bCDHsO_qOkklDFN0sv\\kHD0bCDHsO_qOkklDFN0sp_a38PE\""
+;
+
+
+
+@HR@(n::(c::H(RORD	H	OD;H
+NR03sDs_FHNoMl"CRH	OD"
+;
+
+@HR@Un::Uc::HnROHCRO
+C;N3HRs_0DFosHMCNlRO"HC
+";
+@HR@gn::gc::HgR8NN0)8RHN)0N;H
+NR03sDs_FHNoMl"CRH08NN;)"
+@HR@4n:j::c4gj:RNH80rNq(9:jRNH80rNq(9:j;H
+NR03sDs_FHNoMl"CRH08NN;q"
+@HR@4n:4::c4g4:RNH80rNA(9:jRNH80rNA(9:j;H
+NR03sDs_FHNoMl"CRH08NN;A"
+@HR@4n:.::c44.:jlRHNNGPD:r(jH9RlPNGN(Dr:;j9
+RNH3Ds0_HFsolMNCHR"lPNGN;D"
+@FR@4n:d::c4gd:RNF80RNeF08NN
+e;N3HRs_0DFosHMCNlR8"FNe0N"
+;
+
+@FR@4n:c::c46c:RrF#dj4:9#RFr:d4j
+9;N3HRs_0DFosHMCNlR#"F"s;
+Rn@@::cUcU:c:R4.I	FsRDvk0DHbH_CsqkOOlNkD0_Fs7NN0uEN0_0 MRDlk0DHbH_CsNkOOlNkD0_Fs8NN0bEN0_ONsENR70uN_N
+0ESDHO	O=HDS	
+H0s#=NH80
+N)SCHO=
+OCSOHlrj4:9O=lrj4:9H
+S8NN0q:r(jH9=8NN0q:r(jS9
+H08NN(Ar:=j9H08NN(Ar:
+j9SNF80dNr49:j=rF#dj4:9s;
+Rn@@::6UcU:6:R4jI	FsRDvk0DHbH_CsqkOOlNkD0_FsB0FMs_FD RM0l0kDHHbDCNs_OlOkk0DNFOs_FsM0FND_sROEB0FMs
+FDSDHO	O=HDS	
+H=OCH
+OCSNH80=N)H08NNS)
+HGlNPrND(9:j=NHlGDPNrj(:9F
+S8NN0e8=FNe0N
+lSFO:r4jl9=O:r4jS9
+F=OCO
+C;b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCC;
+;
+
+
+

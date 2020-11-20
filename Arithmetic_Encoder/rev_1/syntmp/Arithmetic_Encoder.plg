@@ -1,0 +1,13 @@
+@P:  Worst Slack : -1.714
+@P:  Arithmetic_Encoder_TL_Ent|iclk - Estimated Frequency : 87.5 MHz
+@P:  Arithmetic_Encoder_TL_Ent|iclk - Requested Frequency : 102.9 MHz
+@P:  Arithmetic_Encoder_TL_Ent|iclk - Estimated Period : 11.428
+@P:  Arithmetic_Encoder_TL_Ent|iclk - Requested Period : 9.714
+@P:  Arithmetic_Encoder_TL_Ent|iclk - Slack : -1.714
+@P: Arithmetic_Encoder_TL_Ent Part : xc4vlx15sf363-10
+@P: Arithmetic_Encoder_TL_Ent I/O primitives : 19
+@P: Arithmetic_Encoder_TL_Ent I/O Register bits : 0
+@P: Arithmetic_Encoder_TL_Ent Register bits (Non I/O) : 76 (0%)
+@P: Arithmetic_Encoder_TL_Ent Block Rams : 1 of 48 (2%)
+@P: Arithmetic_Encoder_TL_Ent Total Luts : 191 (1%)
+@P:  CPU Time : 0h:00m:01s

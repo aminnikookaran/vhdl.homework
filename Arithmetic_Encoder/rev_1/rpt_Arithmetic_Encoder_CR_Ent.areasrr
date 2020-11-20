@@ -1,0 +1,76 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC4VLX15SF363-10 (Xilinx)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Arithmetic_Encoder_CR_Ent   ########
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     2                  100 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Arithmetic_Encoder_CR_Ent:	2 (9.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      6                  100 %                
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Arithmetic_Encoder_CR_Ent:	6 (27.27 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Arithmetic_Encoder_CR_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Arithmetic_Encoder_CR_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Arithmetic_Encoder_CR_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     12                 100 %                
+=================================================
+Total IO PADS in the block Arithmetic_Encoder_CR_Ent:	12 (54.55 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

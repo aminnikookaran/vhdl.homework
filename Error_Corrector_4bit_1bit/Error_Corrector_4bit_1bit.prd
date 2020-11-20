@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\Error_Corrector_4bit_1bit.prd
+#-- Written on Wed Dec 02 12:29:28 2009
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

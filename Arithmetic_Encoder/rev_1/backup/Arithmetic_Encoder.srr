@@ -1,0 +1,198 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Fri Dec 25 21:33:51 2009
+
+$ Start of Compile
+#Fri Dec 25 21:33:51 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":5:7:5:25|Top entity is set to ROM_256x8bit_MD_Ent.
+VHDL syntax check successful!
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":5:7:5:25|Synthesizing work.rom_256x8bit_md_ent.rom_256x8bit_md_arch 
+@W: CD638 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":16:9:16:11|Signal rom is undriven 
+Post processing for work.rom_256x8bit_md_ent.rom_256x8bit_md_arch
+@W: CL189 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Register bit odata(7) is always 0, optimizing ...
+@W: CL189 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Register bit odata(6) is always 0, optimizing ...
+@W: CL189 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Register bit odata(5) is always 0, optimizing ...
+@W: CL189 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Register bit odata(4) is always 0, optimizing ...
+@W: CL189 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Register bit odata(3) is always 0, optimizing ...
+@W: CL189 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Register bit odata(2) is always 0, optimizing ...
+@W: CL171 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Pruning Register bit <7> of odata(7 downto 0)  
+@W: CL171 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Pruning Register bit <6> of odata(7 downto 0)  
+@W: CL171 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Pruning Register bit <5> of odata(7 downto 0)  
+@W: CL171 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Pruning Register bit <4> of odata(7 downto 0)  
+@W: CL171 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Pruning Register bit <3> of odata(7 downto 0)  
+@W: CL171 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\ROM_256x8bit_MD.vhd":25:8:25:9|Pruning Register bit <2> of odata(7 downto 0)  
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Dec 25 21:33:51 2009
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+@N: MO106 :"c:\program files\modeltech_6.5\examples\tamrin\arithmetic_encoder\rom_256x8bit_md.vhd":26:19:26:21|Found ROM, 'odata_1[7:6]', 256 words by 2 bits 
+@N: MT206 |Autoconstrain Mode is ON
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port iclk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Net buffering Report for view:work.ROM_256x8bit_MD_Ent(rom_256x8bit_md_arch):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\rev_1\Arithmetic_Encoder.srm
+@N: BN225 |Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\rev_1\Arithmetic_Encoder.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Found clock ROM_256x8bit_MD_Ent|iclk with period 1000.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Dec 25 21:33:53 2009
+#
+
+
+Top view:               ROM_256x8bit_MD_Ent
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for ROM_256x8bit_MD_Ent 
+
+Mapping to part: xc4vlx15sf363-10
+Cell usage:
+FD              2 uses
+GND             1 use
+LUT2            1 use
+LUT3            1 use
+LUT4            3 uses
+
+I/O ports: 17
+I/O primitives: 16
+IBUF           8 uses
+OBUF           8 uses
+
+BUFGP          1 use
+
+I/O Register bits:                  2
+Register bits not including I/Os:   0 (0%)
+
+Global Clock Buffers: 1 of 32 (3%)
+
+Total load per clock:
+   ROM_256x8bit_MD_Ent|iclk: 2
+
+Mapping Summary:
+Total  LUTs: 5 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Dec 25 21:33:53 2009
+
+###########################################################]

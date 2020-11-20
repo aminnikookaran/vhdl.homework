@@ -1,0 +1,20 @@
+{C:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_tb.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_tb.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Compiling entity tb_ram_1024x8bit
+-- Compiling architecture tb_ram_1024x8bit_arch of tb_ram_1024x8bit
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_MD.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_MD.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity ram_1024x8bit_ent
+-- Compiling architecture ram_1024x8bit_arch of ram_1024x8bit_ent
+
+} {} {}}

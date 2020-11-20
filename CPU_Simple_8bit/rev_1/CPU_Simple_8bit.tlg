@@ -1,0 +1,18 @@
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_TL.vhd":5:7:5:28|Synthesizing work.cpu_simple_8bit_tl_ent.cpu_simple_8bit_tl_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_DP.vhd":5:7:5:28|Synthesizing work.cpu_simple_8bit_dp_ent.cpu_simple_8bit_dp_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\Rom_16x8bit_MD.vhd":5:7:5:24|Synthesizing work.rom_16x8bit_md_ent.rom_16x8bit_md_arch 
+Post processing for work.rom_16x8bit_md_ent.rom_16x8bit_md_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\Register_4bit_MD.vhd":5:7:5:26|Synthesizing work.register_4bit_md_ent.register_4bit_md_arch 
+Post processing for work.register_4bit_md_ent.register_4bit_md_arch
+Post processing for work.cpu_simple_8bit_dp_ent.cpu_simple_8bit_dp_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_CR.vhd":5:7:5:28|Synthesizing work.cpu_simple_8bit_cr_ent.cpu_simple_8bit_cr_arch 
+Post processing for work.cpu_simple_8bit_cr_ent.cpu_simple_8bit_cr_arch
+Post processing for work.cpu_simple_8bit_tl_ent.cpu_simple_8bit_tl_arch
+@N: CL201 :"C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_CR.vhd":23:8:23:9|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL171 :"C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_CR.vhd":83:8:83:9|Pruning Register bit <7> of oload(9 downto 0)  

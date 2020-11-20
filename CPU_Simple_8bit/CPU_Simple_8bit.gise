@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="CPU_Simple_8bit.ntrc_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CPU_Simple_8bit_TB_Ent.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CPU_Simple_8bit_TB_Ent.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CPU_Simple_8bit_TB_Ent.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CPU_Simple_8bit_TB_Ent.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CPU_Simple_8bit_TB_Ent.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU_Simple_8bit_TB_Ent.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CPU_Simple_8bit_TB_Ent.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CPU_Simple_8bit_TB_Ent.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CPU_Simple_8bit_TB_Ent.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU_Simple_8bit_TB_Ent_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPU_Simple_8bit_TB_Ent_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU_Simple_8bit_TB_Ent_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU_Simple_8bit_TB_Ent_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CPU_Simple_8bit_TL_Ent.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CPU_Simple_8bit_TL_Ent.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CPU_Simple_8bit_TL_Ent.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CPU_Simple_8bit_TL_Ent.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CPU_Simple_8bit_TL_Ent.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CPU_Simple_8bit_TL_Ent.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CPU_Simple_8bit_TL_Ent.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="CPU_Simple_8bit_TL_Ent.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="CPU_Simple_8bit_TL_Ent.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU_Simple_8bit_TL_Ent.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="CPU_Simple_8bit_TL_Ent.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CPU_Simple_8bit_TL_Ent.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="CPU_Simple_8bit_TL_Ent.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="CPU_Simple_8bit_TL_Ent.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CPU_Simple_8bit_TL_Ent.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="CPU_Simple_8bit_TL_Ent_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="CPU_Simple_8bit_TL_Ent_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="CPU_Simple_8bit_TL_Ent_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU_Simple_8bit_TL_Ent_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU_Simple_8bit_TL_Ent_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU_Simple_8bit_TL_Ent_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPU_Simple_8bit_TL_Ent_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CPU_Simple_8bit_TL_Ent_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="CPU_Simple_8bit_TL_Ent_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU_Simple_8bit_TL_Ent_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU_Simple_8bit_TL_Ent_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BCD" xil_pn:name="CPU_Simple_8bit_xdb/cst.xbcd"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="smartpreview.twr"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1261637175" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1261637175">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1261637175" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7269700336284414409" xil_pn:start_ts="1261637175">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1261640764" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7411934866625635374" xil_pn:start_ts="1261640764">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1261637175" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1261637175">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1261637175" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1261637175">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1261637175" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:start_ts="1261637175">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1261640941" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-7494710100382645182" xil_pn:start_ts="1261640941">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1261640949" xil_pn:in_ck="9052789356226095301" xil_pn:name="TRANEXT_xstsynthesize_virtex4" xil_pn:prop_ck="-4739747243785322072" xil_pn:start_ts="1261640941">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CPU_Simple_8bit.ntrc_log"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.cmd_log"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.lso"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.ngc"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.ngr"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.prj"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.stx"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.syr"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.xst"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_summary.html"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_vhdl.prj"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1261640949" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="6037709077135909898" xil_pn:start_ts="1261640949">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_xdb/cst.xbcd"/>
+    </transform>
+    <transform xil_pn:end_ts="1261640955" xil_pn:in_ck="5945536025707610130" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4446896914812133013" xil_pn:start_ts="1261640949">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.bld"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.cmd_log"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.ngd"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1261640967" xil_pn:in_ck="5945536025707610131" xil_pn:name="TRANEXT_map_virtex4" xil_pn:prop_ck="2537927303196266119" xil_pn:start_ts="1261640955">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.pcf"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_map.map"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_map.mrp"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_map.ncd"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_map.ngm"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_map.xrpt"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_summary.xml"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1261640993" xil_pn:in_ck="148363132174311596" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5599260913144857594" xil_pn:start_ts="1261640967">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.ncd"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.pad"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.par"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.ptwx"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.unroutes"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.xpi"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_pad.csv"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_pad.txt"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="smartpreview.twr"/>
+    </transform>
+    <transform xil_pn:end_ts="1261640993" xil_pn:in_ck="5945536025707609999" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="4075150568191452907" xil_pn:start_ts="1261640984">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.twr"/>
+      <outfile xil_pn:name="CPU_Simple_8bit_TL_Ent.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

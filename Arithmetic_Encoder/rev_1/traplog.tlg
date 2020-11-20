@@ -1,0 +1,38 @@
+@N: CD630 :".\gentmp0a00760":4:7:4:9|Synthesizing work.top.gen 
+@N: CD630 :"syng0a00760":200:7:200:12|Synthesizing work.ram_rw.select_ram 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <32> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <33> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <34> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <35> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <36> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <37> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <38> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <39> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <40> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <41> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <42> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <43> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <44> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <45> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <46> of signal out_bus_128 is undriven 
+@W: CD639 :"syng0a00760":2707:7:2707:17|Bit <47> of signal out_bus_128 is undriven 
+@W: CD638 :"syng0a00760":2708:7:2708:16|Signal out_bus_64 is undriven 
+@W: CD638 :"syng0a00760":2709:7:2709:16|Signal out_bus_32 is undriven 
+@W: CD638 :"syng0a00760":2710:7:2710:16|Signal out_bus_16 is undriven 
+@W: CD639 :"syng0a00760":2711:7:2711:12|Bit <2> of signal out_en is undriven 
+@W: CD638 :"syng0a00760":2712:7:2712:15|Signal out_en_64 is undriven 
+@W: CD638 :"syng0a00760":2713:7:2713:15|Signal out_en_32 is undriven 
+@W: CD638 :"syng0a00760":2714:7:2714:15|Signal out_en_16 is undriven 
+@W: CD639 :"syng0a00760":2715:7:2715:12|Bit <2> of signal wrt_en is undriven 
+@W: CD638 :"syng0a00760":2716:7:2716:15|Signal wrt_en_64 is undriven 
+@W: CD638 :"syng0a00760":2717:7:2717:15|Signal wrt_en_32 is undriven 
+@W: CD638 :"syng0a00760":2718:7:2718:15|Signal wrt_en_16 is undriven 
+@W: CD638 :"syng0a00760":2725:7:2725:14|Signal tmp_8_32 is undriven 
+@W: CD638 :"syng0a00760":2725:17:2725:24|Signal tmp_8_16 is undriven 
+@N: CD630 :"syng0a00760":11:7:11:16|Synthesizing work.xram128x1s.ram_v 
+@N: CD630 :"C:\Program Files\Synplicity\fpga_961\lib\xilinx\unisim.vhd":19664:10:19664:17|Synthesizing unisim.ram64x1s.syn_black_box 
+Post processing for unisim.ram64x1s.syn_black_box
+Post processing for work.xram128x1s.ram_v
+Post processing for work.ram_rw.select_ram
+Post processing for work.top.gen
+@W: CL159 :"syng0a00760":216:8:216:11|Input OCLK is unused

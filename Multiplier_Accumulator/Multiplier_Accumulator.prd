@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\Multiplier_Accumulator.prd
+#-- Written on Fri Nov 13 16:22:47 2009
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

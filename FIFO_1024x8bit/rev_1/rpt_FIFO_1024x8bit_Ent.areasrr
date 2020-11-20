@@ -1,0 +1,303 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC4VLX15SF363-10 (Xilinx)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   FIFO_1024x8bit_Ent   ########
+==================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     44                 100 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_1024x8bit_Ent:	44 (17.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      66                 100 %                
+MUXCY     46                 100 %                
+XORCY     49                 100 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block FIFO_1024x8bit_Ent:	161 (62.65 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     1                  100 %                
+======================================================
+Total MEMORY ELEMENTS in the block FIFO_1024x8bit_Ent:	1 (0.39 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block FIFO_1024x8bit_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block FIFO_1024x8bit_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     45                 100 %                
+=================================================
+Total IO PADS in the block FIFO_1024x8bit_Ent:	45 (17.51 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   Counter_11bit_Ent   ########
+Instance path:   FIFO_1024x8bit_Ent.Counter_11bit_Ent                  
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     12                 27.3 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent:	12 (4.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      13                 19.7 %               
+MUXCY     9                  19.6 %               
+XORCY     10                 20.4 %               
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent:	32 (12.45 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent:	0 (0.00 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   Counter_11bit_Ent_1   ########
+Instance path:   FIFO_1024x8bit_Ent.Counter_11bit_Ent_1                  
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     12                 27.3 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent_1:	12 (4.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      12                 18.2 %               
+MUXCY     9                  19.6 %               
+XORCY     10                 20.4 %               
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent_1:	31 (12.06 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent_1:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent_1:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent_1:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block FIFO_1024x8bit_Ent.Counter_11bit_Ent_1:	0 (0.00 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Simple_Dual_Port_Ram_1024x8bit_Ent   ########
+Instance path:   FIFO_1024x8bit_Ent.Simple_Dual_Port_Ram_1024x8bit_Ent                  
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_1024x8bit_Ent.Simple_Dual_Port_Ram_1024x8bit_Ent:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      0                  0.0 %                
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block FIFO_1024x8bit_Ent.Simple_Dual_Port_Ram_1024x8bit_Ent:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     1                  100 %                
+======================================================
+Total MEMORY ELEMENTS in the block FIFO_1024x8bit_Ent.Simple_Dual_Port_Ram_1024x8bit_Ent:	1 (0.39 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block FIFO_1024x8bit_Ent.Simple_Dual_Port_Ram_1024x8bit_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block FIFO_1024x8bit_Ent.Simple_Dual_Port_Ram_1024x8bit_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block FIFO_1024x8bit_Ent.Simple_Dual_Port_Ram_1024x8bit_Ent:	0 (0.00 % Utilization)
+
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 1
+
+FIFO.ram_ram_0_0
+----------------------------
+READ_WIDTH_A			9
+WRITE_WIDTH_A			9
+READ_WIDTH_B			9
+WRITE_WIDTH_B			9
+WRITE_MODE_A			WRITE_FIRST
+WRITE_MODE_B			READ_FIRST
+SRVAL_A					000
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

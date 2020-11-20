@@ -1,0 +1,395 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Wed Dec 02 12:34:21 2009
+
+$ Start of Compile
+#Wed Dec 02 12:34:21 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\LFSR_4bit_MD.vhd":6:7:6:19|Top entity is set to LFSR_4bit_Ent.
+VHDL syntax check successful!
+File C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\LFSR_4bit_MD.vhd changed - recompiling
+File C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\LFSR_4bit_MD.vhd changed - recompiling
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\LFSR_4bit_MD.vhd":6:7:6:19|Synthesizing work.lfsr_4bit_ent.lfsr_4bit_arch 
+Post processing for work.lfsr_4bit_ent.lfsr_4bit_arch
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 02 12:34:21 2009
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+@N: MT206 |Autoconstrain Mode is ON
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port iclk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Net buffering Report for view:work.LFSR_4bit_Ent(lfsr_4bit_arch):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\rev_1\Encoder_4x7bit_MD.srm
+@N: BN225 |Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\rev_1\Encoder_4x7bit_MD.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Found clock LFSR_4bit_Ent|iclk with period 1.10ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Dec 02 12:34:24 2009
+#
+
+
+Top view:               LFSR_4bit_Ent
+Requested Frequency:    909.6 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.194
+
+                       Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group                
+----------------------------------------------------------------------------------------------------------------------------
+LFSR_4bit_Ent|iclk     909.6 MHz     773.2 MHz     1.099         1.293         -0.194     inferred     Autoconstr_clkgroup_0
+============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------
+LFSR_4bit_Ent|iclk  LFSR_4bit_Ent|iclk  |  1.099       -0.194  |  No paths    -      |  No paths    -      |  No paths    -    
+===============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: LFSR_4bit_Ent|iclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                         Arrival           
+Instance     Reference              Type     Pin     Net      Time        Slack 
+             Clock                                                              
+--------------------------------------------------------------------------------
+b[1]         LFSR_4bit_Ent|iclk     FD       Q       b[1]     0.350       -0.194
+b[2]         LFSR_4bit_Ent|iclk     FD       Q       b[2]     0.350       -0.182
+b[3]         LFSR_4bit_Ent|iclk     FD       Q       b[3]     0.350       -0.182
+b[0]         LFSR_4bit_Ent|iclk     FD       Q       b[0]     0.350       -0.116
+================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                           Required           
+Instance     Reference              Type     Pin     Net        Time         Slack 
+             Clock                                                                 
+-----------------------------------------------------------------------------------
+b[0]         LFSR_4bit_Ent|iclk     FD       D       b[1]       0.818        -0.194
+b[1]         LFSR_4bit_Ent|iclk     FD       D       b[2]       0.818        -0.182
+b[2]         LFSR_4bit_Ent|iclk     FD       D       b[3]       0.818        -0.182
+b[3]         LFSR_4bit_Ent|iclk     FD       D       b_5[3]     1.079        -0.128
+===================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1.099
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.818
+
+    - Propagation time:                      1.012
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.194
+
+    Number of logic level(s):                0
+    Starting point:                          b[1] / Q
+    Ending point:                            b[0] / D
+    The start point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+    The end   point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+b[1]               FD       Q        Out     0.350     0.350       -         
+b[1]               Net      -        -       0.662     -           3         
+b[0]               FD       D        In      -         1.012       -         
+=============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 1.293 is 0.631(48.8%) logic and 0.662(51.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        1.099
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.818
+
+    - Propagation time:                      1.000
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.182
+
+    Number of logic level(s):                0
+    Starting point:                          b[2] / Q
+    Ending point:                            b[1] / D
+    The start point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+    The end   point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+b[2]               FD       Q        Out     0.350     0.350       -         
+b[2]               Net      -        -       0.650     -           2         
+b[1]               FD       D        In      -         1.000       -         
+=============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 1.281 is 0.631(49.2%) logic and 0.650(50.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        1.099
+    - Setup time:                            0.281
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         0.818
+
+    - Propagation time:                      1.000
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.182
+
+    Number of logic level(s):                0
+    Starting point:                          b[3] / Q
+    Ending point:                            b[2] / D
+    The start point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+    The end   point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+b[3]               FD       Q        Out     0.350     0.350       -         
+b[3]               Net      -        -       0.650     -           2         
+b[2]               FD       D        In      -         1.000       -         
+=============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 1.281 is 0.631(49.2%) logic and 0.650(50.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        1.099
+    - Setup time:                            0.020
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.079
+
+    - Propagation time:                      1.207
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.128
+
+    Number of logic level(s):                1
+    Starting point:                          b[1] / Q
+    Ending point:                            b[3] / D
+    The start point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+    The end   point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+b[1]               FD         Q        Out     0.350     0.350       -         
+b[1]               Net        -        -       0.662     -           3         
+b_5_0[3]           LUT2_L     I1       In      -         1.012       -         
+b_5_0[3]           LUT2_L     LO       Out     0.195     1.207       -         
+b_5[3]             Net        -        -       0.000     -           1         
+b[3]               FD         D        In      -         1.207       -         
+===============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 1.227 is 0.565(46.0%) logic and 0.662(54.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        1.099
+    - Setup time:                            0.020
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.079
+
+    - Propagation time:                      1.195
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.116
+
+    Number of logic level(s):                1
+    Starting point:                          b[0] / Q
+    Ending point:                            b[3] / D
+    The start point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+    The end   point is clocked by            LFSR_4bit_Ent|iclk [rising] on pin C
+
+Instance / Net                Pin      Pin               Arrival     No. of    
+Name               Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------
+b[0]               FD         Q        Out     0.350     0.350       -         
+b[0]               Net        -        -       0.650     -           2         
+b_5_0[3]           LUT2_L     I0       In      -         1.000       -         
+b_5_0[3]           LUT2_L     LO       Out     0.195     1.195       -         
+b_5[3]             Net        -        -       0.000     -           1         
+b[3]               FD         D        In      -         1.195       -         
+===============================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 1.215 is 0.565(46.5%) logic and 0.650(53.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for LFSR_4bit_Ent 
+
+Mapping to part: xc4vlx15sf363-10
+Cell usage:
+FD              4 uses
+LUT2            1 use
+
+I/O ports: 5
+I/O primitives: 4
+OBUF           4 uses
+
+BUFGP          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   4 (0%)
+
+Global Clock Buffers: 1 of 32 (3%)
+
+Total load per clock:
+   LFSR_4bit_Ent|iclk: 4
+
+Mapping Summary:
+Total  LUTs: 1 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Dec 02 12:34:24 2009
+
+###########################################################]

@@ -1,0 +1,3226 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC4VLX15SF363-10 (Xilinx)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Multiplier_16bit_Ent   ########
+====================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      924                100 %                
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent:	924 (93.52 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     64                 100 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent:	64 (6.48 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_8bit_Ent   ########
+Instance path:   Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent                
+=====================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      33                 3.57 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent:	33 (3.34 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_8bit_Ent_1   ########
+Instance path:   Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_1                
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_1:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      149                16.1 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_1:	149 (15.08 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_1:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_1:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_1:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_1:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_8bit_Ent_2   ########
+Instance path:   Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_2                
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_2:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      57                 6.17 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_2:	57 (5.77 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_2:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_2:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_2:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_2:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_8bit_Ent_3   ########
+Instance path:   Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_3                
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_3:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      155                16.8 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_3:	155 (15.69 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_3:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_3:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_3:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_3:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_8bit_Ent_4   ########
+Instance path:   Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_4                
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_4:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      16                 1.73 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_4:	16 (1.62 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_4:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_4:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_4:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Carry_Look_Ahead_Adder_8bit_Ent_4:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_8bit_Ent_Multiplier_8bit0   ########
+Instance path:   Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0                
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      148                16. %                
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0:	148 (14.98 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0:	0 (0.00 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent
+=====================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      7                  0.7580 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent:	7 (0.71 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_1   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_1
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_1:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      30                 3.25 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_1:	30 (3.04 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_1:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_1:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_1:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_1:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_2   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_2
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_2:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      15                 1.62 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_2:	15 (1.52 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_2:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_2:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_2:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_2:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_3   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_3
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_3:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      10                 1.08 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_3:	10 (1.01 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_3:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_3:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_3:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_3:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_4   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_4
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_4:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      1                  0.1080 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_4:	1 (0.10 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_4:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_4:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_4:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Carry_Look_Ahead_Adder_4bit_Ent_4:	0 (0.00 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      28                 3.03 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent:	28 (2.83 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_1   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_1
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_1:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      18                 1.95 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_1:	18 (1.82 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_1:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_1:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_1:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_1:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_2   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_2
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_2:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      19                 2.06 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_2:	19 (1.92 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_2:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_2:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_2:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_2:	0 (0.00 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_3   ########
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_3
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_3:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      20                 2.16 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_3:	20 (2.02 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_3:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_3:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_3:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0.Multiplier_4bit_Ent_3:	0 (0.00 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_8bit_Ent_Multiplier_8bit0_1   ########
+Instance path:   Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_1                
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_1:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      109                11.8 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_1:	109 (11.03 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_1:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_1:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_1:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_1:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_5   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_5
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_5:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      7                  0.7580 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_5:	7 (0.71 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_5:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_5:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_5:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_5:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_6   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_6
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_6:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      7                  0.7580 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_6:	7 (0.71 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_6:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_6:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_6:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_6:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_7   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_7
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_7:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      9                  0.9740 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_7:	9 (0.91 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_7:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_7:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_7:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_7:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_8   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_8
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_8:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      9                  0.9740 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_8:	9 (0.91 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_8:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_8:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_8:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_8:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_9   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_9
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_9:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      1                  0.1080 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_9:	1 (0.10 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_9:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_9:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_9:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Carry_Look_Ahead_Adder_4bit_Ent_9:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_4   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_4
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_4:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      17                 1.84 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_4:	17 (1.72 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_4:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_4:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_4:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_4:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_5   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_5
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_5:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      21                 2.27 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_5:	21 (2.13 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_5:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_5:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_5:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_5:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_6   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_6
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_6:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      20                 2.16 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_6:	20 (2.02 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_6:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_6:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_6:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_6:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_7   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_7
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_7:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      18                 1.95 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_7:	18 (1.82 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_7:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_7:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_7:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_1.Multiplier_4bit_Ent_7:	0 (0.00 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_8bit_Ent_Multiplier_8bit0_2   ########
+Instance path:   Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_2                
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_2:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      109                11.8 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_2:	109 (11.03 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_2:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_2:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_2:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_2:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_10   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_10
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_10:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      7                  0.7580 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_10:	7 (0.71 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_10:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_10:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_10:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_10:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_11   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_11
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_11:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      6                  0.6490 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_11:	6 (0.61 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_11:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_11:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_11:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_11:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_12   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_12
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_12:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      8                  0.8660 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_12:	8 (0.81 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_12:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_12:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_12:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_12:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_13   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_13
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_13:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      7                  0.7580 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_13:	7 (0.71 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_13:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_13:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_13:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_13:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_14   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_14
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_14:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      1                  0.1080 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_14:	1 (0.10 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_14:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_14:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_14:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Carry_Look_Ahead_Adder_4bit_Ent_14:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_10   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_10
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_10:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      20                 2.16 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_10:	20 (2.02 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_10:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_10:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_10:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_10:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_11   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_11
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_11:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      21                 2.27 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_11:	21 (2.13 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_11:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_11:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_11:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_11:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_8   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_8
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_8:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      19                 2.06 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_8:	19 (1.92 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_8:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_8:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_8:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_8:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_9   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_9
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_9:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      20                 2.16 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_9:	20 (2.02 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_9:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_9:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_9:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_2.Multiplier_4bit_Ent_9:	0 (0.00 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_8bit_Ent_Multiplier_8bit0_3   ########
+Instance path:   Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_3                
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_3:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      148                16. %                
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_3:	148 (14.98 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_3:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_3:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_3:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_16bit_Ent.Multiplier_8bit_Ent_Multiplier_8bit0_3:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_15   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_15
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      8                  0.8660 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_15:	8 (0.81 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_15:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_16   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_16
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_16:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      7                  0.7580 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_16:	7 (0.71 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_16:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_16:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_16:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_16:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_17   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_17
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_17:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      14                 1.52 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_17:	14 (1.42 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_17:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_17:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_17:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_17:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_18   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_18
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_18:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      32                 3.46 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_18:	32 (3.24 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_18:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_18:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_18:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_18:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Carry_Look_Ahead_Adder_4bit_Ent_19   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_19
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_19:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      4                  0.4330 %             
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_19:	4 (0.40 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_19:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_19:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_19:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Carry_Look_Ahead_Adder_4bit_Ent_19:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_12   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_12
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_12:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      22                 2.38 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_12:	22 (2.23 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_12:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_12:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_12:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_12:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_13   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_13
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_13:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      20                 2.16 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_13:	20 (2.02 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_13:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_13:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_13:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_13:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_14   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_14
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_14:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      18                 1.95 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_14:	18 (1.82 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_14:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_14:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_14:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_14:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   Multiplier_4bit_Ent_15   ########  
+Instance path:   Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_15
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      23                 2.49 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_15:	23 (2.33 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Multiplier_8bit_Ent_Multiplier_8bit0_3.Multiplier_4bit_Ent_15:	0 (0.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

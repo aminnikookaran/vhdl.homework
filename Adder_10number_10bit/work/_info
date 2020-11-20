@@ -1,0 +1,182 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Adder_100bit
+T_opt
+Z1 VbW<Qkl2O?4z:^<<e]KAf`2
+Z2 04 12 9 work addlookahead look_arch 1
+Z3 =1-00215dec8b38-4ad9d12c-79-1128
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+VJzcN2[nl0]<:DM[3]<gl<1
+04 23 28 work tb_adder_10number_10bit tb_adder_10number_10bit_arch 1
+Z7 =1-00214fb9216b-4ae2f5b9-33f-d4c
+R4
+Z8 n@_opt1
+R6
+Eadder_10number_10bit_ent
+Z9 w1255876290
+Z10 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z11 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z12 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z13 dC:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit
+Z14 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Adder_10number_10bit_MD.vhd
+Z15 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Adder_10number_10bit_MD.vhd
+l0
+L5
+Z16 VLzKXb5USZTPLc;W]]^c`a2
+Z17 OE;C;6.5;42
+32
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1
+Z20 !s100 9[Z^z:n[S6e;9eVKlUI::3
+Aadder_10number_10bit_arch
+R10
+R11
+R12
+Z21 DEx4 work 24 adder_10number_10bit_ent 0 22 LzKXb5USZTPLc;W]]^c`a2
+l61
+L22
+Z22 V?PiA;1S9MXR2BP7EEPIm20
+R17
+32
+Z23 Mx3 4 ieee 14 std_logic_1164
+Z24 Mx2 4 ieee 18 std_logic_unsigned
+Z25 Mx1 4 ieee 15 std_logic_arith
+R18
+R19
+Z26 !s100 3UomADS<SbjAi8K;NGjXK2
+Ecarry_look_ahead_adder_ent
+Z27 w1255873319
+R10
+R11
+R12
+R13
+Z28 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Carry_Look_Ahead_Adder_MD.vhd
+Z29 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Carry_Look_Ahead_Adder_MD.vhd
+l0
+L5
+Z30 VYITTX>mY89I35h9[dNA170
+R17
+32
+R18
+R19
+Z31 !s100 jGPlL;J5Odb`hGicVY<fz2
+Acarry_look_ahead_adder_arch
+R10
+R11
+R12
+Z32 DEx4 work 26 carry_look_ahead_adder_ent 0 22 YITTX>mY89I35h9[dNA170
+l23
+L15
+Z33 VbG0hbRF9?M;3[fZOFPm8]3
+R17
+32
+R23
+R24
+R25
+R18
+R19
+Z34 !s100 BFZ?[Rd@TM06PkZHk4Ek01
+Ecarry_save_adder_ent
+Z35 w1256387975
+R10
+R11
+R12
+R13
+Z36 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Carry_Save_Adder_MD.vhd
+Z37 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Carry_Save_Adder_MD.vhd
+l0
+L5
+Z38 VIDUfXZDBU1VFRHSCo?@C:2
+R17
+32
+R18
+R19
+Z39 !s100 U1T4]h78;XYF5?CVa9;iW3
+Acarry_save_adder_arch
+R10
+R11
+R12
+Z40 DEx4 work 20 carry_save_adder_ent 0 22 IDUfXZDBU1VFRHSCo?@C:2
+l39
+L15
+Z41 VNZkfSYEN8VINoTS8]0YD:0
+R17
+32
+R23
+R24
+R25
+R18
+R19
+Z42 !s100 2<7AaKGHoNFW8jmQCzi[H3
+Efull_adder_ent
+Z43 w1255762613
+R10
+R11
+R12
+R13
+Z44 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Full_Adder_MD.vhd
+Z45 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Full_Adder_MD.vhd
+l0
+L5
+Z46 VVk82VbjnE728Q>i]UdT5U0
+R17
+32
+R18
+R19
+Z47 !s100 F3fJRljAZ8l;RQKGBHHI83
+Afull_adder_arch
+R10
+R11
+R12
+Z48 DEx4 work 14 full_adder_ent 0 22 Vk82VbjnE728Q>i]UdT5U0
+l16
+L15
+Z49 V480cScGKL;L0VZWWLA?:j1
+R17
+32
+R23
+R24
+R25
+R18
+R19
+Z50 !s100 8YzgmAmW3hU`[NXoacnnz3
+Etb_adder_10number_10bit
+Z51 w1256387889
+Z52 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R10
+R11
+R12
+R13
+Z53 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Adder_10number_10bit_tb.vhd
+Z54 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Adder_10number_10bit_tb.vhd
+l0
+L6
+Z55 V5nUkE0Of8;iLKGhlA:DQ42
+R17
+32
+R18
+R19
+Z56 !s100 8<7aTWBiLCJdA:kh3d6bQ2
+Atb_adder_10number_10bit_arch
+R52
+R10
+R11
+R12
+Z57 DEx4 work 23 tb_adder_10number_10bit 0 22 5nUkE0Of8;iLKGhlA:DQ42
+l42
+L9
+Z58 Vah8omWYhz]?;ZS0=C`b3Y0
+R17
+32
+Z59 Mx4 4 ieee 14 std_logic_1164
+Z60 Mx3 4 ieee 18 std_logic_unsigned
+Z61 Mx2 4 ieee 15 std_logic_arith
+Z62 Mx1 4 ieee 11 numeric_std
+R18
+R19
+Z63 !s100 Vk7X>T[UWiY<cWl?`fkGS1

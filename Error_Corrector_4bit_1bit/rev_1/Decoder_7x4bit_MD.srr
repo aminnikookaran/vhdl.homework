@@ -1,0 +1,160 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Sat Nov 14 23:51:07 2009
+
+$ Start of Compile
+#Sat Nov 14 23:51:07 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\Decoder_7x4bit_MD.vhd":6:7:6:21|Top entity is set to Decoder_7x4_Ent.
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\Decoder_7x4bit_MD.vhd":6:7:6:21|Synthesizing work.decoder_7x4_ent.decoder_7x4_arch 
+Post processing for work.decoder_7x4_ent.decoder_7x4_arch
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 14 23:51:07 2009
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+@N: MT206 |Autoconstrain Mode is ON
+@N|Only System clock will be Autoconstrained
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Net buffering Report for view:work.Decoder_7x4_Ent(decoder_7x4_arch):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\rev_1\Decoder_7x4bit_MD.srm
+@N: BN225 |Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit\rev_1\Decoder_7x4bit_MD.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Nov 14 23:51:09 2009
+#
+
+
+Top view:               Decoder_7x4_Ent
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for Decoder_7x4_Ent 
+
+Mapping to part: xc4vlx15sf363-10
+LUT3            1 use
+LUT4            7 uses
+I/O ports: 12
+I/O primitives: 12
+IBUF           7 uses
+OBUF           5 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+Total load per clock:
+
+Mapping Summary:
+Total  LUTs: 8 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 14 23:51:09 2009
+
+###########################################################]

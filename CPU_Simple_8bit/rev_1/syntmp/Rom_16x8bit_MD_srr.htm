@@ -1,0 +1,480 @@
+<html><body><samp><pre>
+<!@TC:1261172105>
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Sat Dec 19 01:05:05 2009
+
+<a name=compilerReport98>$ Start of Compile</a>
+#Sat Dec 19 01:05:05 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N:<a href="@N:CD720:@XP_HELP">CD720</a> : <a href="C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd:123:18:123:22:@N:CD720:@XP_MSG">std.vhd(123)</a><!@TM:1261172105> | Setting time resolution to ns
+@N: : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_CR.vhd:5:7:5:29:@N::@XP_MSG">CPU_Simple_8bit_CR.vhd(5)</a><!@TM:1261172105> | Top entity is set to CPU_Simple_8bit_CR_Ent.
+VHDL syntax check successful!
+@N:<a href="@N:CD630:@XP_HELP">CD630</a> : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_CR.vhd:5:7:5:29:@N:CD630:@XP_MSG">CPU_Simple_8bit_CR.vhd(5)</a><!@TM:1261172105> | Synthesizing work.cpu_simple_8bit_cr_ent.cpu_simple_8bit_cr_arch 
+Post processing for work.cpu_simple_8bit_cr_ent.cpu_simple_8bit_cr_arch
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_CR.vhd:23:8:23:10:@N:CL201:@XP_MSG">CPU_Simple_8bit_CR.vhd(23)</a><!@TM:1261172105> | Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\CPU_Simple_8bit_CR.vhd:9:4:9:9:@W:CL246:@XP_MSG">CPU_Simple_8bit_CR.vhd(9)</a><!@TM:1261172105> | Input port bits 3 to 2 of ictrl(8 downto 0) are unused </font>
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 19 01:05:05 2009
+
+###########################################################]
+<a name=mapperReport99>Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55</a>
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N:<a href="@N:MF249:@XP_HELP">MF249</a> : <!@TM:1261172107> | Running in 32-bit mode. 
+@N:<a href="@N:MF257:@XP_HELP">MF257</a> : <!@TM:1261172107> | Gated clock conversion enabled  
+Reading Xilinx I/O pad type table from file [C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt] 
+Reading Xilinx Rocket I/O parameter type table from file [C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt] 
+
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1261172107> | Autoconstrain Mode is ON 
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Encoding state machine work.CPU_Simple_8bit_CR_Ent(cpu_simple_8bit_cr_arch)-state[0:3]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port iclk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.72ns		  34 /        14
+   2		0h:00m:00s		    -0.11ns		  34 /        14
+   3		0h:00m:00s		    -0.11ns		  34 /        14
+   4		0h:00m:00s		    -0.11ns		  34 /        14
+------------------------------------------------------------
+
+Timing driven replication report
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\cpu_simple_8bit\cpu_simple_8bit_cr.vhd:23:8:23:10:@N:FX271:@XP_MSG">cpu_simple_8bit_cr.vhd(23)</a><!@TM:1261172107> | Instance "state[1]" with 14 loads has been replicated 1 time(s) to improve timing 
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="c:\program files\modeltech_6.5\examples\tamrin\cpu_simple_8bit\cpu_simple_8bit_cr.vhd:23:8:23:10:@N:FX271:@XP_MSG">cpu_simple_8bit_cr.vhd(23)</a><!@TM:1261172107> | Instance "state[0]" with 15 loads has been replicated 2 time(s) to improve timing 
+Added 3 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -0.67ns		  42 /        17
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:00s		    -0.67ns		  42 /        17
+   3		0h:00m:01s		    -0.67ns		  42 /        17
+   4		0h:00m:01s		    -0.67ns		  42 /        17
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -0.67ns		  42 /        17
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:01s		    -0.67ns		  42 /        17
+   3		0h:00m:01s		    -0.67ns		  42 /        17
+   4		0h:00m:01s		    -0.67ns		  42 /        17
+------------------------------------------------------------
+
+Net buffering Report for view:work.CPU_Simple_8bit_CR_Ent(cpu_simple_8bit_cr_arch):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+@N:<a href="@N:FX164:@XP_HELP">FX164</a> : <!@TM:1261172107> | The option to pack flops in the IOB has not been specified  
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\rev_1\Rom_16x8bit_MD.srm
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1261172107> | Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\rev_1\Rom_16x8bit_MD.map. 
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file [C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt] 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+@N:<a href="@N:MF276:@XP_HELP">MF276</a> : <!@TM:1261172107> | Gated clock conversion enabled, but no gated clocks found in design  
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+@N:<a href="@N:MF333:@XP_HELP">MF333</a> : <!@TM:1261172107> | Generated clock conversion enabled, but no generated clocks found in design  
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Found clock CPU_Simple_8bit_CR_Ent|iclk with period 1.82ns 
+
+
+<a name=timingReport100>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Sat Dec 19 01:05:07 2009
+#
+
+
+Top view:               CPU_Simple_8bit_CR_Ent
+Requested Frequency:    550.2 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1261172107> | This timing report estimates place and route data. Please look at the place and route timing report for final timing.. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1261172107> | Clock constraints cover only FF-to-FF paths associated with the clock.. 
+
+
+
+<a name=performanceSummary101>Performance Summary </a>
+*******************
+
+
+Worst slack in design: -0.321
+
+                                Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                  Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------------------
+CPU_Simple_8bit_CR_Ent|iclk     550.2 MHz     467.7 MHz     1.818         2.138         -0.321     inferred     Autoconstr_clkgroup_0
+=====================================================================================================================================
+
+
+
+
+
+<a name=clockRelationships102>Clock Relationships</a>
+*******************
+
+Clocks                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                     Ending                       |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------
+CPU_Simple_8bit_CR_Ent|iclk  CPU_Simple_8bit_CR_Ent|iclk  |  1.818       -0.321  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo103>Interface Information </a>
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+<a name=clockReport104>Detailed Report for Clock: CPU_Simple_8bit_CR_Ent|iclk</a>
+====================================
+
+
+
+<a name=startingSlack105>Starting Points with Worst Slack</a>
+********************************
+
+                  Starting                                                           Arrival           
+Instance          Reference                       Type     Pin     Net               Time        Slack 
+                  Clock                                                                                
+-------------------------------------------------------------------------------------------------------
+state_fast[1]     CPU_Simple_8bit_CR_Ent|iclk     FDR      Q       state_fast[1]     0.350       -0.321
+state_fast[0]     CPU_Simple_8bit_CR_Ent|iclk     FDR      Q       state_fast[0]     0.350       -0.305
+state[1]          CPU_Simple_8bit_CR_Ent|iclk     FDR      Q       state[1]          0.350       0.087 
+state_0_rep1      CPU_Simple_8bit_CR_Ent|iclk     FDR      Q       state_0_rep1      0.350       0.109 
+state[0]          CPU_Simple_8bit_CR_Ent|iclk     FDR      Q       state[0]          0.350       0.116 
+oload[6]          CPU_Simple_8bit_CR_Ent|iclk     FD       Q       oload_c[6]        0.350       0.156 
+oload[7]          CPU_Simple_8bit_CR_Ent|iclk     FD       Q       oload_c[7]        0.350       0.156 
+oload[8]          CPU_Simple_8bit_CR_Ent|iclk     FD       Q       oload_c[8]        0.350       0.156 
+oload[0]          CPU_Simple_8bit_CR_Ent|iclk     FD       Q       oload_c[0]        0.350       0.602 
+oload[1]          CPU_Simple_8bit_CR_Ent|iclk     FD       Q       oload_c[1]        0.350       0.602 
+=======================================================================================================
+
+
+<a name=endingSlack106>Ending Points with Worst Slack</a>
+******************************
+
+             Starting                                                         Required           
+Instance     Reference                       Type     Pin     Net             Time         Slack 
+             Clock                                                                               
+-------------------------------------------------------------------------------------------------
+oload[0]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[0]     1.797        -0.321
+oload[1]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[1]     1.797        -0.321
+oload[2]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[2]     1.797        -0.321
+oload[3]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[3]     1.797        -0.321
+oload[4]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[4]     1.797        -0.321
+oload[5]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[5]     1.797        -0.321
+oload[7]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[7]     1.797        -0.321
+oload[6]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[6]     1.797        0.087 
+oload[8]     CPU_Simple_8bit_CR_Ent|iclk     FD       D       oload_19[8]     1.797        0.156 
+oload[9]     CPU_Simple_8bit_CR_Ent|iclk     FDR      D       oloadc          1.797        0.534 
+=================================================================================================
+
+
+
+<a name=worstPaths107>Worst Path Information</a>
+<a href="C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\rev_1\Rom_16x8bit_MD.srr:fp:14432:15224:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        1.818
+    - Setup time:                            0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.797
+
+    - Propagation time:                      2.118
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.321
+
+    Number of logic level(s):                2
+    Starting point:                          state_fast[1] / Q
+    Ending point:                            oload[1] / D
+    The start point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+    The end   point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                      Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+state_fast[1]             FDR        Q        Out     0.350     0.350       -         
+state_fast[1]             Net        -        -       0.697     -           7         
+state_fast_RNIO7A1[0]     LUT4       I3       In      -         1.047       -         
+state_fast_RNIO7A1[0]     LUT4       O        Out     0.195     1.242       -         
+g0_15_1_2                 Net        -        -       0.682     -           7         
+oload_19[1]               LUT4_L     I0       In      -         1.923       -         
+oload_19[1]               LUT4_L     LO       Out     0.195     2.118       -         
+oload_19[1]               Net        -        -       0.000     -           1         
+oload[1]                  FD         D        In      -         2.118       -         
+======================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.138 is 0.760(35.5%) logic and 1.379(64.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        1.818
+    - Setup time:                            0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.797
+
+    - Propagation time:                      2.118
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.321
+
+    Number of logic level(s):                2
+    Starting point:                          state_fast[1] / Q
+    Ending point:                            oload[5] / D
+    The start point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+    The end   point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                      Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+state_fast[1]             FDR        Q        Out     0.350     0.350       -         
+state_fast[1]             Net        -        -       0.697     -           7         
+state_fast_RNIO7A1[0]     LUT4       I3       In      -         1.047       -         
+state_fast_RNIO7A1[0]     LUT4       O        Out     0.195     1.242       -         
+g0_15_1_2                 Net        -        -       0.682     -           7         
+oload_19[5]               LUT4_L     I0       In      -         1.923       -         
+oload_19[5]               LUT4_L     LO       Out     0.195     2.118       -         
+oload_19[5]               Net        -        -       0.000     -           1         
+oload[5]                  FD         D        In      -         2.118       -         
+======================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.138 is 0.760(35.5%) logic and 1.379(64.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        1.818
+    - Setup time:                            0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.797
+
+    - Propagation time:                      2.118
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.321
+
+    Number of logic level(s):                2
+    Starting point:                          state_fast[1] / Q
+    Ending point:                            oload[4] / D
+    The start point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+    The end   point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                      Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+state_fast[1]             FDR        Q        Out     0.350     0.350       -         
+state_fast[1]             Net        -        -       0.697     -           7         
+state_fast_RNIO7A1[0]     LUT4       I3       In      -         1.047       -         
+state_fast_RNIO7A1[0]     LUT4       O        Out     0.195     1.242       -         
+g0_15_1_2                 Net        -        -       0.682     -           7         
+oload_19[4]               LUT4_L     I0       In      -         1.923       -         
+oload_19[4]               LUT4_L     LO       Out     0.195     2.118       -         
+oload_19[4]               Net        -        -       0.000     -           1         
+oload[4]                  FD         D        In      -         2.118       -         
+======================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.138 is 0.760(35.5%) logic and 1.379(64.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        1.818
+    - Setup time:                            0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.797
+
+    - Propagation time:                      2.118
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.321
+
+    Number of logic level(s):                2
+    Starting point:                          state_fast[1] / Q
+    Ending point:                            oload[3] / D
+    The start point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+    The end   point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                      Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+state_fast[1]             FDR        Q        Out     0.350     0.350       -         
+state_fast[1]             Net        -        -       0.697     -           7         
+state_fast_RNIO7A1[0]     LUT4       I3       In      -         1.047       -         
+state_fast_RNIO7A1[0]     LUT4       O        Out     0.195     1.242       -         
+g0_15_1_2                 Net        -        -       0.682     -           7         
+oload_19[3]               LUT4_L     I0       In      -         1.923       -         
+oload_19[3]               LUT4_L     LO       Out     0.195     2.118       -         
+oload_19[3]               Net        -        -       0.000     -           1         
+oload[3]                  FD         D        In      -         2.118       -         
+======================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.138 is 0.760(35.5%) logic and 1.379(64.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        1.818
+    - Setup time:                            0.021
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.797
+
+    - Propagation time:                      2.118
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.321
+
+    Number of logic level(s):                2
+    Starting point:                          state_fast[1] / Q
+    Ending point:                            oload[2] / D
+    The start point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+    The end   point is clocked by            CPU_Simple_8bit_CR_Ent|iclk [rising] on pin C
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                      Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+state_fast[1]             FDR        Q        Out     0.350     0.350       -         
+state_fast[1]             Net        -        -       0.697     -           7         
+state_fast_RNIO7A1[0]     LUT4       I3       In      -         1.047       -         
+state_fast_RNIO7A1[0]     LUT4       O        Out     0.195     1.242       -         
+g0_15_1_2                 Net        -        -       0.682     -           7         
+oload_19[2]               LUT4_L     I0       In      -         1.923       -         
+oload_19[2]               LUT4_L     LO       Out     0.195     2.118       -         
+oload_19[2]               Net        -        -       0.000     -           1         
+oload[2]                  FD         D        In      -         2.118       -         
+======================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.138 is 0.760(35.5%) logic and 1.379(64.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+<a name=resourceUsage108>Resource Usage Report for CPU_Simple_8bit_CR_Ent </a>
+
+Mapping to part: xc4vlx15sf363-10
+Cell usage:
+FD              11 uses
+FDR             6 uses
+LUT2            13 uses
+LUT3            12 uses
+LUT4            17 uses
+
+I/O ports: 23
+I/O primitives: 20
+IBUF           8 uses
+OBUF           12 uses
+
+BUFGP          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   17 (0%)
+
+Global Clock Buffers: 1 of 32 (3%)
+
+Total load per clock:
+   CPU_Simple_8bit_CR_Ent|iclk: 17
+
+Mapping Summary:
+Total  LUTs: 42 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 19 01:05:07 2009
+
+###########################################################]

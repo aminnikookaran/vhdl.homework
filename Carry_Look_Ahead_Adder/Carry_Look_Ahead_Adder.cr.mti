@@ -1,0 +1,19 @@
+{C:/Program Files/modeltech_6.5/examples/Tamrin/Carry_Look_Ahead_Adder/Carry_Look_Ahead_Adder_MD.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Carry_Look_Ahead_Adder/Carry_Look_Ahead_Adder_MD.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity carry_look_ahead_adder_ent
+-- Compiling architecture carry_look_ahead_adder_arch of carry_look_ahead_adder_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Carry_Look_Ahead_Adder/Carry_Look_Ahead_Adder_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Carry_Look_Ahead_Adder/Carry_Look_Ahead_Adder_TB.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity tb_carry_look_ahead_adder
+-- Compiling architecture tb_carry_look_ahead_adder_arch of tb_carry_look_ahead_adder
+
+} {} {}}

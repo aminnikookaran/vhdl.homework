@@ -1,0 +1,278 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit
+T_opt
+Z1 VH;VY@e7G4i83YnDib0B<T2
+Z2 04 45 46 work single_multiplier_blend_implementation_tb_ent single_multiplier_blend_implementation_tb_arch 1
+Z3 =1-00215dec8b38-4b2a8c1d-364-cf4
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+Eblend_multiplier_md_ent
+Z7 w1260993455
+Z8 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z9 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z10 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z11 dC:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier
+Z12 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Blend_Multiplier_MD.vhd
+Z13 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Blend_Multiplier_MD.vhd
+l0
+L5
+Z14 VZ3_7^<dgAD^469mB:7ENo1
+Z15 OE;C;6.5;42
+32
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1
+Z18 !s100 m[o?TzmL1cO8Uh5Fo@FWB1
+Ablend_multiplier_md_arch
+Z19 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z20 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z21 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z22 DEx90 C:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier\work 23 blend_multiplier_md_ent 0 22 Z3_7^<dgAD^469mB:7ENo1
+32
+Z23 Mx3 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Z24 Mx2 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Z25 Mx1 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+l17
+L13
+Z26 V_5WaMjiILM1NLkzo^0aPC3
+R15
+R16
+R17
+Z27 !s100 7P<RzkiAJbZZGM`5U?BE]2
+Eone_minus_md_ent
+Z28 w1260993494
+R8
+R9
+R10
+R11
+Z29 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/One_Minus_MD.vhd
+Z30 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/One_Minus_MD.vhd
+l0
+L5
+Z31 VY4LZDU`9:ioe2<z9LoEI51
+R15
+32
+R16
+R17
+Z32 !s100 J1UA:`7RoJGhB:bK2^2b61
+Aone_minus_md_arch
+R19
+R20
+R21
+Z33 DEx90 C:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier\work 16 one_minus_md_ent 0 22 Y4LZDU`9:ioe2<z9LoEI51
+32
+R23
+R24
+R25
+l13
+L12
+Z34 VKoRJD7P>[di<0CM=`_7l]0
+R15
+R16
+R17
+Z35 !s100 ]82cGX5JLb9XnbOG;dJK43
+Eregister_8bit_md_ent
+Z36 w1260990984
+R8
+R9
+R10
+R11
+Z37 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Register_8bit_MD.vhd
+Z38 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Register_8bit_MD.vhd
+l0
+L5
+Z39 V2U?8`BRkLdb6;KMP5gPY03
+R15
+32
+R16
+R17
+Z40 !s100 VaoCHeJR`:[EZg>;88]No0
+Aregister_8bit_md_arch
+R19
+R20
+R21
+Z41 DEx90 C:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier\work 20 register_8bit_md_ent 0 22 2U?8`BRkLdb6;KMP5gPY03
+32
+R23
+R24
+R25
+l16
+L15
+Z42 Vh2D41SgN4SLRgDa;PAB9X3
+R15
+R16
+R17
+Z43 !s100 bCfDZm7Cd>WJPjmiEYY0@1
+Esaturating_adder_md_ent
+Z44 w1260993139
+R8
+R9
+R10
+R11
+Z45 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Saturating_Adder_MD.vhd
+Z46 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Saturating_Adder_MD.vhd
+l0
+L5
+Z47 Vfjl3L7`n`BZ8@Z=Wa0f[h2
+R15
+32
+R16
+R17
+Z48 !s100 l;nTYTV>G?<FCi5[f>cm:0
+Asaturating_adder_md_arch
+R19
+R20
+R21
+Z49 DEx90 C:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier\work 23 saturating_adder_md_ent 0 22 fjl3L7`n`BZ8@Z=Wa0f[h2
+32
+R23
+R24
+R25
+l17
+L13
+Z50 VBn4Go;m`mEk6eOTBLXnzm3
+R15
+R16
+R17
+Z51 !s100 AhdS:Bcl8IBG:K7YK<43^1
+Esingle_multiplier_blend_implementation_cr_ent
+Z52 w1260994261
+R8
+R9
+R10
+R11
+Z53 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Single_Multiplier_Blend_Implementation_CR.vhd
+Z54 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Single_Multiplier_Blend_Implementation_CR.vhd
+l0
+L5
+Z55 VL4X[W^z3IQ9?_?]kZNUeV2
+R15
+32
+R16
+R17
+Z56 !s100 RPX_[4@CAMF`aMGnfNoY23
+Asingle_multiplier_blend_implementation_cr_arch
+R19
+R20
+R21
+Z57 DEx90 C:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier\work 45 single_multiplier_blend_implementation_cr_ent 0 22 L4X[W^z3IQ9?_?]kZNUeV2
+32
+R23
+R24
+R25
+l18
+L14
+Z58 VU2UZ0odLc9J3``hJg2]ze1
+R15
+R16
+R17
+Z59 !s100 iNV=jhgk@762oF5?fN3oA2
+Esingle_multiplier_blend_implementation_dp_ent
+Z60 w1260993695
+R8
+R9
+R10
+R11
+Z61 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Single_Multiplier_Blend_Implementation_DP.vhd
+Z62 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Single_Multiplier_Blend_Implementation_DP.vhd
+l0
+L5
+Z63 VInFPcR;ZYjUYhXdfU[oKA1
+R15
+32
+R16
+R17
+Z64 !s100 >H]QK2[8mA82^^zo_zoW?0
+Asingle_multiplier_blend_implementation_dp_arch
+R49
+R41
+R22
+R33
+R19
+R20
+R21
+Z65 DEx90 C:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier\work 45 single_multiplier_blend_implementation_dp_ent 0 22 InFPcR;ZYjUYhXdfU[oKA1
+32
+R23
+R24
+R25
+l61
+L18
+Z66 VLFO@;`B^l;K=WJdV@X9`j3
+R15
+R16
+R17
+Z67 !s100 K6F5Plb0dS1Q]SDL<UVoR3
+Esingle_multiplier_blend_implementation_tb_ent
+Z68 w1261078825
+Z69 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R8
+R9
+R10
+R11
+Z70 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Single_Multiplier_Blend_Implementation_TB.vhd
+Z71 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Single_Multiplier_Blend_Implementation_TB.vhd
+l0
+L6
+Z72 V=8;CkoKmOd3UgRGoaI=JN3
+R15
+32
+R16
+R17
+Z73 !s100 Z3G1;La_0PX28LM3HeX[X0
+Asingle_multiplier_blend_implementation_tb_arch
+Z74 DEx90 C:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier\work 45 single_multiplier_blend_implementation_tl_ent 0 22 eE<2=@ARe1;jMTN:dO1UC3
+Z75 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R19
+R20
+R21
+Z76 DEx90 C:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier\work 45 single_multiplier_blend_implementation_tb_ent 0 22 =8;CkoKmOd3UgRGoaI=JN3
+32
+Z77 Mx4 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Z78 Mx3 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Z79 Mx2 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Z80 Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l29
+L9
+Z81 V1[6l1QWAUMAK8BWodJzm`2
+R15
+R16
+R17
+Z82 !s100 HHOX<LUY5WVHOQ;>;o<QX0
+Esingle_multiplier_blend_implementation_tl_ent
+Z83 w1260994751
+R8
+R9
+R10
+R11
+Z84 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Single_Multiplier_Blend_Implementation_TL.vhd
+Z85 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Single_Multiplier/Single_Multiplier_Blend_Implementation_TL.vhd
+l0
+L5
+Z86 VeE<2=@ARe1;jMTN:dO1UC3
+R15
+32
+R16
+R17
+Z87 !s100 74BbRl1g^[WACYdXC7ElP2
+Asingle_multiplier_blend_implementation_tl_arch
+R57
+R65
+R19
+R20
+R21
+R74
+32
+R23
+R24
+R25
+l44
+L16
+Z88 VI@n[Ef_Fh?Qn=MF4_2gk_0
+R15
+R16
+R17
+Z89 !s100 4U_=1N@=X3[OzoNiIajgf0

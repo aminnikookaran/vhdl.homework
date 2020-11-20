@@ -1,0 +1,36 @@
+Note: This data is for viewing only
+
+ROM work.Encoder_4x7bit_Ent(encoder_4x7bit_arch)-ocode_1[6:0]
+address width: 4
+data width: 7
+inputs:
+ 0: idata[0]
+ 1: idata[1]
+ 2: idata[2]
+ 3: idata[3]
+outputs:
+ 0: ocode_1[0]
+ 1: ocode_1[1]
+ 2: ocode_1[2]
+ 3: ocode_1[3]
+ 4: ocode_1[4]
+ 5: ocode_1[5]
+ 6: ocode_1[6]
+data:
+0000 -> 0000000
+0001 -> 0000111
+0010 -> 0011001
+0011 -> 0011110
+0100 -> 0101010
+0101 -> 0101101
+0110 -> 0110011
+0111 -> 0110100
+1000 -> 1001011
+1001 -> 1001100
+1010 -> 1010010
+1011 -> 1010101
+1100 -> 1100001
+1101 -> 1100110
+1110 -> 1111000
+1111 -> 1111111
+default -> XXXXXXX

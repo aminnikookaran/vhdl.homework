@@ -1,0 +1,12 @@
+@P:  Worst Slack : -0.194
+@P:  LFSR_4bit_Ent|iclk - Estimated Frequency : 773.2 MHz
+@P:  LFSR_4bit_Ent|iclk - Requested Frequency : 909.6 MHz
+@P:  LFSR_4bit_Ent|iclk - Estimated Period : 1.293
+@P:  LFSR_4bit_Ent|iclk - Requested Period : 1.099
+@P:  LFSR_4bit_Ent|iclk - Slack : -0.194
+@P: LFSR_4bit_Ent Part : xc4vlx15sf363-10
+@P: LFSR_4bit_Ent I/O primitives : 4
+@P: LFSR_4bit_Ent I/O Register bits : 0
+@P: LFSR_4bit_Ent Register bits (Non I/O) : 4 (0%)
+@P: LFSR_4bit_Ent Total Luts : 1 (0%)
+@P:  CPU Time : 0h:00m:01s

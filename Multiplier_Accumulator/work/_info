@@ -1,0 +1,143 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples
+T_opt
+VOBEHmDASEai:_b[nlhezV2
+Z1 04 29 30 work tb_multiplier_accumulator_ent tb_multiplier_accumulator_arch 1
+Z2 =1-00215dec8b38-4aff02a0-198-14a0
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 n@_opt
+Z5 OE;O;6.5;42
+Emultiplier_accumulator_control_ent
+Z6 w1258224541
+Z7 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z8 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z9 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z10 dC:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator
+Z11 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_Control_MD.vhd
+Z12 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_Control_MD.vhd
+l0
+L5
+Z13 Vin=BzTWniezTAV]Q9=KLc1
+Z14 OE;C;6.5;42
+32
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1
+Z17 !s100 <B?2e?gVVkl_DJFlO0IEQ1
+Amultiplier_accumulator_control_arch
+R7
+R8
+R9
+Z18 DEx4 work 34 multiplier_accumulator_control_ent 0 22 in=BzTWniezTAV]Q9=KLc1
+l23
+L17
+Z19 VYbTg3hY0PN;6g_H:GJQb21
+R14
+32
+Z20 Mx3 4 ieee 14 std_logic_1164
+Z21 Mx2 4 ieee 18 std_logic_unsigned
+Z22 Mx1 4 ieee 15 std_logic_arith
+R15
+R16
+Z23 !s100 oC2en9R3F_60jf=APRPM81
+Emultiplier_accumulator_datapath_ent
+Z24 w1258226328
+R7
+R8
+R9
+R10
+Z25 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_DataPath_MD.vhd
+Z26 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_DataPath_MD.vhd
+l0
+L5
+Z27 VH?8zNiTN]kb2M=V_2>Dbm0
+R14
+32
+R15
+R16
+Z28 !s100 hG5be=Q[LWiKm[M[6`E7=2
+Amultiplier_accumulator_datapath_arch
+R7
+R8
+R9
+Z29 DEx4 work 35 multiplier_accumulator_datapath_ent 0 22 H?8zNiTN]kb2M=V_2>Dbm0
+l24
+L17
+Z30 VJk5oA:N=j^fzl1bAfTI3k1
+R14
+32
+R20
+R21
+R22
+R15
+R16
+Z31 !s100 6T`FTOig^DNhENMT[7RPZ1
+Emultiplier_accumulator_tl_ent
+Z32 w1258224491
+R7
+R8
+R9
+R10
+Z33 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_TL.vhd
+Z34 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_TL.vhd
+l0
+L5
+Z35 VCnY=BdXLG65maRE0?gAXl0
+R14
+32
+R15
+R16
+Z36 !s100 I]V5=JgUO[gzIH4_4h;[T2
+Amultiplier_accumulator_tl_arch
+R7
+R8
+R9
+Z37 DEx4 work 29 multiplier_accumulator_tl_ent 0 22 CnY=BdXLG65maRE0?gAXl0
+l46
+L18
+Z38 V1fYlSGI4OJ3Xa07=ai<P?1
+R14
+32
+R20
+R21
+R22
+R15
+R16
+Z39 !s100 >;KQQz4U`7?iac<>`GOAn3
+Etb_multiplier_accumulator_ent
+Z40 w1258225501
+Z41 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R7
+R8
+R9
+R10
+Z42 8C:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_tb.vhd
+Z43 FC:/Program Files/modeltech_6.5/examples/Tamrin/Multiplier_Accumulator/Multiplier_Accumulator_tb.vhd
+l0
+L6
+Z44 VkX?XbzleGNe:o?=hVHog50
+R14
+32
+R15
+R16
+Z45 !s100 _]Lz=><e7D2SN;QN1h2M`1
+Atb_multiplier_accumulator_arch
+R41
+R7
+R8
+R9
+Z46 DEx4 work 29 tb_multiplier_accumulator_ent 0 22 kX?XbzleGNe:o?=hVHog50
+l33
+L9
+Z47 V=_72m_9VhQAz_C1GD55VG0
+R14
+32
+Z48 Mx4 4 ieee 14 std_logic_1164
+Z49 Mx3 4 ieee 18 std_logic_unsigned
+Z50 Mx2 4 ieee 15 std_logic_arith
+Z51 Mx1 4 ieee 11 numeric_std
+R15
+R16
+Z52 !s100 4dZVJk:GW0LcU3G`C^D2T0

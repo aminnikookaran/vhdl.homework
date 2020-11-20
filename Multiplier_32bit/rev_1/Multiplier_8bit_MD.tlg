@@ -1,0 +1,14 @@
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_16bit_MD.vhd":5:7:5:26|Synthesizing work.multiplier_16bit_ent.multiplier_16bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_8bit.vhd":5:7:5:37|Synthesizing work.carry_look_ahead_adder_8bit_ent.carry_look_ahead_adder_8bit_arch 
+Post processing for work.carry_look_ahead_adder_8bit_ent.carry_look_ahead_adder_8bit_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_8bit_MD.vhd":5:7:5:25|Synthesizing work.multiplier_8bit_ent.multiplier_8bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Carry_Look_Ahead_Adder_4bit.vhd":5:7:5:37|Synthesizing work.carry_look_ahead_adder_4bit_ent.carry_look_ahead_adder_4bit_arch 
+Post processing for work.carry_look_ahead_adder_4bit_ent.carry_look_ahead_adder_4bit_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_4bit_MD.vhd":5:7:5:25|Synthesizing work.multiplier_4bit_ent.multiplier_4bit_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Full_Adder_MD.vhd":5:7:5:20|Synthesizing work.full_adder_ent.full_adder_arch 
+Post processing for work.full_adder_ent.full_adder_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Half_Adder_MD.vhd":5:7:5:20|Synthesizing work.half_adder_ent.half_adder_arch 
+Post processing for work.half_adder_ent.half_adder_arch
+Post processing for work.multiplier_4bit_ent.multiplier_4bit_arch
+Post processing for work.multiplier_8bit_ent.multiplier_8bit_arch
+Post processing for work.multiplier_16bit_ent.multiplier_16bit_arch

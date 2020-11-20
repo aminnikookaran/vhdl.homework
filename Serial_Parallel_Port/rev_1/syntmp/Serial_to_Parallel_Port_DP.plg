@@ -1,0 +1,12 @@
+@P:  Worst Slack : -0.455
+@P:  Serial_to_Parallel_Port_TL_Ent|iclk - Estimated Frequency : 262.2 MHz
+@P:  Serial_to_Parallel_Port_TL_Ent|iclk - Requested Frequency : 297.6 MHz
+@P:  Serial_to_Parallel_Port_TL_Ent|iclk - Estimated Period : 3.814
+@P:  Serial_to_Parallel_Port_TL_Ent|iclk - Requested Period : 3.360
+@P:  Serial_to_Parallel_Port_TL_Ent|iclk - Slack : -0.455
+@P: Serial_to_Parallel_Port_TL_Ent Part : xc4vlx15sf363-10
+@P: Serial_to_Parallel_Port_TL_Ent I/O primitives : 10
+@P: Serial_to_Parallel_Port_TL_Ent I/O Register bits : 0
+@P: Serial_to_Parallel_Port_TL_Ent Register bits (Non I/O) : 28 (0%)
+@P: Serial_to_Parallel_Port_TL_Ent Total Luts : 38 (0%)
+@P:  CPU Time : 0h:00m:01s

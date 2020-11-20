@@ -1,0 +1,12 @@
+@P:  Worst Slack : -1.998
+@P:  Multiplier_Accumulator_TL_Ent|iclk - Estimated Frequency : 107.7 MHz
+@P:  Multiplier_Accumulator_TL_Ent|iclk - Requested Frequency : 137.2 MHz
+@P:  Multiplier_Accumulator_TL_Ent|iclk - Estimated Period : 9.284
+@P:  Multiplier_Accumulator_TL_Ent|iclk - Requested Period : 7.286
+@P:  Multiplier_Accumulator_TL_Ent|iclk - Slack : -1.998
+@P: Multiplier_Accumulator_TL_Ent Part : xc4vlx15sf363-10
+@P: Multiplier_Accumulator_TL_Ent I/O primitives : 59
+@P: Multiplier_Accumulator_TL_Ent I/O Register bits : 8
+@P: Multiplier_Accumulator_TL_Ent Register bits (Non I/O) : 49 (0%)
+@P: Multiplier_Accumulator_TL_Ent Total Luts : 60 (0%)
+@P:  CPU Time : 0h:00m:02s

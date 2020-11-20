@@ -1,0 +1,412 @@
+Release 11.1 - xst L.33 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: CPU_Simple_8bit_TB_Ent.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CPU_Simple_8bit_TB_Ent.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CPU_Simple_8bit_TB_Ent"
+Output Format                      : NGC
+Target Device                      : xc4vlx15-12-sf363
+
+---- Source Options
+Top Module Name                    : CPU_Simple_8bit_TB_Ent
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Add Generic Clock Buffer(BUFG)     : 32
+Number of Regional Clock Buffers   : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : CPU_Simple_8bit_TB_Ent.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Register_4bit_MD.vhd" in Library work.
+Architecture register_4bit_md_arch of Entity register_4bit_md_ent is up to date.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Rom_16x8bit_MD.vhd" in Library work.
+Entity <rom_16x8bit_md_ent> compiled.
+Entity <rom_16x8bit_md_ent> (Architecture <rom_16x8bit_md_arch>) compiled.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_CR.vhd" in Library work.
+Architecture cpu_simple_8bit_cr_arch of Entity cpu_simple_8bit_cr_ent is up to date.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_DP.vhd" in Library work.
+Architecture cpu_simple_8bit_dp_arch of Entity cpu_simple_8bit_dp_ent is up to date.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TL.vhd" in Library work.
+Architecture cpu_simple_8bit_tl_arch of Entity cpu_simple_8bit_tl_ent is up to date.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TB.vhd" in Library work.
+Architecture cpu_simple_8bit_tb_arch of Entity cpu_simple_8bit_tb_ent is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <CPU_Simple_8bit_TB_Ent> in library <work> (architecture <cpu_simple_8bit_tb_arch>).
+
+Analyzing hierarchy for entity <CPU_Simple_8bit_TL_Ent> in library <work> (architecture <cpu_simple_8bit_tl_arch>).
+
+Analyzing hierarchy for entity <CPU_Simple_8bit_CR_Ent> in library <work> (architecture <cpu_simple_8bit_cr_arch>).
+
+Analyzing hierarchy for entity <CPU_Simple_8bit_DP_Ent> in library <work> (architecture <cpu_simple_8bit_dp_arch>).
+
+Analyzing hierarchy for entity <Register_4bit_MD_Ent> in library <work> (architecture <register_4bit_md_arch>).
+
+Analyzing hierarchy for entity <Rom_16x8bit_MD_Ent> in library <work> (architecture <rom_16x8bit_md_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <CPU_Simple_8bit_TB_Ent> in library <work> (Architecture <cpu_simple_8bit_tb_arch>).
+Entity <CPU_Simple_8bit_TB_Ent> analyzed. Unit <CPU_Simple_8bit_TB_Ent> generated.
+
+Analyzing Entity <CPU_Simple_8bit_TL_Ent> in library <work> (Architecture <cpu_simple_8bit_tl_arch>).
+Entity <CPU_Simple_8bit_TL_Ent> analyzed. Unit <CPU_Simple_8bit_TL_Ent> generated.
+
+Analyzing Entity <CPU_Simple_8bit_CR_Ent> in library <work> (Architecture <cpu_simple_8bit_cr_arch>).
+Entity <CPU_Simple_8bit_CR_Ent> analyzed. Unit <CPU_Simple_8bit_CR_Ent> generated.
+
+Analyzing Entity <CPU_Simple_8bit_DP_Ent> in library <work> (Architecture <cpu_simple_8bit_dp_arch>).
+Entity <CPU_Simple_8bit_DP_Ent> analyzed. Unit <CPU_Simple_8bit_DP_Ent> generated.
+
+Analyzing Entity <Register_4bit_MD_Ent> in library <work> (Architecture <register_4bit_md_arch>).
+Entity <Register_4bit_MD_Ent> analyzed. Unit <Register_4bit_MD_Ent> generated.
+
+Analyzing Entity <Rom_16x8bit_MD_Ent> in library <work> (Architecture <rom_16x8bit_md_arch>).
+Entity <Rom_16x8bit_MD_Ent> analyzed. Unit <Rom_16x8bit_MD_Ent> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CPU_Simple_8bit_CR_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_CR.vhd".
+    Using one-hot encoding for signal <state>.
+    Found 10-bit register for signal <oload>.
+    Found 2-bit register for signal <osele>.
+    Found 1-bit xor2 for signal <osele_0$xor0000> created at line 53.
+    Found 2-bit register for signal <state>.
+    Summary:
+	inferred  14 D-type flip-flop(s).
+Unit <CPU_Simple_8bit_CR_Ent> synthesized.
+
+
+Synthesizing Unit <Register_4bit_MD_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Register_4bit_MD.vhd".
+    Found 4-bit register for signal <odata>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <Register_4bit_MD_Ent> synthesized.
+
+
+Synthesizing Unit <Rom_16x8bit_MD_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Rom_16x8bit_MD.vhd".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 16x8-bit ROM for signal <odata>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Rom_16x8bit_MD_Ent> synthesized.
+
+
+Synthesizing Unit <CPU_Simple_8bit_DP_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_DP.vhd".
+    Found 5-bit addsub for signal <alu>.
+    Found 5-bit adder for signal <alu$addsub0000> created at line 151.
+    Found 5-bit adder for signal <alu$addsub0001> created at line 151.
+    Found 1-bit register for signal <c>.
+    Found 4-bit 4-to-1 multiplexer for signal <idst>.
+    Found 4-bit adder for signal <iPC$addsub0000> created at line 141.
+    Found 4-bit 4-to-1 multiplexer for signal <isrc>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   8 Multiplexer(s).
+Unit <CPU_Simple_8bit_DP_Ent> synthesized.
+
+
+Synthesizing Unit <CPU_Simple_8bit_TL_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TL.vhd".
+Unit <CPU_Simple_8bit_TL_Ent> synthesized.
+
+
+Synthesizing Unit <CPU_Simple_8bit_TB_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TB.vhd".
+WARNING:Xst:646 - Signal <o7seg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <CPU_Simple_8bit_TB_Ent> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 2
+ 5-bit addsub                                          : 1
+# Registers                                            : 15
+ 1-bit register                                        : 3
+ 10-bit register                                       : 1
+ 2-bit register                                        : 1
+ 4-bit register                                        : 10
+# Multiplexers                                         : 2
+ 4-bit 4-to-1 multiplexer                              : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <CPU_TL> is unconnected in block <CPU_Simple_8bit_TB_Ent>.
+   It will be removed from the design.
+WARNING:Xst:2404 -  FFs/Latches <state<1:1>> (without init value) have a constant value of 0 in block <CPU_Simple_8bit_CR_Ent>.
+WARNING:Xst:2404 -  FFs/Latches <oload<9:0>> (without init value) have a constant value of 0 in block <CPU_Simple_8bit_CR_Ent>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 2
+ 5-bit addsub                                          : 1
+# Registers                                            : 43
+ Flip-Flops                                            : 43
+# Multiplexers                                         : 2
+ 4-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <c> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <osele_0> in Unit <CPU_Simple_8bit_CR_Ent> is equivalent to the following FF/Latch, which will be removed : <osele_1> 
+INFO:Xst:2261 - The FF/Latch <R4/odata_1> in Unit <CPU_Simple_8bit_DP_Ent> is equivalent to the following 3 FFs/Latches, which will be removed : <R3/odata_1> <R2/odata_1> <R1/odata_1> 
+INFO:Xst:2261 - The FF/Latch <SEVEN_SEG/odata_1> in Unit <CPU_Simple_8bit_DP_Ent> is equivalent to the following FF/Latch, which will be removed : <DST/odata_1> 
+INFO:Xst:2261 - The FF/Latch <R4/odata_2> in Unit <CPU_Simple_8bit_DP_Ent> is equivalent to the following 3 FFs/Latches, which will be removed : <R3/odata_2> <R2/odata_2> <R1/odata_2> 
+INFO:Xst:2261 - The FF/Latch <SEVEN_SEG/odata_2> in Unit <CPU_Simple_8bit_DP_Ent> is equivalent to the following FF/Latch, which will be removed : <DST/odata_2> 
+INFO:Xst:2261 - The FF/Latch <R4/odata_3> in Unit <CPU_Simple_8bit_DP_Ent> is equivalent to the following 3 FFs/Latches, which will be removed : <R3/odata_3> <R2/odata_3> <R1/odata_3> 
+INFO:Xst:2261 - The FF/Latch <SEVEN_SEG/odata_3> in Unit <CPU_Simple_8bit_DP_Ent> is equivalent to the following FF/Latch, which will be removed : <DST/odata_3> 
+INFO:Xst:2261 - The FF/Latch <R4/odata_0> in Unit <CPU_Simple_8bit_DP_Ent> is equivalent to the following 3 FFs/Latches, which will be removed : <R3/odata_0> <R2/odata_0> <R1/odata_0> 
+INFO:Xst:2261 - The FF/Latch <SEVEN_SEG/odata_0> in Unit <CPU_Simple_8bit_DP_Ent> is equivalent to the following FF/Latch, which will be removed : <DST/odata_0> 
+WARNING:Xst:1710 - FF/Latch <R4/odata_0> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <R4/odata_1> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <R4/odata_2> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <R4/odata_3> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IR1/odata_0> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IR1/odata_1> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IR1/odata_2> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IR1/odata_3> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IR2/odata_0> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IR2/odata_1> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IR2/odata_2> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <IR2/odata_3> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PC/odata_0> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PC/odata_1> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PC/odata_2> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PC/odata_3> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRC/odata_0> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRC/odata_1> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRC/odata_2> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SRC/odata_3> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SEVEN_SEG/odata_0> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SEVEN_SEG/odata_1> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SEVEN_SEG/odata_2> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SEVEN_SEG/odata_3> (without init value) has a constant value of 0 in block <CPU_Simple_8bit_DP_Ent>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <CPU_TL/CPU_CR/osele_0> of sequential type is unconnected in block <CPU_Simple_8bit_TB_Ent>.
+
+Optimizing unit <CPU_Simple_8bit_TB_Ent> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CPU_Simple_8bit_TB_Ent, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CPU_Simple_8bit_TB_Ent.ngr
+Top Level Output File Name         : CPU_Simple_8bit_TB_Ent
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 0
+
+Cell Usage :
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 4vlx15sf363-12 
+
+ Number of Slices:                        0  out of   6144     0%  
+ Number of IOs:                           0
+ Number of bonded IOBs:                   0  out of    240     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -12
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.92 secs
+ 
+--> 
+
+Total memory usage is 185052 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   31 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
+

@@ -1,0 +1,80 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version 1.0, Build 007R from Synplicity, Inc.
+# Copyright 1994-2008 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Sat Nov 07 14:31:24 2009
+#
+#
+#OPTIONS:"|-primux|-dspmac|-fixsmult|-sdff_counter|-infer_seqShift|-nram|-divnmod|-autosm|-autosm|-fid2|-sharing|on|-encrypt|-ui|-lite|-pro|-ram|-ignore_undefined_lib|-ll|2000|-lib|work"
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\bin\\c_vhdl.exe":1223059590
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\location.map":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\std.vhd":1223059796
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Simple_Dual_Port_Ram\\Simple_Dual_Port_Ram_MD.vhd":1257590925
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Simple_Dual_Port_Ram\\Simple_Dual_Port_Ram_MD.vhd":1257590925
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\std1164.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\unsigned.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\arith.vhd":1223059796
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\unsigned.vhd"; # file 3
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\arith.vhd"; # file 4
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@64::6(::RcjI	FsRl1Hb_DC7DkN_suF0N_)lj_4.UcGL_H0 RM0#bHlD8C_k_NDb0Fs_lsN_.4jcLGUHN0_s;OE
+RNP3PH#ER8D4N;
+PHR3#E_P84DR;P
+NR$3#Ml_VN"bRI	FsRB\":u\\ssFoNRl\wCHD#l\\FD8C0ECO_6n3\G\CNDlbC\#\asNlH\M\1bHlD7C_k_NDu0Fs_l)N\H\1lCbD_N7kDF_us)0_Nvl_7E3P8
+\""
+;
+
+@HR@(4::(c::HnRIHqRI
+q;N3HRs_0DFosHMCNlRI"Hq
+";
+@HR@U4::Uc::HURNq8srjg:9NRH8rsqg9:j;H
+NR03sDs_FHNoMl"CRHsN8q
+";
+@HR@g4::gc::HUROqD	RDHO	
+q;N3HRs_0DFosHMCNlRO"HD"	q;
+
+
+
+@HR@44:j::c4gj:RNH80rNq(9:jRNH80rNq(9:j;H
+NR03sDs_FHNoMl"CRH08NN;q"
+@HR@44:.::c4n.:RAHsRAHs;H
+NR03sDs_FHNoMl"CRH"sA;
+
+
+
+@HR@44:d::c4Ud:R8HNsgAr:Rj9HsN8A:rgj
+9;N3HRs_0DFosHMCNlRN"H8"sA;
+
+
+
+@HR@44:c::c4Uc:RDHO	HAROAD	;H
+NR03sDs_FHNoMl"CRH	ODA
+";
+@FR@44:6::c4g6:RNF80rNA(9:jRNF80rNA(9:j;H
+NR03sDs_FHNoMl"CRF08NN;A"
+@bR@4j::44::0.RsRkC0CskRk0sCb;
+Rj@@:44::.4:RDVN#VCRNCD#RDVN#
+C;b@R@44:.:.g:44:4RlsN4NRsl:r(js9RN(lr:Rj9HsN8A:rgjH9R8NN0q:r(jH9RNq8srjg:9IRHqR
+RRORHD;	q
+RNH3oEHE8N8sjR4.
+d;N3HRDNFI8R8sjb;
+R4@@::d(U(:d:8gRVRVCF08NN(Ar:Rj9F08NN(Ar:Rj9srNl(9:jRDHO	HARs
+A;N3HRs_0DFosHMCNlR8"FNA0N"C;
+;
+
+
+

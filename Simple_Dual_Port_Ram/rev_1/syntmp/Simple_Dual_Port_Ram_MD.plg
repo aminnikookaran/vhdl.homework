@@ -1,0 +1,8 @@
+@P:  Worst Slack : NA
+@P: Simple_Dual_Port_Ram_1024x8bit_Ent Part : xc4vlx15sf363-10
+@P: Simple_Dual_Port_Ram_1024x8bit_Ent I/O primitives : 38
+@P: Simple_Dual_Port_Ram_1024x8bit_Ent I/O Register bits : 0
+@P: Simple_Dual_Port_Ram_1024x8bit_Ent Register bits (Non I/O) : 0 (0%)
+@P: Simple_Dual_Port_Ram_1024x8bit_Ent Block Rams : 1 of 48 (2%)
+@P: Simple_Dual_Port_Ram_1024x8bit_Ent Total Luts : 0 (0%)
+@P:  CPU Time : 0h:00m:01s

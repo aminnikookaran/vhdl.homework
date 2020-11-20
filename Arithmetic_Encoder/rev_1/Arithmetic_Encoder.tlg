@@ -1,0 +1,22 @@
+@N: CD630 :"D:\old\Tamrin\Arithmetic_Encoder\Arithmetic_Encoder_TL.vhd":5:7:5:31|Synthesizing work.arithmetic_encoder_tl_ent.arithmetic_encoder_tl_arch 
+@N: CD630 :"D:\old\Tamrin\Arithmetic_Encoder\Arithmetic_Encoder_DP.vhd":5:7:5:31|Synthesizing work.arithmetic_encoder_dp_ent.arithmetic_encoder_dp_arch 
+@N: CD630 :"D:\old\Tamrin\Arithmetic_Encoder\Register_8bit_MD.vhd":5:7:5:26|Synthesizing work.register_8bit_md_ent.register_8bit_md_arch 
+Post processing for work.register_8bit_md_ent.register_8bit_md_arch
+@N: CD630 :"D:\old\Tamrin\Arithmetic_Encoder\ROM_256x16bit_MD.vhd":5:7:5:26|Synthesizing work.rom_256x16bit_md_ent.rom_256x16bit_md_arch 
+Post processing for work.rom_256x16bit_md_ent.rom_256x16bit_md_arch
+@N: CL134 :"D:\old\Tamrin\Arithmetic_Encoder\ROM_256x16bit_MD.vhd":22:15:22:17|Found RAM rom, depth=256, width=16
+Post processing for work.arithmetic_encoder_dp_ent.arithmetic_encoder_dp_arch
+@N: CD630 :"D:\old\Tamrin\Arithmetic_Encoder\Arithmetic_Encoder_CR.vhd":5:7:5:31|Synthesizing work.arithmetic_encoder_cr_ent.arithmetic_encoder_cr_arch 
+Post processing for work.arithmetic_encoder_cr_ent.arithmetic_encoder_cr_arch
+Post processing for work.arithmetic_encoder_tl_ent.arithmetic_encoder_tl_arch
+@N: CL201 :"D:\old\Tamrin\Arithmetic_Encoder\Arithmetic_Encoder_CR.vhd":29:8:29:9|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111

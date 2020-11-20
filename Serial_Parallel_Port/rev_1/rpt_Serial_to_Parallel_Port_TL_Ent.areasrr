@@ -1,0 +1,216 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC4VLX15SF363-10 (Xilinx)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Serial_to_Parallel_Port_TL_Ent   ########
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     28                 100 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Serial_to_Parallel_Port_TL_Ent:	28 (32.94 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      38                 100 %                
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Serial_to_Parallel_Port_TL_Ent:	38 (44.71 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Serial_to_Parallel_Port_TL_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Serial_to_Parallel_Port_TL_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Serial_to_Parallel_Port_TL_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     11                 100 %                
+=================================================
+Total IO PADS in the block Serial_to_Parallel_Port_TL_Ent:	11 (12.94 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Serial_to_Parallel_Port_CR_Ent   ########
+Instance path:   Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_CR_Ent      
+====================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     4                  14.3 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_CR_Ent:	4 (4.71 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      10                 26.3 %               
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_CR_Ent:	10 (11.76 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_CR_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_CR_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_CR_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_CR_Ent:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Serial_to_Parallel_Port_DP_Ent   ########
+Instance path:   Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_DP_Ent      
+====================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     11                 39.3 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_DP_Ent:	11 (12.94 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+LUTS      0                  0.0 %                
+MUXCY     0                  0.0 %                
+XORCY     0                  0.0 %                
+DSP48     0                  0.0 %                
+SRL16     0                  0.0 %                
+==================================================
+Total COMBINATIONAL LOGIC in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_DP_Ent:	0 (0.00 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_DP_Ent:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_DP_Ent:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_DP_Ent:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block Serial_to_Parallel_Port_TL_Ent.Serial_to_Parallel_Port_DP_Ent:	0 (0.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

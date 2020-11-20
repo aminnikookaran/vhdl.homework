@@ -1,0 +1,261 @@
+m255
+K3
+13
+cModel Technology
+dC:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Single_Multiplier
+Eblend_multiplier_md_ent
+Z0 w1260993455
+Z1 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dC:\Program Files\modeltech_6.5\examples\Tamrin\Blend_Implementation\Shared_Input_Bus
+Z5 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Blend_Multiplier_MD.vhd
+Z6 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Blend_Multiplier_MD.vhd
+l0
+L5
+VZ3_7^<dgAD^469mB:7ENo1
+Z7 OE;C;6.5;42
+32
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1
+!s100 m[o?TzmL1cO8Uh5Fo@FWB1
+Ablend_multiplier_md_arch
+R1
+R2
+R3
+DEx4 work 23 blend_multiplier_md_ent 0 22 Z3_7^<dgAD^469mB:7ENo1
+l17
+L13
+V_5WaMjiILM1NLkzo^0aPC3
+R7
+32
+Z10 Mx3 4 ieee 14 std_logic_1164
+Z11 Mx2 4 ieee 18 std_logic_unsigned
+Z12 Mx1 4 ieee 15 std_logic_arith
+R8
+R9
+!s100 7P<RzkiAJbZZGM`5U?BE]2
+Eone_minus_md_ent
+Z13 w1261080740
+R1
+R2
+R3
+R4
+Z14 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/One_Minus_MD.vhd
+Z15 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/One_Minus_MD.vhd
+l0
+L5
+VY4LZDU`9:ioe2<z9LoEI51
+!s100 J1UA:`7RoJGhB:bK2^2b61
+R7
+32
+R8
+R9
+Aone_minus_md_arch
+R1
+R2
+R3
+Z16 DEx4 work 16 one_minus_md_ent 0 22 Y4LZDU`9:ioe2<z9LoEI51
+l13
+L12
+ViHGV?CPd^WHWZCP60aFm<2
+!s100 J7;H518oQHkhY;61GeTdn3
+R7
+32
+R10
+R11
+R12
+R8
+R9
+Eregister_8bit_md_ent
+Z17 w1260990984
+R1
+R2
+R3
+R4
+Z18 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Register_8bit_MD.vhd
+Z19 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Register_8bit_MD.vhd
+l0
+L5
+V2U?8`BRkLdb6;KMP5gPY03
+R7
+32
+R8
+R9
+!s100 VaoCHeJR`:[EZg>;88]No0
+Aregister_8bit_md_arch
+R1
+R2
+R3
+DEx4 work 20 register_8bit_md_ent 0 22 2U?8`BRkLdb6;KMP5gPY03
+l16
+L15
+Vh2D41SgN4SLRgDa;PAB9X3
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 bCfDZm7Cd>WJPjmiEYY0@1
+Eregister_9bit_md_ent
+Z20 w1260996108
+R1
+R2
+R3
+R4
+Z21 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Register_9bit_MD.vhd
+Z22 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Register_9bit_MD.vhd
+l0
+L5
+VoQhe21<Cg5W7F`_L0Cc=h2
+R7
+32
+R8
+R9
+!s100 1b<ZE53gYnz>c;AfB9>7N1
+Aregister_9bit_md_arch
+R1
+R2
+R3
+DEx4 work 20 register_9bit_md_ent 0 22 oQhe21<Cg5W7F`_L0Cc=h2
+l16
+L15
+V[V`IU4M8h;zn??H=Je3oX0
+!s100 DdLhYQPK:lj?PHDSkJ1ce1
+R7
+32
+R10
+R11
+R12
+R8
+R9
+Esaturating_adder_md_ent
+Z23 w1260993139
+R1
+R2
+R3
+R4
+Z24 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Saturating_Adder_MD.vhd
+Z25 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Saturating_Adder_MD.vhd
+l0
+L5
+Vfjl3L7`n`BZ8@Z=Wa0f[h2
+R7
+32
+R8
+R9
+!s100 l;nTYTV>G?<FCi5[f>cm:0
+Asaturating_adder_md_arch
+R1
+R2
+R3
+DEx4 work 23 saturating_adder_md_ent 0 22 fjl3L7`n`BZ8@Z=Wa0f[h2
+l17
+L13
+VBn4Go;m`mEk6eOTBLXnzm3
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 AhdS:Bcl8IBG:K7YK<43^1
+Eshared_input_bus_blend_implementation_cr_ent
+Z26 w1260997099
+R1
+R2
+R3
+R4
+Z27 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Shared_Input_Bus_Blend_Implementation_CR.vhd
+Z28 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Shared_Input_Bus_Blend_Implementation_CR.vhd
+l0
+L5
+VXgkCM<05_CUnU9SROYCX`3
+R7
+32
+R8
+R9
+!s100 =X58?IVOAAVnm]ZNB`d<P0
+Ashared_input_bus_blend_implementation_cr_arch
+R1
+R2
+R3
+DEx4 work 44 shared_input_bus_blend_implementation_cr_ent 0 22 XgkCM<05_CUnU9SROYCX`3
+l21
+L16
+V<ZSZlQ>OGbCa@[L7WlV;T3
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 z?@Q0Bc9O38DPI;9nJT@21
+Eshared_input_bus_blend_implementation_dp_ent
+Z29 w1260996153
+R1
+R2
+R3
+R4
+Z30 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Shared_Input_Bus_Blend_Implementation_DP.vhd
+Z31 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Shared_Input_Bus_Blend_Implementation_DP.vhd
+l0
+L5
+Vl1JT8J_O`T50bJL_[SFWz1
+R7
+32
+R8
+R9
+!s100 Q2eiH``<MHR<KP]>1[iS82
+Ashared_input_bus_blend_implementation_dp_arch
+R1
+R2
+R3
+DEx4 work 44 shared_input_bus_blend_implementation_dp_ent 0 22 l1JT8J_O`T50bJL_[SFWz1
+l69
+L16
+VO0HCOQBXFzXg;8LM4[=Fh1
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 a16>P]44]k@_9bS@2b1oH1
+Eshared_input_bus_blend_implementation_tl_ent
+Z32 w1260997248
+R1
+R2
+R3
+R4
+Z33 8C:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Shared_Input_Bus_Blend_Implementation_TL.vhd
+Z34 FC:/Program Files/modeltech_6.5/examples/Tamrin/Blend_Implementation/Shared_Input_Bus/Shared_Input_Bus_Blend_Implementation_TL.vhd
+l0
+L5
+VPMc?3n=FT>Re69XHH`7mg1
+R7
+32
+R8
+R9
+!s100 _O@4[8a8mlV4DnSRS^CIJ3
+Ashared_input_bus_blend_implementation_tl_arch
+R1
+R2
+R3
+DEx4 work 44 shared_input_bus_blend_implementation_tl_ent 0 22 PMc?3n=FT>Re69XHH`7mg1
+l44
+L16
+VKdZB3oFbR@^H0aj[>C0SO2
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 >ffU;B:^53Gd9_JVSQH<N1

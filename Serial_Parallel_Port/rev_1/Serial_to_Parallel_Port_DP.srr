@@ -1,0 +1,530 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Sat Dec 19 16:22:02 2009
+
+$ Start of Compile
+#Sat Dec 19 16:22:02 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_TL.vhd":6:7:6:36|Top entity is set to Serial_to_Parallel_Port_TL_Ent.
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_TL.vhd":6:7:6:36|Synthesizing work.serial_to_parallel_port_tl_ent.serial_to_parallel_port_tl_arch 
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_CR.vhd":6:7:6:36|Synthesizing work.serial_to_parallel_port_cr_ent.serial_to_parallel_port_cr_arch 
+Post processing for work.serial_to_parallel_port_cr_ent.serial_to_parallel_port_cr_arch
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_DP.vhd":6:7:6:36|Synthesizing work.serial_to_parallel_port_dp_ent.serial_to_parallel_port_dp_arch 
+Post processing for work.serial_to_parallel_port_dp_ent.serial_to_parallel_port_dp_arch
+Post processing for work.serial_to_parallel_port_tl_ent.serial_to_parallel_port_tl_arch
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 19 16:22:02 2009
+
+###########################################################]
+Synplicity Xilinx Technology Mapper, Version 9.6, Build 056R, Built Sep 25 2008 13:48:55
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+Product Version Version 9.6.1
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\gttype.txt> 
+
+Automatic dissolve during optimization of view:work.Serial_to_Parallel_Port_TL_Ent(serial_to_parallel_port_tl_arch) of S2P_DP(Serial_to_Parallel_Port_DP_Ent)
+@N: MT206 |Autoconstrain Mode is ON
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Dissolving instances of view:work.Serial_to_Parallel_Port_CR_Ent(serial_to_parallel_port_cr_arch) before factorization cost=66, pathcnt=1
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: BN116 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Removing sequential instance count[6] of view:UNILIB.FDCPE(PRIM) because there are no references to its outputs 
+@N: BN116 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Removing sequential instance count[5] of view:UNILIB.FDCPE(PRIM) because there are no references to its outputs 
+@N: BN116 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Removing sequential instance count[4] of view:UNILIB.FDCPE(PRIM) because there are no references to its outputs 
+@N: BN116 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Removing sequential instance count[3] of view:UNILIB.FDCPE(PRIM) because there are no references to its outputs 
+@N: BN116 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Removing sequential instance count[2] of view:UNILIB.FDCPE(PRIM) because there are no references to its outputs 
+@N: BN116 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Removing sequential instance count[1] of view:UNILIB.FDCPE(PRIM) because there are no references to its outputs 
+@N: BN116 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Removing sequential instance count[0] of view:UNILIB.FDCPE(PRIM) because there are no references to its outputs 
+
+
+######### START OF GENERATED CLOCK OPTIMIZATION REPORT #########[
+
+================================================================
+		Instance:Pin		Generated Clock Optimization Status
+================================================================
+		S2P_DP.reg[9]						Done
+		S2P_DP.reg[8]						Done
+		S2P_DP.reg[7]						Done
+		S2P_DP.reg[6]						Done
+		S2P_DP.reg[5]						Done
+		S2P_DP.reg[4]						Done
+		S2P_DP.reg[3]						Done
+		S2P_DP.reg[2]						Done
+		S2P_DP.reg[1]						Done
+		S2P_DP.reg[0]						Done
+		S2P_DP.reg[10]						Done
+		S2P_CR.count[3]						Done
+		S2P_CR.count[2]						Done
+		S2P_CR.count[1]						Done
+		S2P_CR.count[0]						Done
+
+
+######### END OF GENERATED CLOCK OPTIMIZATION REPORT #########]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port iclk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.78ns		  28 /        25
+   2		0h:00m:00s		    -1.78ns		  28 /        25
+   3		0h:00m:00s		    -1.78ns		  28 /        25
+------------------------------------------------------------
+
+Timing driven replication report
+@N: FX271 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Instance "count_0[2]" with 8 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Instance "count_0[5]" with 4 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":57:6:57:7|Instance "count_0[6]" with 4 loads has been replicated 1 time(s) to improve timing 
+@N: FX271 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":58:8:58:9|Instance "g0_5_0" with 3 loads has been replicated 2 time(s) to improve timing 
+@N: FX271 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":58:8:58:9|Instance "g0_0" with 3 loads has been replicated 2 time(s) to improve timing 
+@N: FX271 :"c:\program files\modeltech_6.5\examples\tamrin\serial_parallel_port\serial_to_parallel_port_tl.vhd":58:8:58:9|Instance "count_3[3]" with 2 loads has been replicated 1 time(s) to improve timing 
+Added 3 Registers via timing driven replication
+Added 6 LUTs via timing driven replication
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.22ns		  38 /        28
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:00s		    -1.22ns		  38 /        28
+   3		0h:00m:00s		    -1.22ns		  38 /        28
+   4		0h:00m:00s		    -1.22ns		  38 /        28
+------------------------------------------------------------
+
+Timing driven replication report
+No replication required.
+
+Timing driven replication report
+No replication required.
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.22ns		  38 /        28
+Timing driven replication report
+No replication required.
+
+   2		0h:00m:00s		    -1.22ns		  38 /        28
+   3		0h:00m:00s		    -1.22ns		  38 /        28
+   4		0h:00m:00s		    -1.22ns		  38 /        28
+------------------------------------------------------------
+
+Net buffering Report for view:work.Serial_to_Parallel_Port_TL_Ent(serial_to_parallel_port_tl_arch):
+No nets needed buffering.
+
+@N: MF322 |Retiming summary: 0 registers retimed to 3 
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 0 registers retimed to 3
+
+Original and Pipelined registers replaced by retiming :
+		None
+
+New registers created by retiming :
+		count_ret
+		count_ret_1
+		count_ret_3
+
+
+		#####   END RETIMING REPORT  #####
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 95MB)
+
+Writing Analyst data base C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\rev_1\Serial_to_Parallel_Port_DP.srm
+@N: BN225 |Writing default property annotation file C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\rev_1\Serial_to_Parallel_Port_DP.map.
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 94MB peak: 95MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files\Synplicity\fpga_961\lib\xilinx\netattr.txt> 
+Version 9.6.1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 96MB)
+
+Found clock Serial_to_Parallel_Port_TL_Ent|iclk with period 3.36ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Dec 19 16:22:04 2009
+#
+
+
+Top view:               Serial_to_Parallel_Port_TL_Ent
+Requested Frequency:    297.6 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.455
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group                
+---------------------------------------------------------------------------------------------------------------------------------------------
+Serial_to_Parallel_Port_TL_Ent|iclk     297.6 MHz     262.2 MHz     3.360         3.814         -0.455     inferred     Autoconstr_clkgroup_0
+=============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Serial_to_Parallel_Port_TL_Ent|iclk  Serial_to_Parallel_Port_TL_Ent|iclk  |  3.360       -0.455  |  No paths    -      |  No paths    -      |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: Serial_to_Parallel_Port_TL_Ent|iclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                                                            Arrival           
+Instance            Reference                               Type     Pin     Net                        Time        Slack 
+                    Clock                                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+count_0_fast[2]     Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count_0_fast[2]            0.350       -0.455
+count_ret           Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count_i[3]                 0.350       -0.437
+count_ret_1         Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       op_gt\.op_gt\.un5_clklt3   0.350       -0.437
+count_0[4]          Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count[4]                   0.350       -0.048
+count_0_fast[5]     Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count_0_fast[5]            0.350       0.010 
+count_0_fast[6]     Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count_0_fast[6]            0.350       0.010 
+count_0[1]          Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count[1]                   0.350       0.373 
+count_0[2]          Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count[2]                   0.350       0.390 
+count_0[3]          Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count[3]                   0.350       0.397 
+count_0[5]          Serial_to_Parallel_Port_TL_Ent|iclk     FD       Q       count[5]                   0.350       0.406 
+==========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                         Required           
+Instance            Reference                               Type     Pin     Net                     Time         Slack 
+                    Clock                                                                                               
+------------------------------------------------------------------------------------------------------------------------
+S2P_CR.count[0]     Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_CR.count[1]     Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_CR.count[2]     Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_CR.count[3]     Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_DP.reg[0]       Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_DP.reg[1]       Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_DP.reg[2]       Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_DP.reg[3]       Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_DP.reg[4]       Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+S2P_DP.reg[5]       Serial_to_Parallel_Port_TL_Ent|iclk     FDE      CE      count_ret_3_RNIOTD6     2.807        -0.455
+========================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Requested Period:                        3.360
+    - Setup time:                            0.553
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.807
+
+    - Propagation time:                      3.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.455
+
+    Number of logic level(s):                3
+    Starting point:                          count_0_fast[2] / Q
+    Ending point:                            S2P_CR.count[0] / CE
+    The start point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+count_0_fast[2]             FD         Q        Out     0.350     0.350       -         
+count_0_fast[2]             Net        -        -       0.650     -           2         
+count_ret_RNI9GF1           LUT3_L     I0       In      -         1.000       -         
+count_ret_RNI9GF1           LUT3_L     LO       Out     0.195     1.195       -         
+g0_9_1                      Net        -        -       0.252     -           1         
+count_0_fast_RNIK1S3[5]     LUT4       I3       In      -         1.447       -         
+count_0_fast_RNIK1S3[5]     LUT4       O        Out     0.195     1.641       -         
+N_13                        Net        -        -       0.697     -           9         
+count_ret_3_RNIOTD6         LUT4       I0       In      -         2.339       -         
+count_ret_3_RNIOTD6         LUT4       O        Out     0.195     2.533       -         
+count_ret_3_RNIOTD6         Net        -        -       0.728     -           15        
+S2P_CR.count[0]             FDE        CE       In      -         3.261       -         
+========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.814 is 1.486(39.0%) logic and 2.328(61.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 2: 
+    Requested Period:                        3.360
+    - Setup time:                            0.553
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.807
+
+    - Propagation time:                      3.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.455
+
+    Number of logic level(s):                3
+    Starting point:                          count_0_fast[2] / Q
+    Ending point:                            S2P_DP.reg[9] / CE
+    The start point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+count_0_fast[2]             FD         Q        Out     0.350     0.350       -         
+count_0_fast[2]             Net        -        -       0.650     -           2         
+count_ret_RNI9GF1           LUT3_L     I0       In      -         1.000       -         
+count_ret_RNI9GF1           LUT3_L     LO       Out     0.195     1.195       -         
+g0_9_1                      Net        -        -       0.252     -           1         
+count_0_fast_RNIK1S3[5]     LUT4       I3       In      -         1.447       -         
+count_0_fast_RNIK1S3[5]     LUT4       O        Out     0.195     1.641       -         
+N_13                        Net        -        -       0.697     -           9         
+count_ret_3_RNIOTD6         LUT4       I0       In      -         2.339       -         
+count_ret_3_RNIOTD6         LUT4       O        Out     0.195     2.533       -         
+count_ret_3_RNIOTD6         Net        -        -       0.728     -           15        
+S2P_DP.reg[9]               FDE        CE       In      -         3.261       -         
+========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.814 is 1.486(39.0%) logic and 2.328(61.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 3: 
+    Requested Period:                        3.360
+    - Setup time:                            0.553
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.807
+
+    - Propagation time:                      3.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.455
+
+    Number of logic level(s):                3
+    Starting point:                          count_0_fast[2] / Q
+    Ending point:                            S2P_DP.reg[8] / CE
+    The start point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+count_0_fast[2]             FD         Q        Out     0.350     0.350       -         
+count_0_fast[2]             Net        -        -       0.650     -           2         
+count_ret_RNI9GF1           LUT3_L     I0       In      -         1.000       -         
+count_ret_RNI9GF1           LUT3_L     LO       Out     0.195     1.195       -         
+g0_9_1                      Net        -        -       0.252     -           1         
+count_0_fast_RNIK1S3[5]     LUT4       I3       In      -         1.447       -         
+count_0_fast_RNIK1S3[5]     LUT4       O        Out     0.195     1.641       -         
+N_13                        Net        -        -       0.697     -           9         
+count_ret_3_RNIOTD6         LUT4       I0       In      -         2.339       -         
+count_ret_3_RNIOTD6         LUT4       O        Out     0.195     2.533       -         
+count_ret_3_RNIOTD6         Net        -        -       0.728     -           15        
+S2P_DP.reg[8]               FDE        CE       In      -         3.261       -         
+========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.814 is 1.486(39.0%) logic and 2.328(61.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 4: 
+    Requested Period:                        3.360
+    - Setup time:                            0.553
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.807
+
+    - Propagation time:                      3.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.455
+
+    Number of logic level(s):                3
+    Starting point:                          count_0_fast[2] / Q
+    Ending point:                            S2P_DP.reg[7] / CE
+    The start point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+count_0_fast[2]             FD         Q        Out     0.350     0.350       -         
+count_0_fast[2]             Net        -        -       0.650     -           2         
+count_ret_RNI9GF1           LUT3_L     I0       In      -         1.000       -         
+count_ret_RNI9GF1           LUT3_L     LO       Out     0.195     1.195       -         
+g0_9_1                      Net        -        -       0.252     -           1         
+count_0_fast_RNIK1S3[5]     LUT4       I3       In      -         1.447       -         
+count_0_fast_RNIK1S3[5]     LUT4       O        Out     0.195     1.641       -         
+N_13                        Net        -        -       0.697     -           9         
+count_ret_3_RNIOTD6         LUT4       I0       In      -         2.339       -         
+count_ret_3_RNIOTD6         LUT4       O        Out     0.195     2.533       -         
+count_ret_3_RNIOTD6         Net        -        -       0.728     -           15        
+S2P_DP.reg[7]               FDE        CE       In      -         3.261       -         
+========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.814 is 1.486(39.0%) logic and 2.328(61.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+Path information for path number 5: 
+    Requested Period:                        3.360
+    - Setup time:                            0.553
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.807
+
+    - Propagation time:                      3.261
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.455
+
+    Number of logic level(s):                3
+    Starting point:                          count_0_fast[2] / Q
+    Ending point:                            S2P_DP.reg[6] / CE
+    The start point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+    The end   point is clocked by            Serial_to_Parallel_Port_TL_Ent|iclk [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+count_0_fast[2]             FD         Q        Out     0.350     0.350       -         
+count_0_fast[2]             Net        -        -       0.650     -           2         
+count_ret_RNI9GF1           LUT3_L     I0       In      -         1.000       -         
+count_ret_RNI9GF1           LUT3_L     LO       Out     0.195     1.195       -         
+g0_9_1                      Net        -        -       0.252     -           1         
+count_0_fast_RNIK1S3[5]     LUT4       I3       In      -         1.447       -         
+count_0_fast_RNIK1S3[5]     LUT4       O        Out     0.195     1.641       -         
+N_13                        Net        -        -       0.697     -           9         
+count_ret_3_RNIOTD6         LUT4       I0       In      -         2.339       -         
+count_ret_3_RNIOTD6         LUT4       O        Out     0.195     2.533       -         
+count_ret_3_RNIOTD6         Net        -        -       0.728     -           15        
+S2P_DP.reg[6]               FDE        CE       In      -         3.261       -         
+========================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 3.814 is 1.486(39.0%) logic and 2.328(61.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for Serial_to_Parallel_Port_TL_Ent 
+
+Mapping to part: xc4vlx15sf363-10
+Cell usage:
+FD              13 uses
+FDE             15 uses
+LUT1            1 use
+LUT2            11 uses
+LUT3            12 uses
+LUT4            14 uses
+
+I/O ports: 11
+I/O primitives: 10
+IBUF           1 use
+OBUF           9 uses
+
+BUFGP          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   28 (0%)
+
+Global Clock Buffers: 1 of 32 (3%)
+
+Total load per clock:
+   Serial_to_Parallel_Port_TL_Ent|iclk: 28
+
+Mapping Summary:
+Total  LUTs: 38 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 19 16:22:04 2009
+
+###########################################################]

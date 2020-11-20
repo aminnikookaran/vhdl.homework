@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder
+T_opt
+Z1 VW57oMHS=JD>2kZm[HVRoQ3
+Z2 04 25 26 work arithmetic_encoder_tb_ent arithmetic_encoder_tb_arch 1
+Z3 =1-00215dec8b38-4b49db14-30a-163c
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5;42
+Earithmetic_encoder_tb_ent
+Z7 w1263131401
+Z8 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z9 DPx34 C:\Program Files\modeltech_6.5\std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z10 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z11 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z12 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z13 dC:\Program Files\modeltech_6.5\examples\Tamrin\Reading_from_file
+Z14 8C:/Program Files/modeltech_6.5/examples/Tamrin/Reading_from_file/Reading_from_file_TB.vhd
+Z15 FC:/Program Files/modeltech_6.5/examples/Tamrin/Reading_from_file/Reading_from_file_TB.vhd
+l0
+L7
+Z16 V1;@O_07jhk4W`;eZPN4IZ2
+Z17 OE;C;6.5;42
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1
+Z20 !s100 UHLQI]4I5>;[niI6DBR6=0
+Aarithmetic_encoder_tb_arch
+R8
+R9
+R10
+R11
+R12
+DEx69 C:\Program Files\modeltech_6.5\examples\Tamrin\Reading_from_file\work 25 arithmetic_encoder_tb_ent 0 22 1;@O_07jhk4W`;eZPN4IZ2
+32
+Mx5 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx4 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Mx2 34 C:\Program Files\modeltech_6.5\std 6 textio
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l38
+L10
+Z21 VPgS6>P;dK6@lL9MHdBKhG3
+R17
+R18
+R19
+Z22 !s100 NbcIBPWC7ajAJim;RL?6=3

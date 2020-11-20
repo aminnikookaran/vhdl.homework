@@ -1,0 +1,32 @@
+fsm_options -device {state[0:3]}
+
+define_state 00 00 {c:\program files\modeltech_6.5\examples\tamrin\cpu_simple_8bit\cpu_simple_8bit_cr.vhd} 27 17 27 28
+state_output 00 {state[3]} 1
+
+define_state 01 01 {c:\program files\modeltech_6.5\examples\tamrin\cpu_simple_8bit\cpu_simple_8bit_cr.vhd} 30 17 30 28
+state_output 01 {state[2]} 1
+
+define_state 10 10 {c:\program files\modeltech_6.5\examples\tamrin\cpu_simple_8bit\cpu_simple_8bit_cr.vhd} 39 17 39 28
+state_output 10 {state[1]} 1
+
+define_state 11 11 {c:\program files\modeltech_6.5\examples\tamrin\cpu_simple_8bit\cpu_simple_8bit_cr.vhd} 42 17 42 28
+state_output 11 {state[0]} 1
+
+define_transition 10 11 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = ----0}
+define_transition 01 11 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = -10-0}
+define_transition 01 11 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = 1-0-0}
+define_transition 01 11 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = --010}
+define_transition 01 11 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = --100}
+define_transition 01 10 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = --110}
+define_transition 11 01 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = ----0}
+define_transition 01 01 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = 00000}
+define_transition 00 01 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = ----0}
+define_transition 11 00 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = ----1}
+define_transition 10 00 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = ----1}
+define_transition 01 00 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = ----1}
+define_transition 00 00 {ictrl[2],ictrl[3],ictrl[4],ictrl[5],irst = ----1}
+fsm_options -SRSPath {C:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit\rev_1\CPU_Simple_8bit.srs}
+fsm_options -SRSTime 1261768157
+fsm_options -FSMPath {CPU_CR.state[0:3]}
+fsm_options -view {ScratchLib.cell35.netlist|i:state[0:3]}
+fsm_options -ID {1238231}

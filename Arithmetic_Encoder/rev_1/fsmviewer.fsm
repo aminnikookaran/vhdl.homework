@@ -1,0 +1,40 @@
+fsm_options -device {state[0:4]}
+
+define_state 000 000 {c:\program files\modeltech_6.5\examples\tamrin\arithmetic_encoder\arithmetic_encoder_cr.vhd} 27 17 27 29
+state_output 000 {state[4]} 1
+
+define_state 001 001 {c:\program files\modeltech_6.5\examples\tamrin\arithmetic_encoder\arithmetic_encoder_cr.vhd} 29 17 29 29
+state_output 001 {state[3]} 1
+
+define_state 010 010 {c:\program files\modeltech_6.5\examples\tamrin\arithmetic_encoder\arithmetic_encoder_cr.vhd} 31 17 31 29
+state_output 010 {state[2]} 1
+
+define_state 011 011 {c:\program files\modeltech_6.5\examples\tamrin\arithmetic_encoder\arithmetic_encoder_cr.vhd} 57 33 57 45
+state_output 011 {state[1]} 1
+
+define_state 100 100 {c:\program files\modeltech_6.5\examples\tamrin\arithmetic_encoder\arithmetic_encoder_cr.vhd} 24 8 24 9
+state_output 100 {state[0]} 1
+
+define_transition 100 100 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------0}
+define_transition 011 100 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------0}
+define_transition 010 011 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = 111111110}
+define_transition 010 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = 0-------0}
+define_transition 010 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = -0------0}
+define_transition 010 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --0-----0}
+define_transition 010 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = ---0----0}
+define_transition 010 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = ----0---0}
+define_transition 010 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = -----0--0}
+define_transition 010 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = ------0-0}
+define_transition 010 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = -------00}
+define_transition 001 010 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------0}
+define_transition 000 001 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------0}
+define_transition 100 000 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------1}
+define_transition 011 000 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------1}
+define_transition 010 000 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------1}
+define_transition 001 000 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------1}
+define_transition 000 000 {idata[0],idata[1],idata[2],idata[3],idata[4],idata[5],idata[6],idata[7],irst = --------1}
+fsm_options -SRSPath {C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\rev_1\Arithmetic_Encoder.srs}
+fsm_options -SRSTime 1262202050
+fsm_options -FSMPath {AE_CR.state[0:4]}
+fsm_options -view {ScratchLib.cell3.netlist|i:state[0:4]}
+fsm_options -ID {1248241}

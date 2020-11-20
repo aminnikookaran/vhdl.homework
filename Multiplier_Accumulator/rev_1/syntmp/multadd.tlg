@@ -1,0 +1,161 @@
+Selecting top level module DSP48
+@N: CG364 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":6:7:6:11|Synthesizing module DSP48
+
+@W: CG532 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":450:4:450:10|Initial statement will only initialize memories through the usage of $readmemh and $readmemb. Everything else is ignored
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":485:19:485:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":486:19:486:25|System task $finish is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":499:21:499:28|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":500:14:500:20|System task $finish is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":522:19:522:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":523:19:523:25|System task $finish is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":548:19:548:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":549:19:549:25|System task $finish is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":572:19:572:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":573:19:573:25|System task $finish is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":637:19:637:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":638:19:638:25|System task $finish is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":649:19:649:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":650:19:650:25|System task $finish is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":671:19:671:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":672:19:672:25|System task $finish is not supported yet
+@W: CG296 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":680:13:680:120|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:5:683:12|Referenced variable add_flag is not in sensitivity list
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":751:19:751:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":752:19:752:25|System task $finish is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":810:19:810:26|System task $display is not supported yet
+@N: CG512 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":811:19:811:25|System task $finish is not supported yet
+@W: CG133 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":51:15:51:22|No assignment to a_in_int
+@W: CG133 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":63:8:63:21|No assignment to invalid_opmode
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":798:4:798:9|Pruning Register qp_o_reg1[47:0] 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":757:4:757:9|Pruning Register qcarryin_o_reg1 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":658:4:658:9|Pruning Register qsubtract_o_reg1 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":620:4:620:9|Pruning Register qcarryinsel_o_reg1[1:0] 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":620:4:620:9|Pruning Register qopmode_o_reg1[6:0] 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":558:4:558:9|Pruning Register qmult_o_reg1[35:0] 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":531:4:531:9|Pruning Register qa_o_reg1[17:0] 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":531:4:531:9|Pruning Register qa_o_reg2[17:0] 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":505:4:505:9|Pruning Register qb_o_reg1[17:0] 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":505:4:505:9|Pruning Register qb_o_reg2[17:0] 
+
+@W: CL169 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":473:4:473:9|Pruning Register qc_o_reg1[47:0] 
+
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[47]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[46]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[45]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[44]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[43]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[42]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[41]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[40]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[39]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[38]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[37]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[36]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[35]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[34]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[33]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[32]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[31]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[30]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[29]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[28]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[27]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[26]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[25]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[24]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[23]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[22]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[21]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[20]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[19]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[18]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[17]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[16]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[15]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[14]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[13]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[12]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[11]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[10]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[9]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[8]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[7]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[6]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[5]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[4]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[3]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[2]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[1]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":607:1:607:4|Found combinational loop at qz_o_mux[0]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[0]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[47]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[17]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[1]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[18]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[2]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[19]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[3]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[20]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[4]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[21]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[5]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[22]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[6]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[23]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[7]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[24]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[8]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[25]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[9]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[26]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[10]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[27]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[11]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[28]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[12]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[29]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[13]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[30]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[14]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[31]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[15]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[32]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[16]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[33]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[34]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[35]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[36]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[37]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[38]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[39]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[40]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[41]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[42]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[43]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[44]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[45]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":683:1:683:2|Found combinational loop at add_o[46]
+@W: CL179 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":687:10:687:59|Found combinational loop at add_o[47]
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":14:17:14:20|Input BCIN is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":18:10:18:12|Input CEA is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":19:10:19:12|Input CEB is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":20:10:20:12|Input CEC is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":22:10:22:17|Input CECINSUB is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":23:10:23:15|Input CECTRL is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":24:10:24:12|Input CEM is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":25:10:25:12|Input CEP is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":30:10:30:13|Input RSTA is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":31:10:31:13|Input RSTB is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":32:10:32:13|Input RSTC is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":34:10:34:16|Input RSTCTRL is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":35:10:35:13|Input RSTM is unused
+@W: CL159 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_Accumulator\rev_1\syntmp\multadd.v":36:10:36:13|Input RSTP is unused

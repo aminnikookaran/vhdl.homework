@@ -1,0 +1,221 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Error_Corrector_4bit_1bit
+T_opt
+Z1 VPmG>A`EWYg^IDjZiCYW<S3
+Z2 04 30 31 work serial_to_parallel_port_cr_ent serial_to_parallel_port_cr_arch 1
+Z3 =1-00215dec8b38-4b1123b9-384-1724
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 V`dH1=:HUllVmjWM1QUjXS2
+Z8 04 30 31 work parallel_to_serial_port_dp_ent parallel_to_serial_port_dp_arch 1
+Z9 =1-00214fb9216b-4b13c8c9-5e-e00
+Z10 o-quiet -auto_acc_if_foreign -work work
+Z11 n@_opt1
+R6
+T_opt2
+Z12 VdBnd[Wl^VWUg;C2okZIoQ1
+Z13 04 30 31 work parallel_to_serial_port_tb_ent parallel_to_serial_port_tb_arch 1
+Z14 =2-00215dec8b38-4b13d8b3-1a3-12a4
+R4
+Z15 n@_opt2
+R6
+Ep_to_s
+Z16 w1260821376
+Z17 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z18 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z20 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z21 dC:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port
+Z22 8G:/ports/pa_to_ser.vhd
+Z23 FG:/ports/pa_to_ser.vhd
+l0
+L6
+Z24 VT?a^<7B^dcN<?n4Za256]1
+Z25 OE;C;6.5;42
+32
+Z26 o-work work -2002 -explicit
+Z27 tExplicit 1
+Z28 !s100 e3j_Pm_i:fgUZN5P4onI11
+Aps
+R17
+R18
+R19
+R20
+Z29 DEx4 work 6 p_to_s 0 22 T?a^<7B^dcN<?n4Za256]1
+l19
+L15
+Z30 VFK[LjzFEXRDNb0DhXZK2G3
+R25
+32
+Z31 Mx4 4 ieee 14 std_logic_1164
+Z32 Mx3 4 ieee 18 std_logic_unsigned
+Z33 Mx2 4 ieee 15 std_logic_arith
+Z34 Mx1 4 ieee 11 numeric_std
+R26
+R27
+Z35 !s100 0?;=8MB9QQ1jkj[7ckJfX3
+Eparallel_to_serial_port_cr_ent
+Z36 w1259586201
+R17
+R18
+R19
+R20
+R21
+Z37 8C:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Parallel_to_Serial_Port_CR.vhd
+Z38 FC:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Parallel_to_Serial_Port_CR.vhd
+l0
+L6
+Z39 VADa0jV]Zm==O;Kjb88J3S3
+R25
+32
+R26
+R27
+Z40 !s100 JhX[;Z`=o@J6;ai?9C3Ja1
+Aparallel_to_serial_port_cr_arch
+Z41 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z42 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z43 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z44 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z45 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\work 30 parallel_to_serial_port_cr_ent 0 22 ADa0jV]Zm==O;Kjb88J3S3
+32
+Z46 Mx4 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Z47 Mx3 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Z48 Mx2 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Z49 Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l20
+L16
+Z50 V]OcgkW_c`;@mMi;Q:2LdG2
+R25
+R26
+R27
+Z51 !s100 VzndK;QenNh5c<oIn<eHV1
+Eparallel_to_serial_port_dp_ent
+Z52 w1259588472
+R17
+R18
+R19
+R20
+R21
+Z53 8C:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Parallel_to_Serial_Port_DP.vhd
+Z54 FC:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Parallel_to_Serial_Port_DP.vhd
+l0
+L6
+Z55 V^aPz>RhU@NL]8<gIUFWR]1
+R25
+32
+R26
+R27
+Z56 !s100 dQb]ZKj:h78?]UTje7fHZ1
+Aparallel_to_serial_port_dp_arch
+R41
+R42
+R43
+R44
+Z57 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\work 30 parallel_to_serial_port_dp_ent 0 22 ^aPz>RhU@NL]8<gIUFWR]1
+32
+R46
+R47
+R48
+R49
+l21
+L17
+Z58 VAn6XVAgddKJP=kn]FRP1R0
+R25
+R26
+R27
+Z59 !s100 Di@_6_=AYz6zQGN:2CaN[3
+Eparallel_to_serial_port_tb_ent
+Z60 w1259588709
+R17
+R18
+R19
+R20
+R21
+Z61 8C:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Parallel_to_Serial_Port_TB.vhd
+Z62 FC:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Parallel_to_Serial_Port_TB.vhd
+l0
+L6
+Z63 VZZm]I]]4g8PcjN_l04Y1J2
+R25
+32
+R26
+R27
+Z64 !s100 JlndB[`zPN?iNz]QIjWZ51
+Aparallel_to_serial_port_tb_arch
+Z65 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\work 30 parallel_to_serial_port_tl_ent 0 22 g[AePk3S_]oOg7W9B8D5n0
+R41
+R42
+R43
+R44
+Z66 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\work 30 parallel_to_serial_port_tb_ent 0 22 ZZm]I]]4g8PcjN_l04Y1J2
+32
+R46
+R47
+R48
+R49
+l25
+L9
+Z67 V::kE6?^0AWST?i5cGLEKA2
+R25
+R26
+R27
+Z68 !s100 IBDGXHB938OJGUY1LcPhM2
+Eparallel_to_serial_port_tl_ent
+Z69 w1259585556
+R17
+R18
+R19
+R20
+R21
+Z70 8C:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Parallel_to_Serial_Port_TL.vhd
+Z71 FC:/Program Files/modeltech_6.5/examples/Tamrin/Serial_Parallel_Port/Parallel_to_Serial_Port_TL.vhd
+l0
+L6
+Z72 Vg[AePk3S_]oOg7W9B8D5n0
+R25
+32
+R26
+R27
+Z73 !s100 fcoYhNlLU13NT^3fG8DFF3
+Aparallel_to_serial_port_tl_arch
+R45
+R57
+R41
+R42
+R43
+R44
+R65
+32
+R46
+R47
+R48
+R49
+l44
+L15
+Z74 VGgMM;f81zP@_L_zzkUAN22
+R25
+R26
+R27
+Z75 !s100 z:T::oJWVHl10XeMaUf=?3
+Es_to_p
+Z76 w1260819198
+R17
+R18
+R19
+R20
+R21
+Z77 8G:/ports/ser_to_par.vhd
+Z78 FG:/ports/ser_to_par.vhd
+l0
+L6
+Z79 V5okAeo0a2D2N5bmmOgW1I3
+R25
+32
+R26
+R27
+Z80 !s100 <;HJEWDnTF4Zof]R5MTRN0

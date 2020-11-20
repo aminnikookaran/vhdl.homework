@@ -1,0 +1,28 @@
+#Build: Synplify Pro 9.6.1, Build 038R, Sep 17 2008
+#install: C:\Program Files\Synplicity\fpga_961
+#OS:  6.0
+#Hostname: AMIN-PC
+
+#Implementation: rev_1
+
+#Sat Nov 28 17:02:52 2009
+
+$ Start of Compile
+#Sat Nov 28 17:02:52 2009
+
+Synplicity VHDL Compiler, version 1.0, Build 007R, built Sep 22 2008
+Copyright (C) 1994-2008, Synplicity Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_DP.vhd":6:7:6:36|Top entity is set to Serial_to_Parallel_Port_DP_Ent.
+VHDL syntax check successful!
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_DP.vhd":6:7:6:36|Synthesizing work.serial_to_parallel_port_dp_ent.serial_to_parallel_port_dp_arch 
+@E: CD371 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_DP.vhd":44:17:44:25|No matching overload for "sll"
+?"sll"(signal:reg, 1)
+@E: CD308 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_DP.vhd":44:17:44:25|Unable to evaluate expression type
+@E: CD676 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_DP.vhd":44:17:44:25|Can't implement expression (no function signature?)
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Nov 28 17:02:53 2009
+
+###########################################################]

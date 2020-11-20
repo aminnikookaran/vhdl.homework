@@ -1,0 +1,288 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port
+T_opt
+Z1 VX8F3XMa?MBB`nCBKXQQ3o2
+Z2 04 25 26 work arithmetic_encoder_tb_ent arithmetic_encoder_tb_arch 1
+Z3 =1-00215dec8b38-4b49d7ea-c5-3a0
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 VPBe;_lE]hmiHl;>Plm4;91
+Z8 04 20 21 work rom_256x16bit_md_ent rom_256x16bit_md_arch 1
+Z9 =1-00215dec8b38-4b4a1448-375-9b4
+R4
+Z10 n@_opt1
+R6
+T_opt2
+Z11 V^3OMWzUPMZVVjHjlD]XeQ0
+Z12 04 25 26 work arithmetic_encoder_cr_ent arithmetic_encoder_cr_arch 1
+Z13 =1-00215dec8b38-4b363f8c-3bf-128
+R4
+Z14 n@_opt2
+R6
+Earithmetic_encoder_cr_ent
+Z15 w1263145377
+Z16 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z18 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z19 dC:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder
+Z20 8C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_CR.vhd
+Z21 FC:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_CR.vhd
+l0
+L5
+Z22 V^M;o[W6@n6a=AmdK>g1bz0
+Z23 OE;C;6.5;42
+32
+Z24 o-work work -2002 -explicit
+Z25 tExplicit 1
+Z26 !s100 0mW[>9Si<]k^CA5N7jhVT2
+Aarithmetic_encoder_cr_arch
+R16
+R17
+R18
+Z27 DEx4 work 25 arithmetic_encoder_cr_ent 0 22 ^M;o[W6@n6a=AmdK>g1bz0
+l23
+L19
+Z28 VK4a6^h4H:a_X7V=3V2`hg3
+R23
+32
+Z29 Mx3 4 ieee 14 std_logic_1164
+Z30 Mx2 4 ieee 18 std_logic_unsigned
+Z31 Mx1 4 ieee 15 std_logic_arith
+R24
+R25
+Z32 !s100 g@ROQgFJCie5?M[z0Aj<F3
+Earithmetic_encoder_dp_ent
+Z33 w1263146016
+R16
+R17
+R18
+R19
+Z34 8C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_DP.vhd
+Z35 FC:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_DP.vhd
+l0
+L5
+Z36 Ve8j2SZ;@L?4z?MnXDPQbW2
+R23
+32
+R24
+R25
+Z37 !s100 ML]JKh1k9iWPQ^hMdGI`G1
+Aarithmetic_encoder_dp_arch
+R16
+R17
+R18
+Z38 DEx4 work 25 arithmetic_encoder_dp_ent 0 22 e8j2SZ;@L?4z?MnXDPQbW2
+l81
+L20
+Z39 VGbG]gD@_3cWK6Xn]mVL901
+R23
+32
+R29
+R30
+R31
+R24
+R25
+Z40 !s100 ]h;=1PzXEeB1jT=HXI1M<1
+Earithmetic_encoder_tb_ent
+Z41 w1263130595
+Z42 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z43 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R16
+R17
+R18
+R19
+Z44 8C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TB.vhd
+Z45 FC:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TB.vhd
+l0
+L7
+Z46 V1;@O_07jhk4W`;eZPN4IZ2
+R23
+32
+R24
+R25
+Z47 !s100 UHLQI]4I5>;[niI6DBR6=0
+Aarithmetic_encoder_tb_arch
+R42
+R43
+R16
+R17
+R18
+Z48 DEx4 work 25 arithmetic_encoder_tb_ent 0 22 1;@O_07jhk4W`;eZPN4IZ2
+l62
+L10
+Z49 Vz92bUH4DjZobd^K;X7BH;0
+R23
+32
+Z50 Mx5 4 ieee 14 std_logic_1164
+Z51 Mx4 4 ieee 18 std_logic_unsigned
+Z52 Mx3 4 ieee 15 std_logic_arith
+Z53 Mx2 3 std 6 textio
+Z54 Mx1 4 ieee 11 numeric_std
+R24
+R25
+Z55 !s100 2j`K9omRA3U@1TZ^cOJH33
+Earithmetic_encoder_tl_ent
+Z56 w1263145895
+R16
+R17
+R18
+R19
+Z57 8C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TL.vhd
+Z58 FC:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TL.vhd
+l0
+L5
+Z59 Vo5:Ud>lQK9LI]Vo7F8C4>0
+R23
+32
+R24
+R25
+Z60 !s100 QhH:[1GMedS1gaY?AF<Db3
+Aarithmetic_encoder_tl_arch
+R16
+R17
+R18
+Z61 DEx4 work 25 arithmetic_encoder_tl_ent 0 22 o5:Ud>lQK9LI]Vo7F8C4>0
+l53
+L15
+Z62 V[MWe0AE84=Em1?W;I2WV73
+R23
+32
+R29
+R30
+R31
+R24
+R25
+Z63 !s100 ZMCmm2Kz^5CAC=0lo6TC_3
+Eflip_flop_8bit_md_ent
+Z64 w1263142216
+R16
+R17
+R18
+R19
+Z65 8C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Flip_Flop_8bit_MD.vhd
+Z66 FC:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Flip_Flop_8bit_MD.vhd
+l0
+L5
+Z67 VB^PbOI0W03z]WNSMHR@e70
+R23
+32
+R24
+R25
+Z68 !s100 :^Eh>_3PH5ILkO>[Vf:GE3
+Aflip_flop_8bit_md_arch
+R16
+R17
+R18
+Z69 DEx4 work 21 flip_flop_8bit_md_ent 0 22 B^PbOI0W03z]WNSMHR@e70
+l14
+L13
+Z70 VoR5nH]X9i5zl8hfZ=E_FG3
+R23
+32
+R29
+R30
+R31
+R24
+R25
+Z71 !s100 cHRG>9JN5Fkz^5VO=Bb;S2
+Eregister_8bit_md_ent
+Z72 w1263142168
+R16
+R17
+R18
+R19
+Z73 8C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Register_8bit_MD.vhd
+Z74 FC:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Register_8bit_MD.vhd
+l0
+L5
+Z75 V0b_f5gWdD=oaC5`2D;QBN3
+R23
+32
+R24
+R25
+Z76 !s100 eCFbKWn3A2[U;44nS]=@02
+Aregister_8bit_md_arch
+R16
+R17
+R18
+Z77 DEx4 work 20 register_8bit_md_ent 0 22 0b_f5gWdD=oaC5`2D;QBN3
+l15
+L14
+Z78 V>BIU=<oof4YS;e1Jd^YYS1
+R23
+32
+R29
+R30
+R31
+R24
+R25
+Z79 !s100 nTIYc_L93MANYT<4^HQ[63
+Erom_256x16bit_md_ent
+Z80 w1263139079
+Z81 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z82 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z83 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R19
+Z84 8C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/ROM_256x16bit_MD.vhd
+Z85 FC:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/ROM_256x16bit_MD.vhd
+l0
+L5
+Z86 V[VQ_RoGG`zhgUVL9]E9O^2
+R23
+R24
+R25
+Z87 !s100 =nMAV2]n>]ho]e^`BBa6W2
+Arom_256x16bit_md_arch
+R81
+R82
+R83
+DEx70 C:\Program Files\modeltech_6.5\examples\Tamrin\Arithmetic_Encoder\work 20 rom_256x16bit_md_ent 0 22 [VQ_RoGG`zhgUVL9]E9O^2
+32
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx2 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+l19
+L15
+Z88 VPTP9cFm?D0^G^;>MB=jJA3
+R23
+R24
+R25
+Z89 !s100 1YQk0N9E0=748SFVk:fTN0
+Erom_256x8bit_md_ent
+Z90 w1262092534
+R16
+R17
+R18
+R19
+Z91 8C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/ROM_256x8bit_MD.vhd
+Z92 FC:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/ROM_256x8bit_MD.vhd
+l0
+L5
+Z93 VQ]VijE;O@R4AgG`nNzgJH1
+R23
+32
+R24
+R25
+Z94 !s100 `Bh6_B3@gTf7>9Z3@N7G=1
+Arom_256x8bit_md_arch
+R16
+R17
+R18
+Z95 DEx4 work 19 rom_256x8bit_md_ent 0 22 Q]VijE;O@R4AgG`nNzgJH1
+l18
+L13
+Z96 V7eccnJM6kBeV_[kLh92Pk2
+R23
+32
+R29
+R30
+R31
+R24
+R25
+Z97 !s100 a`:GE:9EQY6dLlP726WMd3

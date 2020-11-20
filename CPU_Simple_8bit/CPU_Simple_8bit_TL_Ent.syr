@@ -1,0 +1,485 @@
+Release 11.1 - xst L.33 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: CPU_Simple_8bit_TL_Ent.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CPU_Simple_8bit_TL_Ent.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CPU_Simple_8bit_TL_Ent"
+Output Format                      : NGC
+Target Device                      : xc4vlx15-12-sf363
+
+---- Source Options
+Top Module Name                    : CPU_Simple_8bit_TL_Ent
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Add Generic Clock Buffer(BUFG)     : 32
+Number of Regional Clock Buffers   : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : CPU_Simple_8bit_TL_Ent.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Register_4bit_MD.vhd" in Library work.
+Architecture register_4bit_md_arch of Entity register_4bit_md_ent is up to date.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Rom_16x8bit_MD.vhd" in Library work.
+Entity <rom_16x8bit_md_ent> compiled.
+Entity <rom_16x8bit_md_ent> (Architecture <rom_16x8bit_md_arch>) compiled.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_CR.vhd" in Library work.
+Architecture cpu_simple_8bit_cr_arch of Entity cpu_simple_8bit_cr_ent is up to date.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_DP.vhd" in Library work.
+Architecture cpu_simple_8bit_dp_arch of Entity cpu_simple_8bit_dp_ent is up to date.
+Compiling vhdl file "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TL.vhd" in Library work.
+Architecture cpu_simple_8bit_tl_arch of Entity cpu_simple_8bit_tl_ent is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <CPU_Simple_8bit_TL_Ent> in library <work> (architecture <cpu_simple_8bit_tl_arch>).
+
+Analyzing hierarchy for entity <CPU_Simple_8bit_CR_Ent> in library <work> (architecture <cpu_simple_8bit_cr_arch>).
+
+Analyzing hierarchy for entity <CPU_Simple_8bit_DP_Ent> in library <work> (architecture <cpu_simple_8bit_dp_arch>).
+
+Analyzing hierarchy for entity <Register_4bit_MD_Ent> in library <work> (architecture <register_4bit_md_arch>).
+
+Analyzing hierarchy for entity <Rom_16x8bit_MD_Ent> in library <work> (architecture <rom_16x8bit_md_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <CPU_Simple_8bit_TL_Ent> in library <work> (Architecture <cpu_simple_8bit_tl_arch>).
+Entity <CPU_Simple_8bit_TL_Ent> analyzed. Unit <CPU_Simple_8bit_TL_Ent> generated.
+
+Analyzing Entity <CPU_Simple_8bit_CR_Ent> in library <work> (Architecture <cpu_simple_8bit_cr_arch>).
+Entity <CPU_Simple_8bit_CR_Ent> analyzed. Unit <CPU_Simple_8bit_CR_Ent> generated.
+
+Analyzing Entity <CPU_Simple_8bit_DP_Ent> in library <work> (Architecture <cpu_simple_8bit_dp_arch>).
+Entity <CPU_Simple_8bit_DP_Ent> analyzed. Unit <CPU_Simple_8bit_DP_Ent> generated.
+
+Analyzing Entity <Register_4bit_MD_Ent> in library <work> (Architecture <register_4bit_md_arch>).
+Entity <Register_4bit_MD_Ent> analyzed. Unit <Register_4bit_MD_Ent> generated.
+
+Analyzing Entity <Rom_16x8bit_MD_Ent> in library <work> (Architecture <rom_16x8bit_md_arch>).
+Entity <Rom_16x8bit_MD_Ent> analyzed. Unit <Rom_16x8bit_MD_Ent> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CPU_Simple_8bit_CR_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_CR.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | iclk (falling_edge)                            |
+    | Reset              | irst (positive)                                |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 10-bit register for signal <oload>.
+    Found 2-bit register for signal <osele>.
+    Found 1-bit xor2 for signal <osele_0$xor0000> created at line 53.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  12 D-type flip-flop(s).
+Unit <CPU_Simple_8bit_CR_Ent> synthesized.
+
+
+Synthesizing Unit <Register_4bit_MD_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Register_4bit_MD.vhd".
+    Found 4-bit register for signal <odata>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <Register_4bit_MD_Ent> synthesized.
+
+
+Synthesizing Unit <Rom_16x8bit_MD_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Rom_16x8bit_MD.vhd".
+WARNING:Xst:1781 - Signal <rom> is used but never assigned. Tied to default value.
+    Found 16x8-bit ROM for signal <odata>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Rom_16x8bit_MD_Ent> synthesized.
+
+
+Synthesizing Unit <CPU_Simple_8bit_DP_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_DP.vhd".
+    Found 5-bit addsub for signal <alu>.
+    Found 5-bit adder for signal <alu$addsub0000> created at line 151.
+    Found 5-bit adder for signal <alu$addsub0001> created at line 151.
+    Found 1-bit register for signal <c>.
+    Found 4-bit 4-to-1 multiplexer for signal <idst>.
+    Found 4-bit adder for signal <iPC$addsub0000> created at line 141.
+    Found 4-bit 4-to-1 multiplexer for signal <isrc>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   8 Multiplexer(s).
+Unit <CPU_Simple_8bit_DP_Ent> synthesized.
+
+
+Synthesizing Unit <CPU_Simple_8bit_TL_Ent>.
+    Related source file is "C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TL.vhd".
+Unit <CPU_Simple_8bit_TL_Ent> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 2
+ 5-bit addsub                                          : 1
+# Registers                                            : 14
+ 1-bit register                                        : 3
+ 10-bit register                                       : 1
+ 4-bit register                                        : 10
+# Multiplexers                                         : 2
+ 4-bit 4-to-1 multiplexer                              : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Choose code 1 with characteristics nb_luts=3,nb_literals=11,nb_ffs=4,depth=1 ...
+Optimizing FSM <CPU_CR/state/FSM> on signal <state[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0001
+ 01    | 0010
+ 10    | 0100
+ 11    | 1000
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 2
+ 5-bit addsub                                          : 1
+# Registers                                            : 53
+ Flip-Flops                                            : 53
+# Multiplexers                                         : 2
+ 4-bit 4-to-1 multiplexer                              : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CPU_Simple_8bit_TL_Ent> ...
+
+Optimizing unit <CPU_Simple_8bit_CR_Ent> ...
+
+Optimizing unit <CPU_Simple_8bit_DP_Ent> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CPU_Simple_8bit_TL_Ent, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 57
+ Flip-Flops                                            : 57
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : CPU_Simple_8bit_TL_Ent.ngr
+Top Level Output File Name         : CPU_Simple_8bit_TL_Ent
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 107
+#      GND                         : 1
+#      LUT2                        : 4
+#      LUT2_D                      : 3
+#      LUT2_L                      : 3
+#      LUT3                        : 30
+#      LUT3_L                      : 4
+#      LUT4                        : 36
+#      LUT4_D                      : 3
+#      LUT4_L                      : 4
+#      MUXCY                       : 4
+#      MUXF5                       : 10
+#      XORCY                       : 5
+# FlipFlops/Latches                : 57
+#      FD_1                        : 2
+#      FDR_1                       : 9
+#      FDRE                        : 41
+#      FDRS_1                      : 4
+#      FDS_1                       : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 5
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 4vlx15sf363-12 
+
+ Number of Slices:                       53  out of   6144     0%  
+ Number of Slice Flip Flops:             57  out of  12288     0%  
+ Number of 4 input LUTs:                 87  out of  12288     0%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    240     4%  
+ Number of GCLKs:                         1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+iclk                               | BUFGP                  | 57    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -12
+
+   Minimum period: 4.153ns (Maximum Frequency: 240.796MHz)
+   Minimum input arrival time before clock: 2.311ns
+   Maximum output required time after clock: 3.793ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'iclk'
+  Clock period: 4.153ns (frequency: 240.796MHz)
+  Total number of paths / destination ports: 1045 / 101
+-------------------------------------------------------------------------
+Delay:               2.076ns (Levels of Logic = 3)
+  Source:            CPU_DP/IR2/odata_3 (FF)
+  Destination:       CPU_CR/oload_4 (FF)
+  Source Clock:      iclk rising
+  Destination Clock: iclk falling
+
+  Data Path: CPU_DP/IR2/odata_3 to CPU_CR/oload_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   0.272   0.559  CPU_DP/IR2/odata_3 (CPU_DP/IR2/odata_3)
+     LUT3:I1->O            1   0.147   0.388  CPU_CR/oload_mux0006<5>2_SW0 (N18)
+     LUT4_D:I3->O          3   0.147   0.399  CPU_CR/oload_mux0006<5>2 (CPU_CR/N4)
+     LUT4:I3->O            1   0.147   0.000  CPU_CR/oload_mux0006<7> (CPU_CR/oload_mux0006<7>)
+     FDR_1:D                   0.017          CPU_CR/oload_2
+    ----------------------------------------
+    Total                      2.076ns (0.730ns logic, 1.346ns route)
+                                       (35.2% logic, 64.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'iclk'
+  Total number of paths / destination ports: 71 / 71
+-------------------------------------------------------------------------
+Offset:              2.311ns (Levels of Logic = 1)
+  Source:            irst (PAD)
+  Destination:       CPU_CR/state_FSM_FFd4 (FF)
+  Destination Clock: iclk falling
+
+  Data Path: irst to CPU_CR/state_FSM_FFd4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            55   0.754   0.752  irst_IBUF (irst_IBUF)
+     FDR_1:R                   0.805          CPU_CR/oload_1
+    ----------------------------------------
+    Total                      2.311ns (1.559ns logic, 0.752ns route)
+                                       (67.5% logic, 32.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'iclk'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.793ns (Levels of Logic = 1)
+  Source:            CPU_DP/SEVEN_SEG/odata_3 (FF)
+  Destination:       o7seg<3> (PAD)
+  Source Clock:      iclk rising
+
+  Data Path: CPU_DP/SEVEN_SEG/odata_3 to o7seg<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.272   0.266  CPU_DP/SEVEN_SEG/odata_3 (CPU_DP/SEVEN_SEG/odata_3)
+     OBUF:I->O                 3.255          o7seg_3_OBUF (o7seg<3>)
+    ----------------------------------------
+    Total                      3.793ns (3.527ns logic, 0.266ns route)
+                                       (93.0% logic, 7.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.80 secs
+ 
+--> 
+
+Total memory usage is 185756 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

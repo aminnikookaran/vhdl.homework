@@ -1,0 +1,12 @@
+top DSP48
+parameter AREG 0;
+parameter BREG 0;
+parameter CREG 0;
+parameter PREG 0;
+parameter MREG 0;
+parameter SUBTRACTREG 0;
+parameter OPMODEREG 0;
+parameter CARRYINSELREG 0;
+parameter CARRYINREG 0;
+parameter B_INPUT "DIRECT";
+parameter LEGACY_MODE "MULT18X18";

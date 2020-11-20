@@ -1,0 +1,18 @@
+@P:  Worst Slack : -0.510
+@P:  FIFO_1024x8bit_Ent|irclk - Estimated Frequency : 308.2 MHz
+@P:  FIFO_1024x8bit_Ent|irclk - Requested Frequency : 362.5 MHz
+@P:  FIFO_1024x8bit_Ent|irclk - Estimated Period : 3.245
+@P:  FIFO_1024x8bit_Ent|irclk - Requested Period : 2.758
+@P:  FIFO_1024x8bit_Ent|irclk - Slack : -0.487
+@P:  FIFO_1024x8bit_Ent|iwclk - Estimated Frequency : 294.0 MHz
+@P:  FIFO_1024x8bit_Ent|iwclk - Requested Frequency : 345.9 MHz
+@P:  FIFO_1024x8bit_Ent|iwclk - Estimated Period : 3.401
+@P:  FIFO_1024x8bit_Ent|iwclk - Requested Period : 2.891
+@P:  FIFO_1024x8bit_Ent|iwclk - Slack : -0.510
+@P: FIFO_1024x8bit_Ent Part : xc4vlx15sf363-10
+@P: FIFO_1024x8bit_Ent I/O primitives : 43
+@P: FIFO_1024x8bit_Ent I/O Register bits : 0
+@P: FIFO_1024x8bit_Ent Register bits (Non I/O) : 52 (0%)
+@P: FIFO_1024x8bit_Ent Block Rams : 1 of 48 (2%)
+@P: FIFO_1024x8bit_Ent Total Luts : 75 (0%)
+@P:  CPU Time : 0h:00m:01s

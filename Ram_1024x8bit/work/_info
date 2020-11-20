@@ -1,0 +1,93 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit
+T_opt
+VG=zzOJ@E]0VYB8dAFTB:00
+Z1 04 16 21 work tb_ram_1024x8bit tb_ram_1024x8bit_arch 1
+=1-00214fb9216b-4aec335c-16c-a48
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;6.5;42
+T_opt1
+VgL@=l<cUMiV]Qe3ibGRYX2
+R1
+=1-00214fb9216b-4af3f988-26-124c
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt1
+R2
+T_opt2
+V1U;Sl_WU4K>PUd6ANO9f^0
+04 17 18 work ram_1024x8bit_ent ram_1024x8bit_arch 1
+=1-00214fb9216b-4af3f9b6-264-c98
+R3
+n@_opt2
+R2
+Eram_1024x8bit_ent
+Z4 w1257503402
+Z5 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z7 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z8 dC:\Program Files\modeltech_6.5\examples\Tamrin\Ram_1024x8bit
+Z9 8C:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_MD.vhd
+Z10 FC:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_MD.vhd
+l0
+L5
+VRLfbEG>lR0OXBB4EkVhoA0
+Z11 OE;C;6.5;42
+32
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+!s100 GMH=2zMe?a8fOL<X1GRh60
+Aram_1024x8bit_arch
+R5
+R6
+R7
+DEx4 work 17 ram_1024x8bit_ent 0 22 RLfbEG>lR0OXBB4EkVhoA0
+l19
+L17
+VkeD1BdBg8Ta3VoX3h5gL:3
+R11
+32
+Z14 Mx3 4 ieee 14 std_logic_1164
+Mx2 4 ieee 18 std_logic_unsigned
+Z15 Mx1 4 ieee 15 std_logic_arith
+R12
+R13
+!s100 W20zSTgZm^AjgYkNOZ5ZP2
+Etb_ram_1024x8bit
+Z16 w1257712130
+Z17 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R5
+R6
+R7
+R8
+Z18 8C:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_tb.vhd
+Z19 FC:/Program Files/modeltech_6.5/examples/Tamrin/Ram_1024x8bit/Ram_1024x8bit_tb.vhd
+l0
+L6
+V39N=i9j5A3E6FNln6E7<83
+!s100 KCF5Icf[e8aG3VU]e>gGj0
+R11
+32
+R12
+R13
+Atb_ram_1024x8bit_arch
+R17
+R5
+R6
+R7
+Z20 DEx4 work 16 tb_ram_1024x8bit 0 22 39N=i9j5A3E6FNln6E7<83
+l31
+L9
+Z21 V`?767G4LNACzn?bb^nHj91
+Z22 !s100 F>Y`C[ZWRooC41F5EC0lR2
+R11
+32
+Z23 Mx4 4 ieee 14 std_logic_1164
+Z24 Mx3 4 ieee 18 std_logic_unsigned
+Z25 Mx2 4 ieee 15 std_logic_arith
+Z26 Mx1 4 ieee 11 numeric_std
+R12
+R13

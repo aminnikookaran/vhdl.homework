@@ -1,0 +1,3 @@
+@N: CD630 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":5:7:5:40|Synthesizing work.simple_dual_port_ram_1024x8bit_ent.simple_dual_port_ram_1024x8bit_arch 
+Post processing for work.simple_dual_port_ram_1024x8bit_ent.simple_dual_port_ram_1024x8bit_arch
+@N: CL134 :"C:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram\Simple_Dual_Port_Ram_MD.vhd":21:9:21:11|Found RAM ram, depth=1024, width=8

@@ -1,0 +1,163 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version 1.0, Build 007R from Synplicity, Inc.
+# Copyright 1994-2008 Synplicity, Inc. , All rights reserved.
+# Synthesis Netlist written on Wed Dec 16 23:26:22 2009
+#
+#
+#OPTIONS:"|-primux|-dspmac|-fixsmult|-sdff_counter|-infer_seqShift|-nram|-divnmod|-autosm|-autosm|-fid2|-sharing|on|-encrypt|-ui|-lite|-pro|-ram|-ignore_undefined_lib|-ll|2000|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\bin\\c_vhdl.exe":1223059590
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\location.map":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\std.vhd":1223059796
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Parallel_to_Serial_Port_TL.vhd":1259772070
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Parallel_to_Serial_Port_CR.vhd":1259772026
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Parallel_to_Serial_Port_DP.vhd":1259771867
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Serial_to_Parallel_Port_TL.vhd":1259768083
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Serial_to_Parallel_Port_DP.vhd":1259767611
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Serial_to_Parallel_Port_CR.vhd":1259769162
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Parallel_to_Serial_Port_CR.vhd":1259772026
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\std1164.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\unsigned.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\arith.vhd":1223059796
+#CUR:"C:\\Program Files\\Synplicity\\fpga_961\\lib\\vhd\\numeric.vhd":1223059796
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Parallel_to_Serial_Port_DP.vhd":1259771867
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Serial_to_Parallel_Port_DP.vhd":1259767611
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Serial_to_Parallel_Port_CR.vhd":1259769162
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Parallel_to_Serial_Port_TL.vhd":1259772070
+#CUR:"C:\\Program Files\\modeltech_6.5\\examples\\Tamrin\\Serial_Parallel_Port\\Serial_to_Parallel_Port_TL.vhd":1259768083
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Parallel_to_Serial_Port_CR.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\unsigned.vhd"; # file 3
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\arith.vhd"; # file 4
+af .is_vhdl 1;
+f "C:\Program Files\Synplicity\fpga_961\lib\vhd\numeric.vhd"; # file 5
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Parallel_to_Serial_Port_DP.vhd"; # file 6
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_DP.vhd"; # file 7
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_CR.vhd"; # file 8
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Parallel_to_Serial_Port_TL.vhd"; # file 9
+af .is_vhdl 1;
+f "C:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port\Serial_to_Parallel_Port_TL.vhd"; # file 10
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@n(::n(::RdnI	FsRs1CH_ND0uF_NDsND_CDu0Fs__7u RM0#HCsN0D_FN_bsDNDCbD_F_s08Nb_s;OE
+RNP3PH#ER8D4N;
+PHR3#E_P84DR;P
+NRs3FHNohl"CR1HCsN0D_FN_usDNDCuD_F_s07 u_M;0"
+@HR@U(::Uc::H(RORD	H	OD;H
+NR03sDs_FHNoMl"CRH	OD"
+;
+
+@HR@g(::gc::HUR8NN0RNH80
+N;N3HRs_0DFosHMCNlR8"HN"0N;
+
+
+
+@FR@4(:j::c4(j:RLFO#:r.js9RC4orj9:g,osCr;j9
+RNH3Ds0_HFsolMNCFR"O"L#;
+
+
+
+@FR@4(:4::c4U4:RNF80(Nr:Rj9srCoU9:4;H
+NR03sDs_FHNoMl"CRF08NN
+";b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCb;
+R(@@::.nUn:.:8gRVsVRC4orj9:jRosCr:4jjH9R8NN0,osCr:4j4H9RO;D	
+RNH3Ds0_HFsolMNCsR"C;o"
+-y---------------------------------
+
+@ 
+ftell;
+@E@MR@nU::n(::RdnI	FsRs1CH_ND0uF_NDsND_CDu0Fs__B) RM0#HCsN0D_FN_bsDNDCbD_F_s0ONs_s;OE
+RNP3PH#ER8D4N;
+PHR3#E_P84DR;P
+NRs3FHNohl"CR1HCsN0D_FN_usDNDCuD_F_s0B )_M;0"
+@HR@UU::Uc::H(RORD	H	OD;H
+NR03sDs_FHNoMl"CRH	OD"
+;
+
+@HR@gU::gc::H(ROrL#.9:jRLHO#:r.j
+9;N3HRs_0DFosHMCNlRO"HL;#"
+@FR@4U:j::c4nj:RPF8R.kM_PF8;H
+NR03sDs_FHNoMl"CRF"8P;R
+b@:@Ug::cgR:(HRMPk_M4H#OLrRj9k_M4H#OLrRj9H#OLr;j9
+@bR@4j::44::0.RsRkC0CskRk0sCb;
+Rj@@:44::.4:RDVN#VCRNCD#RDVN#
+C;b@R@Uj:.::.4.dj:.MRN8kPRMFc_8kPRMFc_8kPRMH4_OrL#jH9ROrL#4H9ROrL#.
+9;b@R@U(:.::dc.c(:60RDRnkM_kOFMk0RMOn_F0kMRkOFMd0r:Rj90Csk,DVN#0C,s,kCV#NDCb;
+RU@@::.(4.(:(U:.RRD0k_MUOMFk0MRkUF_OkRM0V#NDCN,VD,#CV#NDCN,VDR#COMFk0:rdj
+9;b@R@U(:.::4(..(:UMRHPMRk48_FPMRk48_FPMRkUF_Ok;M0
+@bR@.U:n4:.::.n.NgR8k8RMO._F0kMrjd:9MRk.F_OkrM0d9:jRkOFMd0r:Rj90Csk;R
+b@:@(.Un:::.ngkRlGMRkd8_FP9rjRdkM_PF8rRj9k_McFR8Pk_MnOMFk0MRkUF_Ok;M0
+@bR@.U:j4:.::.jcNgRMR8Pk_M.FR8Pk_M.FR8Pk_M4FR8Pk_McF;8P
+@bR@.U:6j:4::.64l4RkOGRF0kM_4dr:Rj9OMFk0r_d49:jRDVN#VC,NCD#R.kM_kOFM40r:Rj9k_MdFr8Pj
+9;b@R@U6:.::4j.46:4kRlGFROk_M0d9rdRkOFMd0_rRd9V#NDCMRk.F_OkrM0dk9RMFd_8jPr9b;
+RU@@::.cUc:.:8gRVOVRF0kMrjd:9FROkrM0d9:jRkOFMd0_r,d9k_M.OMFk09r.,kOFMd0_rj4:9R
+RRORHD
+	;N3HRs_0DFosHMCNlRF"Ok"M0;-
+y--------------------------------- 
+@
+ftell;
+@E@MR@:4jn::(nn:dRsIF	CR1sDHN__0FuNNsDDDC_suF0p_a_0 MRs#CH_ND0bF_NDsND_CDb0Fs__0DNEsO;P
+NR#3HPDE8R
+4;N3PRHP#_ER8D4N;
+P#R3$VM_lRNb"sIF	"R\B\:\uosFs\NlRDwHC\#\lCF8DO0CE3_n6C\\GbNlD\C#\laNs\HM\s1CH_NDuNNsDDDC_suF0u\\NDsND_CD01F_CNsHDF_usa0_pE3P8
+\"I	FsRB\":u\\ssFoNRl\wCHD#l\\FD8C0ECO_6n3\G\CNDlbC\#\asNlH\M\1HCsNuD_NDsND_CDu0Fs\N\usDNDC0D_FC_1sDHN_suF0)_B38PE\I"
+FRs	\:"B\s\uFNoslw\RH#DC\F\l80CDC_OEn\36\NCGlCbD#a\\NHlsM1\\CNsHDN_usDNDCuD_F\s0\suNNCDDDF_0_s1CH_NDu0Fs_37uP\E8"F
+Is\	R"\B:\FusolsN\HRwD\C#\8lFCCD0OnE_3\6\ClGNb#DC\N\alMsH\C\1sDHN_suNNCDDDF_us\0\1HCsN0D_FN_usDNDCuD_F_s0aPp3E"8\
+sIF	"R\B\:\uosFs\NlRDwHC\#\lCF8DO0CE3_n6C\\GbNlD\C#\laNs\HM\s1CH_NDuNNsDDDC_suF01\\CNsHDF_0_suNNCDDDF_us70_uE3P8
+\"I	FsRB\":u\\ssFoNRl\wCHD#l\\FD8C0ECO_6n3\G\CNDlbC\#\asNlH\M\1HCsNuD_NDsND_CDu0Fs\C\1sDHN__0FuNNsDDDC_suF0)_B38PE\""
+;
+
+
+
+@HR@:4jU::cUR:(H	ODRDHO	N;
+HsR30FD_sMHoNRlC"DHO	
+";
+@HR@:4jg::cgR:UH08NN8RHN;0N
+RNH3Ds0_HFsolMNCHR"8NN0"
+;
+
+@FR@:4j4cj:::4jn8RFP8RFPN;
+HsR30FD_sMHoNRlC"PF8"
+;
+
+@FR@:4j4c4:::44U8RFNr0N(9:jRNF80(Nr:;j9
+RNH3Ds0_HFsolMNCFR"8NN0"s;
+R4@@jj:c:c.:jR:(I	FsRs1CH_ND0uF_NDsND_CDu0Fs__7u RM0#HCsN0D_FN_bsDNDCbD_F_s08Nb_sROE1_.u7Su
+H	OD=	OD
+8SHN=0NH08NNF
+SOrL#.9:j=#OLrj.:9F
+S8NN0rj(:98=FNr0N(9:j;R
+s@j@4::c(.(:c:I(RFRs	1HCsN0D_FN_usDNDCuD_F_s0B )_M#0RCNsHDF_0_sbNNCDDDF_bsO0_ss_NO1ER.Bu_)H
+SO=D	O
+D	SLHO#:r.jO9=L.#r:
+j9SPF8=PF8;R
+b@:@j4::44R:.0CskRk0sCsR0k
+C;b@R@j::44::4.NRVDR#CV#NDCNRVD;#C
+@bR@.c:n46:(n:.6.:6RRD0Fob_0F\3b0_o\M3k6D_O	bRF_\o03_Fbo30\k_M6ORD	V#NDCs,0k0C,s,kCV#NDCN,VD,#C0Csk,DVN#RC
+RORRF0kMrjn:9b;
+Rc@@:(.(::4(.:((6D.R0bRF_\D03_FbD30\OMFk0FURb0_D\b3F_\D03kOFMR0UOMFk0:rnj09Rs,kC0Csk,DVN#VC,NCD#,k0sCs,0k0C,s;kC
+@bR@:4j64g:gg:6:R.(NR88k_M.OMFk0:rnjk9RMO._F0kMrjn:9FROkrM0n9:jRk0sCb;
+R4@@jd:6:6n:dR:(lRkGORD	ORD	V#NDCsR0kFCRb0_o\b3F_\o036kM_	OD;R
+b@j@4::6UUU:6:lgRkOGRF0kM_ddr9FROk_M0d9rdRDVN#kCRMO._F0kMrRd9FDb_0F\3b0_D\F3OkUM0;R
+b@j@4::6UUU:6:lgRkOGRF0kM_ndr:R69OMFk0r_dn9:6RDVN#VC,NCD#R.kM_kOFMn0r:R69FDb_0F\3b0_D\F3OkUM0;R
+b@j@4::6(n(:6:8(RVOVRF0kMrjn:9FROkrM0n9:jRkOFMd0_r6n:9M,k.F_OkrM0cO9,F0kM_ddr9M,k.F_OkrM0.9:j
+RRRRDHO	N;
+HsR30FD_sMHoNRlC"kOFM;0"
+
+C;

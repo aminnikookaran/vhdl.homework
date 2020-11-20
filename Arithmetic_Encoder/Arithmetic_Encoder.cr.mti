@@ -1,0 +1,77 @@
+{C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TB.vhd} {2 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TB.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package numeric_std
+-- Compiling entity arithmetic_encoder_tb_ent
+-- Compiling architecture arithmetic_encoder_tb_arch of arithmetic_encoder_tb_ent
+** Warning: C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TB.vhd(92): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+** Warning: C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TB.vhd(109): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Register_8bit_MD.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Register_8bit_MD.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity register_8bit_md_ent
+-- Compiling architecture register_8bit_md_arch of register_8bit_md_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_DP.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_DP.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity arithmetic_encoder_dp_ent
+-- Compiling architecture arithmetic_encoder_dp_arch of arithmetic_encoder_dp_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/ROM_256x16bit_MD.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/ROM_256x16bit_MD.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity rom_256x16bit_md_ent
+-- Compiling architecture rom_256x16bit_md_arch of rom_256x16bit_md_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TL.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_TL.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity arithmetic_encoder_tl_ent
+-- Compiling architecture arithmetic_encoder_tl_arch of arithmetic_encoder_tl_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_CR.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Arithmetic_Encoder_CR.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity arithmetic_encoder_cr_ent
+-- Compiling architecture arithmetic_encoder_cr_arch of arithmetic_encoder_cr_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/ROM_256x8bit_MD.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/ROM_256x8bit_MD.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity rom_256x8bit_md_ent
+-- Compiling architecture rom_256x8bit_md_arch of rom_256x8bit_md_ent
+
+} {} {}} {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Flip_Flop_8bit_MD.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Program Files/modeltech_6.5/examples/Tamrin/Arithmetic_Encoder/Flip_Flop_8bit_MD.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity flip_flop_8bit_md_ent
+-- Compiling architecture flip_flop_8bit_md_arch of flip_flop_8bit_md_ent
+
+} {} {}}

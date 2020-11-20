@@ -1,0 +1,74 @@
+#-- Synplicity, Inc.
+#-- Version 9.6.1
+#-- Project file C:\Program Files\modeltech_6.5\examples\Tamrin\Multiplier_32bit\Multiplier_32bit.prj
+#-- Written on Mon Nov 09 14:45:51 2009
+
+
+#add_file options
+add_file -vhdl -lib work "./Carry_Look_Ahead_Adder_16bit.vhd"
+add_file -vhdl -lib work "./Carry_Look_Ahead_Adder_4bit.vhd"
+add_file -vhdl -lib work "./Carry_Look_Ahead_Adder_8bit.vhd"
+add_file -vhdl -lib work "./Full_Adder_MD.vhd"
+add_file -vhdl -lib work "./Half_Adder_MD.vhd"
+add_file -vhdl -lib work "./Multiplier_16bit_MD.vhd"
+add_file -vhdl -lib work "./Multiplier_4bit_MD.vhd"
+add_file -vhdl -lib work "./Multiplier_8bit_MD.vhd"
+
+
+#implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+#device options
+set_option -technology VIRTEX4
+set_option -part XC4VLX15
+set_option -package SF363
+set_option -speed_grade -10
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -default_enum_encoding default
+set_option -resource_sharing 1
+set_option -use_fsm_explorer 0
+
+#map options
+set_option -frequency auto
+set_option -vendor_xcompatible_mode 0
+set_option -vendor_xcompatible_mode 0
+set_option -run_prop_extract 1
+set_option -fanout_limit 10000
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -update_models_cp 0
+set_option -verification_mode 0
+set_option -retiming 0
+set_option -no_sequential_opt 0
+set_option -fixgatedclocks 3
+set_option -fixgeneratedclocks 3
+
+
+#sequential_optimizations options
+set_option -symbolic_fsm_compiler 1
+
+#simulation options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+#VIF options
+set_option -write_vif 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./rev_1/Multiplier_8bit_MD.edf"
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+
+#par_1 attributes
+set_option -job par_1 -add par
+set_option -job par_1 -option run_backannotation 0
+impl -active "rev_1"

@@ -1,0 +1,192 @@
+Release 11.1 par L.33 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+AMIN-PC::  Thu Dec 24 11:19:28 2009
+
+par -ise CPU_Simple_8bit.ise -w -intstyle ise -ol std -t 1
+CPU_Simple_8bit_TL_Ent_map.ncd CPU_Simple_8bit_TL_Ent.ncd
+CPU_Simple_8bit_TL_Ent.pcf 
+
+
+Constraints file: CPU_Simple_8bit_TL_Ent.pcf.
+Loading device for application Rf_Device from file '4vlx15.nph' in environment C:\Xilinx\11.1\ISE.
+   "CPU_Simple_8bit_TL_Ent" is an NCD, version 3.2, device xc4vlx15, package sf363, speed -12
+This design is using the default stepping level (major silicon revision) for this device (1). Unless your design is
+targeted at devices of this stepping level, it is recommended that you explicitly specify the stepping level of the
+parts you will be using. This will allow the tools to take advantage of any available performance and functional
+enhancements for this device. The latest stepping level for this device is '2'. Additional information on "stepping
+level" is available at support.xilinx.com.
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.69 2009-03-03".
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           1 out of 32      3%
+   Number of External IOBs                  10 out of 240     4%
+      Number of LOCed IOBs                   0 out of 10      0%
+
+   Number of Slices                         55 out of 6144    1%
+      Number of SLICEMs                      0 out of 3072    0%
+
+
+
+Overall effort level (-ol):   Standard 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard 
+
+Starting initial Timing Analysis.  REAL time: 8 secs 
+Finished initial Timing Analysis.  REAL time: 8 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 8 secs 
+Total CPU  time at the beginning of Placer: 6 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:9ba) REAL time: 9 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:9ba) REAL time: 9 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:23ee799e) REAL time: 9 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+............
+Phase 4.2  Initial Clock and IO Placement (Checksum:ea24bf46) REAL time: 10 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:ea24bf46) REAL time: 10 secs 
+
+Phase 6.3  Local Placement Optimization
+...
+Phase 6.3  Local Placement Optimization (Checksum:d08bc416) REAL time: 10 secs 
+
+Phase 7.5  Local Placement Optimization
+Phase 7.5  Local Placement Optimization (Checksum:d08bc416) REAL time: 10 secs 
+
+Phase 8.8  Global Placement
+.....
+....
+Phase 8.8  Global Placement (Checksum:4e03ddf8) REAL time: 10 secs 
+
+Phase 9.5  Local Placement Optimization
+Phase 9.5  Local Placement Optimization (Checksum:4e03ddf8) REAL time: 10 secs 
+
+Phase 10.18  Placement Optimization
+Phase 10.18  Placement Optimization (Checksum:417acdb7) REAL time: 11 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:417acdb7) REAL time: 11 secs 
+
+Phase 12.34  Placement Validation
+Phase 12.34  Placement Validation (Checksum:417acdb7) REAL time: 11 secs 
+
+Total REAL time to Placer completion: 11 secs 
+Total CPU  time to Placer completion: 8 secs 
+Writing design to file CPU_Simple_8bit_TL_Ent.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 466 unrouted;      REAL time: 11 secs 
+
+Phase  2  : 403 unrouted;      REAL time: 11 secs 
+
+Phase  3  : 123 unrouted;      REAL time: 11 secs 
+
+Phase  4  : 135 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Updating file: CPU_Simple_8bit_TL_Ent.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
+Total REAL time to Router completion: 13 secs 
+Total CPU time to Router completion: 10 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|          iclk_BUFGP | BUFGCTRL_X0Y0| No   |   42 |  0.035     |  1.955      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net icl | SETUP       |         N/A|     3.830ns|     N/A|           0
+  k_BUFGP                                   | HOLD        |     0.404ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 14 secs 
+Total CPU time to PAR completion: 11 secs 
+
+Peak Memory Usage:  240 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file CPU_Simple_8bit_TL_Ent.ncd
+
+
+
+PAR done!

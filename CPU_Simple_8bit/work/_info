@@ -1,0 +1,221 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Serial_Parallel_Port
+T_opt
+Z1 VY247AU77ngK>Ol[MQSf]C3
+Z2 04 22 23 work cpu_simple_8bit_cr_ent cpu_simple_8bit_cr_arch 1
+Z3 =1-00215dec8b38-4b350c99-394-16f0
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 VG2FcCOHKXYJh^B1Z1:kn10
+Z8 04 22 23 work cpu_simple_8bit_tb_ent cpu_simple_8bit_tb_arch 1
+Z9 =3-00215dec8b38-4b2cc88d-35a-156c
+Z10 o-quiet -auto_acc_if_foreign -work work +acc
+Z11 n@_opt1
+R6
+T_opt2
+VJMQmJ49]iUd;5K1CXUNR33
+04 22 23 work cpu_simple_8bit_tl_ent cpu_simple_8bit_tl_arch 1
+Z12 =1-00215dec8b38-4b350ca6-35-218
+R4
+Z13 n@_opt2
+R6
+Ecpu_simple_8bit_cr_ent
+Z14 w1261767822
+Z15 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z17 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z18 dC:\Program Files\modeltech_6.5\examples\Tamrin\CPU_Simple_8bit
+Z19 8C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_CR.vhd
+Z20 FC:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_CR.vhd
+l0
+L5
+Z21 VL0l_AkbKdil`XANbfAD][3
+Z22 OE;C;6.5;42
+32
+Z23 o-work work -2002 -explicit
+Z24 tExplicit 1
+Z25 !s100 ?HA1X9XNc]aKSkZXIWW8^1
+Acpu_simple_8bit_cr_arch
+R15
+R16
+R17
+Z26 DEx4 work 22 cpu_simple_8bit_cr_ent 0 22 L0l_AkbKdil`XANbfAD][3
+l19
+L15
+Z27 VVC6NjcZ0W3GY@RmKj8G9C3
+R22
+32
+Z28 Mx3 4 ieee 14 std_logic_1164
+Z29 Mx2 4 ieee 18 std_logic_unsigned
+Z30 Mx1 4 ieee 15 std_logic_arith
+R23
+R24
+Z31 !s100 4GiZMgzXBQ`Bzk?`bPcDG3
+Ecpu_simple_8bit_dp_ent
+Z32 w1261172809
+R15
+R16
+R17
+R18
+Z33 8C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_DP.vhd
+Z34 FC:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_DP.vhd
+l0
+L5
+Z35 Vc2:?LO;5o;dlHKFme:b^52
+R22
+32
+R23
+R24
+Z36 !s100 Q2^[H2Y5OTn^U[VNPOBLB0
+Acpu_simple_8bit_dp_arch
+R15
+R16
+R17
+Z37 DEx4 work 22 cpu_simple_8bit_dp_ent 0 22 c2:?LO;5o;dlHKFme:b^52
+l53
+L17
+Z38 VWLnGN2OV_[:1cnDV`]0Rn1
+R22
+32
+R28
+R29
+R30
+R23
+R24
+Z39 !s100 6JZbXh@Vl=RB6akadf>0P0
+Ecpu_simple_8bit_tb_ent
+Z40 w1261225846
+Z41 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R15
+R16
+R17
+R18
+Z42 8C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TB.vhd
+Z43 FC:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TB.vhd
+l0
+L6
+Z44 V6RT7h]h^YgV`eT:NcUVeL1
+R22
+32
+R23
+R24
+Z45 !s100 X^SNiQBBQZkZOb;]Okei@2
+Acpu_simple_8bit_tb_arch
+R41
+R15
+R16
+R17
+Z46 DEx4 work 22 cpu_simple_8bit_tb_ent 0 22 6RT7h]h^YgV`eT:NcUVeL1
+l25
+L9
+Z47 Vd?<TeaKPcDOKRXdG@8T661
+R22
+32
+Z48 Mx4 4 ieee 14 std_logic_1164
+Z49 Mx3 4 ieee 18 std_logic_unsigned
+Z50 Mx2 4 ieee 15 std_logic_arith
+Z51 Mx1 4 ieee 11 numeric_std
+R23
+R24
+Z52 !s100 _b5iKIZ]nC8=2dW6`5MJm1
+Ecpu_simple_8bit_tl_ent
+Z53 w1261173412
+R15
+R16
+R17
+R18
+Z54 8C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TL.vhd
+Z55 FC:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/CPU_Simple_8bit_TL.vhd
+l0
+L5
+Z56 VO=fOgN9G1goCg=P=Yo0EH3
+R22
+32
+R23
+R24
+Z57 !s100 E_B:mFlQ^:ZK6n04ZZSIb1
+Acpu_simple_8bit_tl_arch
+R15
+R16
+R17
+Z58 DEx4 work 22 cpu_simple_8bit_tl_ent 0 22 O=fOgN9G1goCg=P=Yo0EH3
+l42
+L14
+Z59 VoIb>6gj?eo=`^@^N0;1BP0
+R22
+32
+R28
+R29
+R30
+R23
+R24
+Z60 !s100 bX`PHWZ;K3W1E4BNIc92Z2
+Eregister_4bit_md_ent
+Z61 w1260969860
+R15
+R16
+R17
+R18
+Z62 8C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Register_4bit_MD.vhd
+Z63 FC:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Register_4bit_MD.vhd
+l0
+L5
+Z64 VmE5c]M1Ng6gDG6M;Ef<YF0
+R22
+32
+R23
+R24
+Z65 !s100 jlBZSaggKBG8oWc6GR>k`2
+Aregister_4bit_md_arch
+R15
+R16
+R17
+Z66 DEx4 work 20 register_4bit_md_ent 0 22 mE5c]M1Ng6gDG6M;Ef<YF0
+l16
+L15
+Z67 V`U1ed[Sj=98V9CJSHTkfQ1
+R22
+32
+R28
+R29
+R30
+R23
+R24
+Z68 !s100 8IBeSzcb7EH^^3RL01]Um1
+Erom_16x8bit_md_ent
+Z69 w1261221089
+R15
+R16
+R17
+R18
+Z70 8C:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Rom_16x8bit_MD.vhd
+Z71 FC:/Program Files/modeltech_6.5/examples/Tamrin/CPU_Simple_8bit/Rom_16x8bit_MD.vhd
+l0
+L5
+Z72 VbHSK82oe=8L`z7@;0@k6X2
+R22
+32
+R23
+R24
+Z73 !s100 U<3L;JY42?CLDeTl7[kgG1
+Arom_16x8bit_md_arch
+R15
+R16
+R17
+Z74 DEx4 work 18 rom_16x8bit_md_ent 0 22 bHSK82oe=8L`z7@;0@k6X2
+l13
+L12
+Z75 VIn^;fcd]BkeP?UXF:K7?R3
+R22
+32
+R28
+R29
+R30
+R23
+R24
+Z76 !s100 e9M?^Heo^CTk6mFFkb3:D0

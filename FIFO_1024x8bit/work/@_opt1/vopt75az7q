@@ -1,0 +1,118 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Simple_Dual_Port_Ram
+T_opt
+Z1 VK2fSYhTYD<6O7UK6e8kL71
+Z2 04 17 22 work tb_fifo_1024x8bit tb_fifo_1024x8bit_arch 1
+Z3 =1-00214fb9216b-4af81482-266-176c
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 VdUNL=o=L<0MlHUiNzZ6`c3
+Z8 04 17 18 work counter_11bit_ent counter_11bit_arch 1
+Z9 =1-00214fb9216b-4af8155e-144-1558
+Z10 o-quiet -auto_acc_if_foreign -work work
+Z11 n@_opt1
+R6
+Ecounter_11bit_ent
+Z12 w1257715973
+Z13 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z14 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z15 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z16 dC:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit
+Z17 8C:/Program Files/modeltech_6.5/examples/Tamrin/FIFO_1024x8bit/Counter_11bit_MD.vhd
+Z18 FC:/Program Files/modeltech_6.5/examples/Tamrin/FIFO_1024x8bit/Counter_11bit_MD.vhd
+l0
+L5
+Z19 VzE]03Q4X<QC:1o8DmTX>N1
+Z20 OE;C;6.5;42
+Z21 o-work work -2002 -explicit
+Z22 tExplicit 1
+Z23 !s100 ]b8YQ4:a;Z<6E@X=ff=8l1
+Acounter_11bit_arch
+R13
+R14
+R15
+DEx66 C:\Program Files\modeltech_6.5\examples\Tamrin\FIFO_1024x8bit\work 17 counter_11bit_ent 0 22 zE]03Q4X<QC:1o8DmTX>N1
+32
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx2 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+l27
+L15
+Z24 V1AIm`2=JA7L;AHI@_FF:h2
+R20
+R21
+R22
+Z25 !s100 _>7SCJ1`TW;l<oDa5l;nU0
+Efifo_1024x8bit_ent
+Z26 w1257608126
+Z27 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z28 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z29 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R16
+Z30 8C:/Program Files/modeltech_6.5/examples/Tamrin/FIFO_1024x8bit/FIFO_1024x8bit_MD.vhd
+Z31 FC:/Program Files/modeltech_6.5/examples/Tamrin/FIFO_1024x8bit/FIFO_1024x8bit_MD.vhd
+l0
+L5
+Z32 V`nnR`nb:PS81igczU5UgJ3
+R20
+32
+R21
+R22
+Z33 !s100 TGV72KLSE[NA4^I;?MA2>0
+Afifo_1024x8bit_arch
+R27
+R28
+R29
+Z34 DEx4 work 18 fifo_1024x8bit_ent 0 22 `nnR`nb:PS81igczU5UgJ3
+l41
+L24
+Z35 VE?<<dMGDzfjEAQI_eG`b=1
+R20
+32
+Z36 Mx3 4 ieee 14 std_logic_1164
+Z37 Mx2 4 ieee 18 std_logic_unsigned
+Z38 Mx1 4 ieee 15 std_logic_arith
+R21
+R22
+Z39 !s100 Y]dZG9ej00j]l56]@SUd50
+Etb_fifo_1024x8bit
+Z40 w1257772146
+Z41 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R27
+R28
+R29
+R16
+Z42 8C:/Program Files/modeltech_6.5/examples/Tamrin/FIFO_1024x8bit/FIFO_1024x8bit_tb.vhd
+Z43 FC:/Program Files/modeltech_6.5/examples/Tamrin/FIFO_1024x8bit/FIFO_1024x8bit_tb.vhd
+l0
+L6
+Z44 VoT]@E<<DTN]0^4PIN]aaF2
+R20
+32
+R21
+R22
+Z45 !s100 >gOaCLBdMOcJXaO_fYzH02
+Atb_fifo_1024x8bit_arch
+R41
+R27
+R28
+R29
+Z46 DEx4 work 17 tb_fifo_1024x8bit 0 22 oT]@E<<DTN]0^4PIN]aaF2
+l45
+L9
+Z47 VzX]LD9oJY@`M]CR9n4IGV3
+R20
+32
+Z48 Mx4 4 ieee 14 std_logic_1164
+Z49 Mx3 4 ieee 18 std_logic_unsigned
+Z50 Mx2 4 ieee 15 std_logic_arith
+Z51 Mx1 4 ieee 11 numeric_std
+R21
+R22
+Z52 !s100 I03I]aMI=VfZYkc;>b?X<2

@@ -1,0 +1,188 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Program Files\modeltech_6.5\examples\Tamrin\Adder_100bit
+T_opt
+Z1 VbW<Qkl2O?4z:^<<e]KAf`2
+Z2 04 12 9 work addlookahead look_arch 1
+Z3 =1-00215dec8b38-4ad9d12c-79-1128
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5;42
+T_opt1
+Z7 VJzcN2[nl0]<:DM[3]<gl<1
+Z8 04 23 28 work tb_adder_10number_10bit tb_adder_10number_10bit_arch 1
+Z9 =1-00214fb9216b-4ae2f5b9-33f-d4c
+R4
+Z10 n@_opt1
+R6
+Eadder_10number_10bit_ent
+Z11 w1255876290
+Z12 DPx35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z13 DPx35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z14 DPx35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z15 dC:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit
+Z16 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Adder_10number_10bit_MD.vhd
+Z17 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Adder_10number_10bit_MD.vhd
+l0
+L5
+Z18 VLzKXb5USZTPLc;W]]^c`a2
+Z19 OE;C;6.5;42
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1
+Z22 !s100 9[Z^z:n[S6e;9eVKlUI::3
+Aadder_10number_10bit_arch
+Z23 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit\work 14 full_adder_ent 0 22 Vk82VbjnE728Q>i]UdT5U0
+Z24 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit\work 26 carry_look_ahead_adder_ent 0 22 YITTX>mY89I35h9[dNA170
+Z25 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit\work 20 carry_save_adder_ent 0 22 IDUfXZDBU1VFRHSCo?@C:2
+R12
+R13
+R14
+Z26 DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit\work 24 adder_10number_10bit_ent 0 22 LzKXb5USZTPLc;W]]^c`a2
+32
+Z27 Mx3 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Z28 Mx2 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Z29 Mx1 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+l61
+L22
+Z30 V?PiA;1S9MXR2BP7EEPIm20
+R19
+R20
+R21
+Z31 !s100 3UomADS<SbjAi8K;NGjXK2
+Ecarry_look_ahead_adder_ent
+Z32 w1255873319
+R12
+R13
+R14
+32
+R15
+Z33 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Carry_Look_Ahead_Adder_MD.vhd
+Z34 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Carry_Look_Ahead_Adder_MD.vhd
+l0
+L5
+Z35 VYITTX>mY89I35h9[dNA170
+R19
+R20
+R21
+Z36 !s100 jGPlL;J5Odb`hGicVY<fz2
+Acarry_look_ahead_adder_arch
+R12
+R13
+R14
+R24
+32
+R27
+R28
+R29
+l23
+L15
+Z37 VbG0hbRF9?M;3[fZOFPm8]3
+R19
+R20
+R21
+Z38 !s100 BFZ?[Rd@TM06PkZHk4Ek01
+Ecarry_save_adder_ent
+Z39 w1256387975
+R12
+R13
+R14
+32
+R15
+Z40 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Carry_Save_Adder_MD.vhd
+Z41 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Carry_Save_Adder_MD.vhd
+l0
+L5
+Z42 VIDUfXZDBU1VFRHSCo?@C:2
+R19
+R20
+R21
+Z43 !s100 U1T4]h78;XYF5?CVa9;iW3
+Acarry_save_adder_arch
+R24
+R23
+R12
+R13
+R14
+R25
+32
+R27
+R28
+R29
+l39
+L15
+Z44 VNZkfSYEN8VINoTS8]0YD:0
+R19
+R20
+R21
+Z45 !s100 2<7AaKGHoNFW8jmQCzi[H3
+Efull_adder_ent
+Z46 w1255762613
+R12
+R13
+R14
+32
+R15
+Z47 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Full_Adder_MD.vhd
+Z48 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Full_Adder_MD.vhd
+l0
+L5
+Z49 VVk82VbjnE728Q>i]UdT5U0
+R19
+R20
+R21
+Z50 !s100 F3fJRljAZ8l;RQKGBHHI83
+Afull_adder_arch
+R12
+R13
+R14
+R23
+32
+R27
+R28
+R29
+l16
+L15
+Z51 V480cScGKL;L0VZWWLA?:j1
+R19
+R20
+R21
+Z52 !s100 8YzgmAmW3hU`[NXoacnnz3
+Etb_adder_10number_10bit
+Z53 w1256387889
+Z54 DPx35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R12
+R13
+R14
+32
+R15
+Z55 8C:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Adder_10number_10bit_tb.vhd
+Z56 FC:/Program Files/modeltech_6.5/examples/Tamrin/Adder_10number_10bit/Adder_10number_10bit_tb.vhd
+l0
+L6
+Z57 V5nUkE0Of8;iLKGhlA:DQ42
+R19
+R20
+R21
+Z58 !s100 8<7aTWBiLCJdA:kh3d6bQ2
+Atb_adder_10number_10bit_arch
+R26
+R54
+R12
+R13
+R14
+DEx72 C:\Program Files\modeltech_6.5\examples\Tamrin\Adder_10number_10bit\work 23 tb_adder_10number_10bit 0 22 5nUkE0Of8;iLKGhlA:DQ42
+32
+Mx4 35 C:\Program Files\modeltech_6.5\ieee 14 std_logic_1164
+Mx3 35 C:\Program Files\modeltech_6.5\ieee 18 std_logic_unsigned
+Mx2 35 C:\Program Files\modeltech_6.5\ieee 15 std_logic_arith
+Mx1 35 C:\Program Files\modeltech_6.5\ieee 11 numeric_std
+l42
+L9
+Z59 Vah8omWYhz]?;ZS0=C`b3Y0
+R19
+R20
+R21
+Z60 !s100 Vk7X>T[UWiY<cWl?`fkGS1
